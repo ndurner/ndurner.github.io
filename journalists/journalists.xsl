@@ -19,6 +19,7 @@
             Data collected by <a href="https://indieweb.social/@tchambers">Tim Chambers</a> and made available
             <a href="https://docs.google.com/spreadsheets/d/13No4yxY-oFrN8PigC2jBWXreFCHWwVRTftwP6HcREtA/edit?resourcekey=undefined#gid=1320898902">
             here</a>. Exported on Nov 19 17:30 CET. This website was created by <a href="https://infosec.exchange/@ndurner">Nils Durner</a>. Personal use only. Any and all warranties and guarantees disclaimed.
+            Please <a href="https://github.com/ndurner/journalists_on_mastodon/issues">report issues here</a> or get in touch in Mastodon.
         </blockquote>
         <xsl:apply-templates />
     </body>
