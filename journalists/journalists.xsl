@@ -18,7 +18,7 @@
         <blockquote style="background-color: #fbecb5;">
             Data collected by <a href="https://indieweb.social/@tchambers">Tim Chambers</a> and made available
             <a href="https://docs.google.com/spreadsheets/d/13No4yxY-oFrN8PigC2jBWXreFCHWwVRTftwP6HcREtA/edit?resourcekey=undefined#gid=1320898902">
-            here</a>. Exported on Nov 19 17:30 CET. This website was created by <a href="https://infosec.exchange/@ndurner">Nils Durner</a>. Personal use only. Any and all warranties and guarantees disclaimed.
+            here</a>. Exported on Nov 20 11:00 CET. This website was created by <a href="https://infosec.exchange/@ndurner">Nils Durner</a>. Personal use only. Any and all warranties and guarantees disclaimed.
             Please <a href="https://github.com/ndurner/journalists_on_mastodon/issues">report issues here</a> or get in touch in Mastodon.
         </blockquote>
         <xsl:apply-templates />
@@ -35,12 +35,19 @@
         </header>
         <p>
             Mastodon:
-            <a>
-                <xsl:attribute name="href">
-                    <xsl:value-of select="Link" />
-                </xsl:attribute>
-                <xsl:value-of select="Mastodon" />
-            </a>
+            <xsl:choose>
+                <xsl:when test="string-length(Link) > 0">
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="Link" />
+                        </xsl:attribute>
+                        <xsl:value-of select="Mastodon" />
+                    </a>        
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="Mastodon" />
+                </xsl:otherwise>
+            </xsl:choose>
             | Twitter:
             <a>
                 <xsl:attribute name="href">
