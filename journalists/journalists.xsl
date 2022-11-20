@@ -39,7 +39,7 @@
                 <xsl:attribute name="href">
                     <xsl:value-of select="Link" />
                 </xsl:attribute>
-                <xsl:value-of select="Mastodon_Handle" />
+                <xsl:value-of select="Mastodon" />
             </a>
             | Twitter:
             <a>
@@ -53,18 +53,18 @@
         <blockquote>
                 <p>
                     <b>Main areas: </b>
-                    <xsl:value-of select="Main_areas_of_focus_for_your_journalism" />
+                    <xsl:value-of select="Main" />
                 </p>
-                <xsl:if test="string-length(Where_do_you_publish_your_work/text()) > 0">
+                <xsl:if test="string-length(Outlets/text()) > 0">
                     <p>
                         <b>Outlets: </b>
-                        <xsl:value-of select="Where_do_you_publish_your_work" />
+                        <xsl:value-of select="Outlets" />
                     </p>    
                 </xsl:if>
-                <xsl:if test="string-length(Other_info_for_short_self_description/text()) > 0">
+                <xsl:if test="string-length(Other/text()) > 0">
                     <p>
                         <b>Other info: </b>
-                        <xsl:value-of select="Other_info_for_short_self_description" />
+                        <xsl:value-of select="Other" />
                     </p>        
                 </xsl:if>
         </blockquote>
