@@ -475,6 +475,7 @@ Formers at CyberScoop and Axios</Other>
     <Main>Digital, solutions journalism, science journalism</Main>
     <Outlets>Various outlets</Outlets>
     <Other>Journalist, editor (ex-BBC/Al Jazeera), academic, future media geek, Yorkshireman, hardline realist, academic, PhD cendidate.</Other>
+    <Link>https://mastodon.green/@merryarty</Link>
     <Name>Russell Merryman</Name>
   </Journalist>
   <Journalist>
@@ -1652,16 +1653,6 @@ Formers at CyberScoop and Axios</Other>
     <Name>Jocelyn Luizzi</Name>
   </Journalist>
   <Journalist>
-    <Timestamp>11/6/2022 8:27:53</Timestamp>
-    <Mastodon>@fluffy@social.handholding.io</Mastodon>
-    <Twitter>@0xTFT</Twitter>
-    <Main>corruption, disinfo, foxgirls, crypto</Main>
-    <Outlets>https://social.handholding.io/@fluffy</Outlets>
-    <Other>Hero of Justice and Savior of the Fediverse (4/15/2020)</Other>
-    <Link>https://social.handholding.io/@fluffy</Link>
-    <Name>Touch Fluffy Tail</Name>
-  </Journalist>
-  <Journalist>
     <Timestamp>11/6/2022 8:31:14</Timestamp>
     <Mastodon>@cwnewser@journa.host</Mastodon>
     <Twitter>@CWNewser</Twitter>
@@ -2099,16 +2090,6 @@ Formers at CyberScoop and Axios</Other>
     <Other>Senior writer at WIRED</Other>
     <Link>https://mastodon.social/@marynmck</Link>
     <Name>Maryn McKenna</Name>
-  </Journalist>
-  <Journalist>
-    <Timestamp>11/6/2022 11:49:11</Timestamp>
-    <Mastodon>@elizgrenier@c.im</Mastodon>
-    <Twitter> elizgrenier</Twitter>
-    <Main>Culture, Germany</Main>
-    <Outlets>DW (Deutsche Welle)</Outlets>
-    <Other>Canadian journalist in Berlin, DW Culture Online editor</Other>
-    <Link>https://c.im/@elizgrenier</Link>
-    <Name>Elizabeth Grenier</Name>
   </Journalist>
   <Journalist>
     <Timestamp>11/6/2022 11:50:29</Timestamp>
@@ -3072,14 +3053,6 @@ Formers at CyberScoop and Axios</Other>
     <Other>Television news producer in Tampa Bay</Other>
     <Link>https://mastodon.online/@michaelalden</Link>
     <Name>Michael Alden</Name>
-  </Journalist>
-  <Journalist>
-    <Timestamp>11/6/2022 23:51:35</Timestamp>
-    <Mastodon>@jacobytekel@sciences.social</Mastodon>
-    <Main>Component reliability and intelligent transportation</Main>
-    <Other>I am a PhD candidate in Industrial Engineering, Shanghai Jiao Tong University and my research interests are the component reliability and intelligent transportation.</Other>
-    <Link>https://sciences.social/@jacobytekel</Link>
-    <Name>Jacoby Tekel 蒋泓玮</Name>
   </Journalist>
   <Journalist>
     <Timestamp>11/6/2022 23:53:58</Timestamp>
@@ -9026,6 +8999,7 @@ Formers at CyberScoop and Axios</Other>
     <Main>Food, wine, travel, general lifestyles, trends </Main>
     <Outlets>Postmedia, Globe and Mail, New York Times, CBC </Outlets>
     <Other>Also online at www.drinkwithme.com</Other>
+    <Link>https://mastodon.social/@shelley_wine</Link>
     <Name>Shelley Boettcher </Name>
   </Journalist>
   <Journalist>
@@ -9250,7 +9224,7 @@ Formers at CyberScoop and Axios</Other>
     <Main>tech, remote work, work life</Main>
     <Outlets>PCMag</Outlets>
     <Other>Author of The Everything Guide to Remote Work and columnist at PCMag</Other>
-    <Link>https://mastondon.social/@jilleduffy</Link>
+    <Link>https://mastodon.social/@jilleduffy</Link>
     <Name>Jill Duffy</Name>
   </Journalist>
   <Journalist>
@@ -9901,5 +9875,201 @@ Formers at CyberScoop and Axios</Other>
     <Other>maxrauner.de</Other>
     <Link>https://masto.ai/@maxrauner</Link>
     <Name>Max Rauner</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 8:54:13</Timestamp>
+    <Mastodon>@greghauenstein@newsie.social</Mastodon>
+    <Twitter>@greghauenstein</Twitter>
+    <Main>Photojournalism, primarily focused on political campaigns</Main>
+    <Outlets>Freelance</Outlets>
+    <Other>Midwest-based photographer specializing in political campaigns, fashion, and events.</Other>
+    <Link>https://newsie.social/@greghauenstein</Link>
+    <Name>Greg Hauenstein</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 9:33:48</Timestamp>
+    <Mastodon>@BostonAbrams@newsie.social</Mastodon>
+    <Twitter>@BostonAbrams</Twitter>
+    <Main>Social Media</Main>
+    <Outlets>The Conversation U.S. </Outlets>
+    <Other>Director of Digital Strategy and Audience Outreach. Ex Boston Globe, CNN, CS Monitor, CNN</Other>
+    <Link>https://newsie.social/@BostonAbrams</Link>
+    <Name>Joel Abrams</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 9:45:56</Timestamp>
+    <Mastodon>lylemul@universeodon.com</Mastodon>
+    <Twitter>@LyleMuller</Twitter>
+    <Main>Nonprofit journalism, health, science, journalism education</Main>
+    <Outlets>PolitiFact </Outlets>
+    <Other>Retired journalist, feeelancing, student newspaper adviser at Grinnell College, former Ex.Dir. at IowaWatch, former Cedar Rapids Gazette editor</Other>
+    <Link>https://universeodon.com/@lylemul</Link>
+    <Name>Lyle Muller</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 12:18:16</Timestamp>
+    <Mastodon>@racheyy_marie@sfba.social</Mastodon>
+    <Twitter>@racheyy_marie</Twitter>
+    <Main>Local News in the Bay Area</Main>
+    <Outlets>https://www.mercurynews.com/author/rachel-heimann-mercader/</Outlets>
+    <Other>Covering local news in Contra Costa County. Send tips 📲 (925) 451-2475 (Signal) 📧 rmercader@bayareanewsgroup.com</Other>
+    <Link>https://sfba.social/@racheyy_marie</Link>
+    <Name>Rachel Heimann Mercader</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 12:27:52</Timestamp>
+    <Mastodon>@Rmercader@newsie.social</Mastodon>
+    <Twitter>@racheyy_marie</Twitter>
+    <Main>Local Bay Area News</Main>
+    <Outlets>https://www.mercurynews.com/author/rachel-heimann-mercader/</Outlets>
+    <Other>Covering Contra Costa send tips 📲 (925) 451-2475 (Signal) 📧 rmercader@bayareanewsgroup.com</Other>
+    <Link>https://newsie.social/@Rmercader</Link>
+    <Name>Rachel Heimann Mercader</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 12:48:22</Timestamp>
+    <Mastodon>@bethpinsker@newdie.social</Mastodon>
+    <Twitter>@bethpinsker</Twitter>
+    <Main>Personal finance</Main>
+    <Outlets>Marketwatch.con</Outlets>
+    <Other>I am an investing columnist with a CFP® designation. </Other>
+    <Link>https://newdie.social/@bethpinsker</Link>
+    <Name>Beth Pinsker</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 14:19:51</Timestamp>
+    <Mastodon>@phoebeivy@mstdn.social</Mastodon>
+    <Twitter>@phoebe_ivy</Twitter>
+    <Main>Health, education, government, politics </Main>
+    <Outlets>Tortoise Media</Outlets>
+    <Other>Reporter for Tortoise’s daily newsletter, the Sensemaker </Other>
+    <Link>https://mstdn.social/@phoebeivy</Link>
+    <Name>Phoebe Davis </Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 14:56:24</Timestamp>
+    <Mastodon>JennyStephens@newsie.social</Mastodon>
+    <Twitter>@jennystephens52</Twitter>
+    <Main>Local news, politics</Main>
+    <Outlets>https://buckscountybeacon.com/</Outlets>
+    <Other>Freelance </Other>
+    <Link>https://newsie.social/@JennyStephens</Link>
+    <Name>Jenny Stephens</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 15:19:08</Timestamp>
+    <Mastodon>https://universodon.com/@tenilleclarke1</Mastodon>
+    <Twitter>@tenilleclarke1</Twitter>
+    <Main>Travel, Culture, Entertainment, Fashion, Music</Main>
+    <Outlets>I've written for MadameNoire, OkayAfrica, Hypebae and more. I am a Freelance Storyteller: https://muckrack.com/tenille-clarke</Outlets>
+    <Other>Hey! I'm based in the Caribbean, and I'd love to connect with various communities! </Other>
+    <Link>https://universodon.com/@tenilleclarke1</Link>
+    <Name>Tenille Clarke</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 15:22:54</Timestamp>
+    <Mastodon>@joanvt@journa.host</Mastodon>
+    <Main>General aviation, local politics, Christian nationalism</Main>
+    <Outlets>Routledge, Focal Press</Outlets>
+    <Link>https://journa.host/@joanvt</Link>
+    <Name>Joan Van Tassel</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 16:52:43</Timestamp>
+    <Mastodon>@hillaryr@sciencemastodon.com</Mastodon>
+    <Twitter>@hillaryrosner</Twitter>
+    <Main>Science, environment, conservation</Main>
+    <Outlets>Freelance--National Geographic, many others</Outlets>
+    <Other>Asst dir, Center for Environmental Journalism, CU Boulder</Other>
+    <Link>https://sciencemastodon.com/@hillaryr</Link>
+    <Name>Hillary Rosner</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 18:02:03</Timestamp>
+    <Mastodon>@brandonsward@journa.host</Mastodon>
+    <Twitter>@brandon_sward</Twitter>
+    <Main>Arts and culture</Main>
+    <Outlets>Freelance</Outlets>
+    <Other>brandonsward.com</Other>
+    <Link>https://journa.host/@brandonsward</Link>
+    <Name>Brandon Sward</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 19:13:44</Timestamp>
+    <Mastodon>@dangentile@sfba.social</Mastodon>
+    <Twitter>@Dannosphere</Twitter>
+    <Main>Culture, Entertainment, Music, San Francisco</Main>
+    <Outlets>SFGATE, Austin Monthly, Wax Poetics</Outlets>
+    <Link>https://sfba.social/@dangentile</Link>
+    <Name>Dan Gentile</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 22:27:43</Timestamp>
+    <Mastodon>@guacamayan/@journa.host</Mastodon>
+    <Twitter>@guacamayan</Twitter>
+    <Main>investigative financial reporting on Latin America, distressed debt, bankruptcy</Main>
+    <Outlets>REDD Intelligence</Outlets>
+    <Other>ex-Bloomberg, Monocle, UC Berkeley SOJ, Christian Science Monitor, Venezuela, Chile</Other>
+    <Link>https://journa.host/@guacamayan/</Link>
+    <Name>Steven Bodzin</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 22:46:33</Timestamp>
+    <Mastodon>@Zeb_Larson@zirk.us</Mastodon>
+    <Main>History, food, politics, and music. </Main>
+    <Outlets>Smithsonian, Teen Vogue, Belt Mag, Atlas Obscura, Scalawag</Outlets>
+    <Other>I’m a former historian and academic who started freelancing in grad school and has kept it up ever since.</Other>
+    <Link>https://zirk.us/@Zeb_Larson</Link>
+    <Name>Zeb Larson</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 22:55:56</Timestamp>
+    <Mastodon>@Sandeepr@sciencemastodon.com</Mastodon>
+    <Twitter>@sandeeprtweets</Twitter>
+    <Main>Life sciences and Tech</Main>
+    <Outlets>TIME, The New York Times, Nature, Wired, Smithsonian, National Geographic News, The Scientist.</Outlets>
+    <Other>Freelance science journalist based in Bethesda, MD</Other>
+    <Link>https://sciencemastodon.com/@Sandeepr</Link>
+    <Name>Sandeep Ravindran</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/20/2022 23:04:48</Timestamp>
+    <Mastodon>@samlitzinger@journa.host</Mastodon>
+    <Twitter>@SamLitzinger</Twitter>
+    <Main>Generalist</Main>
+    <Outlets>Freelance (most recently CBS News)</Outlets>
+    <Other>47 years as a broadcast journalist. </Other>
+    <Link>https://journa.host/@samlitzinger</Link>
+    <Name>Sam Litzinger</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 0:34:26</Timestamp>
+    <Mastodon>@Scrivenesse@newsie.social</Mastodon>
+    <Twitter>@Scrivenesse</Twitter>
+    <Main>sustainability in the built environment, arts and culture related to social policy and justice</Main>
+    <Outlets>Energy News Network, GreenBiz, Wallpaper, Next City, Belt Magazine</Outlets>
+    <Other>African American journalist, native of Upper East Tennessee, located in greater Chicago area</Other>
+    <Link>https://newsie.social/@Scrivenesse</Link>
+    <Name>Audrey Henderson</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 1:04:18</Timestamp>
+    <Mastodon>@sonipaul@toot.community</Mastodon>
+    <Twitter>@sonipaul</Twitter>
+    <Main>transnational politics, criminal legal system, podcasting</Main>
+    <Outlets>I teach at Uncuffed and report for everywhere</Outlets>
+    <Other>Website: https://sonipaul.me/</Other>
+    <Link>https://toot.community/@sonipaul</Link>
+    <Name>Sonia Paul</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 1:49:04</Timestamp>
+    <Mastodon>@vTFeatures@mastodon.world</Mastodon>
+    <Twitter>@vtfeatures</Twitter>
+    <Main>True-life and human interest </Main>
+    <Outlets>National newspapers and women’s mags UK</Outlets>
+    <Other>Journalist, editor, ghostwriter. Author of 10-Point Pitching Plan and founding editor of Lacuna Voices</Other>
+    <Link>https://mastodon.world/@vTFeatures</Link>
+    <Name>Punteha van Terheyden</Name>
   </Journalist>
 </Journalists>
