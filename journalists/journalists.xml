@@ -2202,7 +2202,7 @@ Formers at CyberScoop and Axios</Other>
     <Main>remote and hybrid work, technology, digital culture, productivity and neurodiversity</Main>
     <Outlets>The Wall Street Journal</Outlets>
     <Other>Freelance businesss, tech &amp; data journalist; regular contributor to The Wall Street Journal &amp; Harvard Business Review. Bylines in The Atlantic, National Observer, NY Times, JSTOR Daily &amp; more.</Other>
-    <Link>https://mastodon.online/@awsamuel</Link>
+    <Link>https://social.coop/@awsamuel</Link>
     <Name>Alexandra Samuel</Name>
   </Journalist>
   <Journalist>
@@ -10043,6 +10043,16 @@ Formers at CyberScoop and Axios</Other>
     <Name>Sam Litzinger</Name>
   </Journalist>
   <Journalist>
+    <Timestamp>11/21/2022 20:28:11</Timestamp>
+    <Mastodon>@EvanAckerman@mastodon.online</Mastodon>
+    <Twitter>@BotJunkie</Twitter>
+    <Main>Robotics</Main>
+    <Outlets>IEEE Spectrum</Outlets>
+    <Other>I write about robots, space, emerging tech, and other cool stuff</Other>
+    <Link>https://mastodon.online/@EvanAckerman</Link>
+    <Name>Evan Ackerman</Name>
+  </Journalist>
+  <Journalist>
     <Timestamp>11/21/2022 0:34:26</Timestamp>
     <Mastodon>@Scrivenesse@newsie.social</Mastodon>
     <Twitter>@Scrivenesse</Twitter>
@@ -10071,5 +10081,187 @@ Formers at CyberScoop and Axios</Other>
     <Other>Journalist, editor, ghostwriter. Author of 10-Point Pitching Plan and founding editor of Lacuna Voices</Other>
     <Link>https://mastodon.world/@vTFeatures</Link>
     <Name>Punteha van Terheyden</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 4:58:28</Timestamp>
+    <Mastodon>@newspics@newsie.social</Mastodon>
+    <Twitter>@newsgatherers</Twitter>
+    <Main>Newsgathering, breaking news, politics, LGBT+, social issues, diversity, equality</Main>
+    <Outlets>Equinox Features, news, picture and video agency</Outlets>
+    <Other>Equinox Features newsgathering team</Other>
+    <Link>https://newsie.social/@newspics</Link>
+    <Name>Equinox Newsgathering</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 7:18:08</Timestamp>
+    <Mastodon>@maria@thelife.boats</Mastodon>
+    <Twitter>@mariabustillos</Twitter>
+    <Main>Media, Press Freedom, Technology, Politics, Culture</Main>
+    <Outlets>Brick House Cooperative, Popula, The Nation, Columbia Journalism Review, NYT, TNR, Coindesk, Eater, LAT, etc.</Outlets>
+    <Other>Writer, editor, information activist</Other>
+    <Link>https://thelife.boats/@maria</Link>
+    <Name>Maria Bustillos</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 8:06:01</Timestamp>
+    <Mastodon>@mollytaft@mas.to</Mastodon>
+    <Twitter>@mollytaft</Twitter>
+    <Main>Climate change</Main>
+    <Outlets>Gizmodo</Outlets>
+    <Link>https://mas.to/@mollytaft</Link>
+    <Name>Molly Taft</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 10:19:15</Timestamp>
+    <Mastodon>SarahMurphyMadia@newsie.social</Mastodon>
+    <Twitter>@smurphstweets</Twitter>
+    <Main>European migration, EU politics, Eastern Europe</Main>
+    <Outlets>The Parliament, Al Jazeera, AJ+</Outlets>
+    <Other>I'm currently the editor of The Parliament, a monthly EU politics and policy magazine</Other>
+    <Link>https://newsie.social/@SarahMurphyMadia</Link>
+    <Name>Sarah Murphy Madia</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 10:45:18</Timestamp>
+    <Mastodon>@hayleysmith@journa.host</Mastodon>
+    <Twitter>@whereishayley</Twitter>
+    <Main>Climate and environment</Main>
+    <Outlets>Los Angeles Times</Outlets>
+    <Other>Hayley Smith covers breaking news in California with a focus on wildfires, drought and climate change.</Other>
+    <Link>https://journa.host/@hayleysmith</Link>
+    <Name>Hayley Smith</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 10:55:28</Timestamp>
+    <Mastodon>@MarcAbrahams@mstdn.science</Mastodon>
+    <Twitter>@MarcAbrahams</Twitter>
+    <Main>things that make people LAUGH, then THINK: science, medicine, tech, politics, general</Main>
+    <Outlets>Annals of Improbable Research, New Scientist</Outlets>
+    <Other>I organize the Ig Nobel Prizes, and write and edit various stuff</Other>
+    <Link>https://mstdn.science/@MarcAbrahams</Link>
+    <Name>Marc Abrahams</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 11:16:47</Timestamp>
+    <Mastodon>mariana_alfaro@journa.host</Mastodon>
+    <Twitter>@marianaa_alfaro</Twitter>
+    <Main>Politics</Main>
+    <Outlets>Thé Washington Post</Outlets>
+    <Link>https://journa.host/@mariana_alfaro</Link>
+    <Name>Mariana Alfaro </Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 11:52:06</Timestamp>
+    <Mastodon>mriechers@journa.host</Mastodon>
+    <Twitter>markonfire</Twitter>
+    <Main>podcasting, artificial intelligence, creativity, dogs</Main>
+    <Outlets>ttbook.org</Outlets>
+    <Other>Mark is a radio producer, writer and photographer based in Minneapolis, with experience telling stories from everything from a history of Milwaukee beer ads to processing death through game development.</Other>
+    <Link>https://journa.host/@mriechers</Link>
+    <Name>Mark Riechers</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 12:01:58</Timestamp>
+    <Mastodon>@martineparis@techhub.social</Mastodon>
+    <Twitter>@contentnow</Twitter>
+    <Main>Trending Reporter</Main>
+    <Outlets>Bloomberg News</Outlets>
+    <Link>https://techhub.social/@martineparis</Link>
+    <Name>Martine Paris</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 13:06:21</Timestamp>
+    <Mastodon>@twyspy@journa.host</Mastodon>
+    <Twitter>@twyspy</Twitter>
+    <Main>Food, Agriculture, The Environment</Main>
+    <Outlets>Civil Eats, Inside Climate News, and other outlets.</Outlets>
+    <Link>https://journa.host/@twyspy</Link>
+    <Name>Twilight Greenaway</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 15:04:34</Timestamp>
+    <Mastodon>@stephaniemlee@sciencemastodon.com</Mastodon>
+    <Twitter>@stephaniemlee</Twitter>
+    <Main>Investigative reporting, science, research misconduct, higher education</Main>
+    <Outlets>The Chronicle of Higher Education</Outlets>
+    <Other>Senior reporter for The Chronicle of Higher Education, formerly of BuzzFeed News</Other>
+    <Link>https://sciencemastodon.com/@stephaniemlee</Link>
+    <Name>Stephanie Lee</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 15:05:45</Timestamp>
+    <Mastodon>@periodista@mastodon.social</Mastodon>
+    <Twitter>pressnet</Twitter>
+    <Main>Journalism, Digital Journalism, Mobile Journalism, Cyberjournalism, Press Advice, Press Freedom </Main>
+    <Outlets>https://www.periodista-digital.com</Outlets>
+    <Other>Director on PressAge: Communication Agency and Press Cabinet https://www.agenciacomunicacion.com</Other>
+    <Link>https://mastodon.social/@periodista</Link>
+    <Name>Rafael Angel Fernandez Gutierrez</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 16:24:42</Timestamp>
+    <Mastodon>@larswienand@det.social</Mastodon>
+    <Twitter>@larswienand</Twitter>
+    <Main>Extremism. Disinformation/foreign interference in Germany. </Main>
+    <Outlets>t-online.de</Outlets>
+    <Link>https://det.social/@larswienand</Link>
+    <Name>Lars Wienand</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 16:30:24</Timestamp>
+    <Mastodon>@AngelyMercado@journa.host</Mastodon>
+    <Twitter>@AngelyMercado</Twitter>
+    <Main>environmental justice &amp; climate change</Main>
+    <Outlets>Gizmodo</Outlets>
+    <Link>https://journa.host/@AngelyMercado</Link>
+    <Name>Angely Mercado</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 17:09:51</Timestamp>
+    <Mastodon>@dinoray@mas.to</Mastodon>
+    <Twitter>@dinoray</Twitter>
+    <Main>Film, TV, Media, Diversity, Inclusion, Equity</Main>
+    <Outlets>thediasporatimes.com</Outlets>
+    <Other>Former DEADLINE editor, founder of DIASPORA</Other>
+    <Link>https://mas.to/@dinoray</Link>
+    <Name>Dino-Ray Ramos</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 20:29:01</Timestamp>
+    <Mastodon>@nancyelena@climatejustice.social</Mastodon>
+    <Twitter>@nancyelenablack</Twitter>
+    <Main>climate, horoscopes, politics, democracy, documentary film, nonprofit films</Main>
+    <Outlets>https://mercurypress.com; documentary films; I also write a syndicated daily column with Tribune Media Services and Chicago Tribune (to about 80 newspapers and outlets)</Outlets>
+    <Other>Cofounder, @MercuryPressInt; Producer, @CafeSoloFilms; Syndicated @LindaCBlack; Board @GaviotaCoastC, @CCLSBC, @CLAWSSB </Other>
+    <Link>https://climatejustice.social/@nancyelena</Link>
+    <Name>Nancy E Black</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 20:52:00</Timestamp>
+    <Mastodon>@Colin@sciencemastodon.com</Mastodon>
+    <Twitter>@_ColinS_</Twitter>
+    <Main>Science news</Main>
+    <Outlets>Hakai Magazine</Outlets>
+    <Link>https://sciencemastodon.com/@Colin</Link>
+    <Name>Colin Schultz</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/21/2022 22:51:08</Timestamp>
+    <Mastodon>cephillips</Mastodon>
+    <Twitter>cephillips</Twitter>
+    <Main>data journalism, biglocalnews.org, investigative journalism</Main>
+    <Outlets>I support local journalists in their work and am the founding director of biglocalnews.org</Outlets>
+    <Other>Founder of Big Local News, Data/investigative journalism lecturer at Stanford, former data innovation editor at Seattle Times + longtime member of IRE and I'm a MT native. Hit me up to talk collaborations for accountability journalism.</Other>
+    <Name>Cheryl Phillips</Name>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11/22/2022 0:04:15</Timestamp>
+    <Mastodon>@LauraRice@journa.host</Mastodon>
+    <Twitter>@LauraRiceKUT</Twitter>
+    <Main>Texas, politics, health care, culture, film, people </Main>
+    <Outlets>Texas Standard</Outlets>
+    <Other>Managing Producer for the statewide NPR program Texas Standard based at KUT in Austin.</Other>
+    <Link>https://journa.host/@LauraRice</Link>
+    <Name>Laura Rice</Name>
   </Journalist>
 </Journalists>
