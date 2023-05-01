@@ -12,7 +12,7 @@ Alarming news from Italy: ChatGPT got blocked. After investigating the matter wi
 While the mandate of the Italian authorities seem harsh, it is reassuring to know that developers and users of other OpenAI products are not impacted.
 
 Technically, it seems to be a geo-block, put in place on the side of OpenAI:
-[Geoblock of ChatGPT](assets/img/chatgpt-blocked-italy.png)
+![Geoblock of ChatGPT](assets/img/chatgpt-blocked-italy.png)
 
 Paying users may expect to get their money back:
-[Note from OpenAI to Italian customers](assets/img/chatgpt-blocked-note.jpg)
+![Note from OpenAI to Italian customers](assets/img/chatgpt-blocked-note.jpg)

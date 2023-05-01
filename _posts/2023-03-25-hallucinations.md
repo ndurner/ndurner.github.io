@@ -13,4 +13,5 @@ From a research paper attached that touches on Hallucinations:
 Source: [SmartBook: AI-Assisted Situation Report Generation](https://arxiv.org/abs/2303.14337)
 
 [43](https://arxiv.org/abs/2202.03629) Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y., Madotto, A., Fung, P.: Survey of hallucination in natural language generation. ACM Computing Surveys
+
 [44](https://arxiv.org/abs/2005.00661) Maynez, J., Narayan, S., Bohnet, B., McDonald, R.: On faithfulness and factuality in abstractive summarization. In: Proceedings of the 58th SmartBook 23 Annual Meeting of the Association for Computational Linguistics, pp. 1906–1919 (2020)
