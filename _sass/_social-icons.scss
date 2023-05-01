@@ -29,7 +29,7 @@
 
 .fa-mastodon {
   padding: 5px;
-  @include social-media-icon($mastodon-color, $icon-transition-time);
+  @include social-media-icon($envelope-color, $icon-transition-time);
 }
 
 .fa-instagram {
