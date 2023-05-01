@@ -12,5 +12,6 @@ Microsoft Research paper: ["Early experiments with GPT-4"](https://arxiv.org/pdf
 1. reverse prompting to
 * retrieve up-to-date information from the web
 * do calculations
+
 I did a practical test of #2, and now it can finally answer the question we're most interested in: "Who is Jörg Lenz?"
 ![GPT-4 summarizes up-to-date Google search results](assets/img/gpt4-who-joerg-lenz.png)
