@@ -32,11 +32,6 @@
   @include social-media-icon($envelope-color, $icon-transition-time);
 }
 
-.fa-elephant {
-  padding: 5px;
-  @include social-media-icon($envelope-color, $icon-transition-time);
-}
-
 .fa-instagram {
   padding: 5px;
   @include social-media-icon($instagram-color, $icon-transition-time);
