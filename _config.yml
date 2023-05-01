@@ -20,7 +20,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:               'ND Blog'
+title:               'Nils Durner''s Blog'
 description:         'Ahas, Breadcrumbs, Coding Epiphanies'
 author:              'Nils Durner'
 

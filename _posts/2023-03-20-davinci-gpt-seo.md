@@ -9,7 +9,7 @@ date: 2023-03-20
 
 Today's discussion revolved around capabilities of various OpenAI language models, focusing on the differences between the Davinci model and the newer GPT models. During these conversations, we touched on the specific use cases of using these models for SEO purposes and as a personal assistant.
 
-Firstly, it's important to note that there is a variety of algorithms available, and one should be cautious when making comparisons. The older (text completion) Davinci model is often mentioned in the context of "GPT," but it is a limited language model compared to the newer "chat" models like gpt-3.5-turbo. Additionally, the pricing of these models can vary significantly.
+First, it's important to note that there is a variety of algorithms available, and one should be cautious when making comparisons. The older (text completion) Davinci model is often mentioned in the context of "GPT," but it is a limited language model compared to the newer "chat" models like gpt-3.5-turbo. Additionally, the pricing of these models can vary significantly.
 
 One of my colleagues mentioned that they had been using the Davinci model for generating SEO articles, which piqued my interest. They had devised a series of prompts to create content that adhered to SEO criteria. However, they believed that the chat-based functionality of the newer GPT models, like gpt-3.5-turbo, was not well-suited for this purpose.
 
