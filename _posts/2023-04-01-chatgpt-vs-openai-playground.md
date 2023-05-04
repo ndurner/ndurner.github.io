@@ -8,7 +8,7 @@ date: 2023-04-01
 ---
 
 I got the question what the difference between the OpenAI Playground "in chat mode" and chat.openai.com is. So for everybody's benefit, my answer reproduced below. If you're not familiar at all, see this screenshot for what I am talking about:
-![Well-formatted code snippets in ChatGPT](assets/img/chatgpt-formatting.png)
+![Well-formatted code snippets in ChatGPT](assets/img/openai-playground.png)
 
 Note that this pay-per-use, so a credit card is required (but a free tier seems to exist for new accounts). Bonus: not geo-blocked in Italy, to the best of my knowledge. Anyway, on to my original answer (translated from German to English by GPT-4 😀):
 The difference is at least the System instruction, which is not visible and not directly influenceable in chat.openai (in my terminology "ChatGPT"). I attribute, for example, the fact that ChatGPT seems "moody" to me: one must first soften the basis of these specifications - or something like that.
