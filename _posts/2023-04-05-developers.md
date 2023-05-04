@@ -14,6 +14,7 @@ I confirmed that ChatGPT can be used for Rubberduck Debugging and also for givin
 1. ChatGPT Plus message limit for GPT-4
 1. limited context size: ChatGPT appears "forgetful" at some point
 1. some programming languages are better suited that others. My impression was that Python works better than Qt/QML
+
 #2 must also be relevant to Copilot - in some way, regarding "[copilot-x] can see the context of the project". Large inputs are usually "indexed" first and then selectively chosen for presentation to GPT. But that can induce said "forgetfulness" and oversights.
 
 Finally, I emphasized on making sure to use GPT-4 for best results, rather than GPT-3.5 which continues to be the default:

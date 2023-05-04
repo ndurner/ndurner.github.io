@@ -19,4 +19,4 @@ Future plans/wishlist:
 
 As with the original Playground, this is likely not affected by the ChatGPT geo-block for Italy, so should be usable as a (spartan) substitude.
 I made it an [Open Source project on Github](https://github.com/ndurner/GeppettosWorkbench), but no directly usable release just yet - waiting for prospective user's requests. Pay-per-use account with OpenAI required.
-![Geppetto's Workbench GUI](assets/img/geppettos_workbench.png)\
+![Geppetto's Workbench GUI](assets/img/geppettos_workbench.png)
