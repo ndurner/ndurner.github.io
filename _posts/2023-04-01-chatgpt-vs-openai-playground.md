@@ -16,7 +16,6 @@ Also, ChatGPT has these nice formatting features:\
 ![Well-formatted code snippets in ChatGPT](assets/img/chatgpt-formatting.png)\
 ... which, however, are cut off for too long answers and, when prompted to continue, break:\
 ![not so well-formatted code snippets in ChatGPT](assets/img/chatgpt-misformatting.png)\
-
 ... and then it just gets annoying.
 In the future, there are supposed to be these plugins, through which not only code will be displayed in such a prepared way, but also, for example, WolframAlpha will be directly embedded:\
 ![not so well-formatted code snippets in ChatGPT](assets/img/chatgpt-plugins.png)\
