@@ -7,7 +7,7 @@ tags: [multi-modal, chatgpt, visual gpt, llava]
 date: 2023-04-17
 ---
 
-Visual GPT, the multi-modal interface that a German Microsoft manager likely referred to in their earlier hints, has been released as source code: [https://github.com/microsoft/visual-chatgpt](Github). And it's a bit disappointing... at least when running on CPUs only, rather than GPUs.
+Visual GPT, the multi-modal interface that a German Microsoft manager likely referred to in their earlier hints, has been released as source code: [Github](https://github.com/microsoft/visual-chatgpt). And it's a bit disappointing... at least when running on CPUs only, rather than GPUs.
 
 Details:
 Early reports are light on details, so here's what to expect with the "Advice for CPU users":
