@@ -3,7 +3,7 @@ layout: post
 title: "Open Source LLMs"
 author: "Nils Durner"
 categories: [journal]
-tags: [vicuna, llama, bloom]
+tags: [vicuna, llama, bloom, alpaca]
 date: 2023-04-14
 ---
 
