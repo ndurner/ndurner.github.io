@@ -29,4 +29,4 @@ The presenter said that it's working well. Their only issue: Aleph Alpha is a Ge
 
 ![Nutzung unterschiedlicher KI und ML-basierter Technologien, angepasst an die Use Cases: ML, KI, ChatBots, Robot Process. Automation, Speech to Text (Audio Interaktion), potentielle Weiterverarbeitung für KI (bei Zustimmung bzw. wenn zulässig)](https://web.archive.org/web/20230521111905/https://digitalesignatur.future-law.at/wp-content/uploads/2023/04/ExpertSession1_1100_1-1.jpg)
 
-![Anwendungsbeispiele zu KI](https://web.archive.org/web/20230521111950/https://digitalesignatur.future-law.at/wp-content/uploads/2023/04/ExpertSession1_1100_2-1.jpg)
+![Anwendungsbeispiele zu KI: Virtueller Assistent](https://web.archive.org/web/20230521111950/https://digitalesignatur.future-law.at/wp-content/uploads/2023/04/ExpertSession1_1100_2-1.jpg)
