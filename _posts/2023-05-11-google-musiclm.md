@@ -17,6 +17,6 @@ As someone who's spent quite some money on Focus@Will, I was excited to get an i
 
 Focus@Will are under no threat as of now 🙂
 
-[!MusicLM 1](assets/img/musiclm-1.png)
-[!MusicLM 2](assets/img/musiclm-2.png)
-[!MusicLM 3](assets/img/musiclm-3.png)
+![MusicLM 1](assets/img/musiclm-1.png)
+![MusicLM 2](assets/img/musiclm-2.png)
+![MusicLM 3](assets/img/musiclm-3.png)

@@ -9,7 +9,7 @@ date: 2023-05-11
 
 Gartner has published their guide ["How Should CMOs Respond to ChatGPT Today?"](https://www.gartner.com/en/marketing/research/how-should-cmos-respond-to-chatgpt-today). PDF metadata confirms Creation Date: April 19. But it seems to written around "ChatGPT-on-GPT-3.5", so basically technology from 2020:
 
-[!Evolutionary Tree](assets/img/llm-evolutionary-tree.png)
+![Evolutionary Tree](assets/img/llm-evolutionary-tree.png)
 
 ([by Yang et al](https://arxiv.org/abs/2304.13712))
 
