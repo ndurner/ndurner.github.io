@@ -20,9 +20,9 @@ Presenters:
 
 (Note to the ultra-high precisionalists: "LLaMA 2" has been rebranded to "Llama 2", so that's also correct use now. 😉)
 
-![Client AI at scale #1](assets/img/client-ai-at-scale-1.png)
-![Client AI at scale #2](assets/img/client-ai-at-scale-2.png)
-![Client AI at scale #3](assets/img/client-ai-at-scale-3.png)
-![Client AI at scale #4](assets/img/client-ai-at-scale-4.png)
-![Client AI at scale #5](assets/img/client-ai-at-scale-5.png)
-![Client AI at scale #6](assets/img/client-ai-at-scale-6.png)
+![Client AI at scale #1](assets/img/client-ai-at-scale-1.jpg)
+![Client AI at scale #2](assets/img/client-ai-at-scale-2.jpg)
+![Client AI at scale #3](assets/img/client-ai-at-scale-3.jpg)
+![Client AI at scale #4](assets/img/client-ai-at-scale-4.jpg)
+![Client AI at scale #5](assets/img/client-ai-at-scale-5.jpg)
+![Client AI at scale #6](assets/img/client-ai-at-scale-6.jpg)

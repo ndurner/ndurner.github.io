@@ -18,7 +18,7 @@ Or as one commenter put it: "we're not seeing a degradation. It's a **behavior**
 
 So the solutions to "bad" answers is to pose better questions. 🙂
 
-What one German newspaper (Süddeutsche Zeitung, thanks @j.lenz again for pointing this out!) offers as an explanation: models are getting trained on their own output, now that this litters the web. I don't buy it. My response to this on our corporate internal chat (translated by GPT-4):
+What one German newspaper (Süddeutsche Zeitung) offers as an explanation: models are getting trained on their own output, now that this litters the web. I don't buy it. My response to this on our corporate internal chat (translated by GPT-4):
 
 The mentioned "feedback loop" may make intuitive sense, but I don't see it as technically substantiated. On the contrary, the literature reports catastrophic collapse of certain subcomponents in this case. I have not yet seen this quantified, but it would initially be assumed that the routinely recorded key figures show corruption during training with the means already used today.
 
