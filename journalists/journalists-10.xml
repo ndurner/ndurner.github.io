@@ -1,0 +1,108 @@
+﻿<?xml-stylesheet type="text/xsl" href="journalists.xsl"?>
+<Journalists>
+  <Journalist>
+    <Timestamp>11.04.2022 20:53</Timestamp>
+    <Name>Patrick deHahn</Name>
+    <Mastodon_Handle>@pdehello@mastodon.social</Mastodon_Handle>
+    <column4>@pdehello@mastodon.social</column4>
+    <Link>https://mastodon.social/@pdehello</Link>
+    <Twitter>@patrickdehahn</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Global politics and US breaking news, as well as public healthhttps://authory.com/PatrickdeHahn</Main_areas_of_focus_for_your_journalism>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.04.2022 21:07</Timestamp>
+    <Name>Charles Seife</Name>
+    <Mastodon_Handle>@cgseife@sciencemastodon.com</Mastodon_Handle>
+    <column4>@cgseife@sciencemastodon.com</column4>
+    <Link>https://sciencemastodon.com/@cgseife</Link>
+    <Twitter>@cgseife</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Science journalism, investigative, data</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>Scientific American and elsewhere</Where_do_you_publish_your_work>
+    <Other_info_for_short_self_description>Professor at NYU</Other_info_for_short_self_description>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.04.2022 21:47</Timestamp>
+    <Name>David Delima</Name>
+    <Mastodon_Handle>@delima@mstdn.social</Mastodon_Handle>
+    <column4>@delima@mstdn.social</column4>
+    <Link>https://mstdn.social/@delima</Link>
+    <Twitter>@DxDavey</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Gadgets</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>NDTV Gadgets 360</Where_do_you_publish_your_work>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.04.2022 22:37</Timestamp>
+    <Name>Sara Gaiser</Name>
+    <Mastodon_Handle>@akrazia@sfba.social</Mastodon_Handle>
+    <column4>@akrazia@sfba.social</column4>
+    <Link>https://sfba.social/@akrazia</Link>
+    <Twitter>@akrazia</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Local radio newscast - San Francisco Bay Area</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>KQED.org, KQED FM 88.5</Where_do_you_publish_your_work>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.05.2022 00:25</Timestamp>
+    <Name>Taylor Lorenz</Name>
+    <Mastodon_Handle>@taylorlorenz@mastodon.social</Mastodon_Handle>
+    <column4>@taylorlorenz@mastodon.social</column4>
+    <Link>https://mastodon.social/@taylorlorenz</Link>
+    <Twitter>@taylorlorenz</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Technology, internet culture, media, breaking news</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>The Washington Post</Where_do_you_publish_your_work>
+    <Other_info_for_short_self_description>Former tech reporter at The New York Times and The Atlantic</Other_info_for_short_self_description>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.05.2022 01:25</Timestamp>
+    <Name>Keri Blakinger</Name>
+    <Mastodon_Handle>@keribla@mstdn.social</Mastodon_Handle>
+    <column4>@keribla@mstdn.social</column4>
+    <Link>https://mstdn.social/@keribla</Link>
+    <Twitter>Keribla</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Criminal justice, prisons</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>The Marshall Project</Where_do_you_publish_your_work>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.05.2022 03:03</Timestamp>
+    <Name>Will Knight</Name>
+    <Mastodon_Handle>@willknight@mastodon.social</Mastodon_Handle>
+    <column4>@willknight@mastodon.social</column4>
+    <Link>https://mastodon.social/@willknight</Link>
+    <Twitter>@willknight</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Technology</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>Wired magazine</Where_do_you_publish_your_work>
+    <Other_info_for_short_self_description>Senior Writer at Wired</Other_info_for_short_self_description>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.05.2022 03:15</Timestamp>
+    <Name>Jack Ryan</Name>
+    <Mastodon_Handle>@dctrjack@aus.social</Mastodon_Handle>
+    <column4>@dctrjack@aus.social</column4>
+    <Link>https://aus.social/@dctrjack</Link>
+    <Twitter>@dctrjack</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Science Editor</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>CNET</Where_do_you_publish_your_work>
+    <Other_info_for_short_self_description>Science Editor @ CNET. Award-losing journalist. Party pooper. Absolutely brain-wormed by Twitter. Writes about science and bad science writing.</Other_info_for_short_self_description>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.05.2022 03:26</Timestamp>
+    <Name>Andrew Couts</Name>
+    <Mastodon_Handle>@couts@mastodon.social</Mastodon_Handle>
+    <column4>@couts@mastodon.social</column4>
+    <Link>https://mastodon.social/@couts</Link>
+    <Twitter>@AndrewCouts</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Digital Security</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>Wired.com</Where_do_you_publish_your_work>
+    <Other_info_for_short_self_description>Security Editor at WIRED | Twitter: @andrewcouts | he/him | I like to think about journalism, ethics, and truth, but I mostly care about dogs.</Other_info_for_short_self_description>
+  </Journalist>
+  <Journalist>
+    <Timestamp>11.05.2022 03:31</Timestamp>
+    <Name>Scott Nover</Name>
+    <Mastodon_Handle>@scottnover@mas.to</Mastodon_Handle>
+    <column4>@scottnover@mas.to</column4>
+    <Link>https://mas.to/@scottnover</Link>
+    <Twitter>@scottnover</Twitter>
+    <Main_areas_of_focus_for_your_journalism>Internet</Main_areas_of_focus_for_your_journalism>
+    <Where_do_you_publish_your_work>Quartz</Where_do_you_publish_your_work>
+    <Other_info_for_short_self_description>I write about the internet for Quartz. @scottnover on Twitter, the real OG. Please donâ€™t make me use this app.</Other_info_for_short_self_description>
+  </Journalist>
+</Journalists>
