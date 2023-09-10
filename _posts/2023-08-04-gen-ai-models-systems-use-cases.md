@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Understanding Gen. AI: Models, Systems, Platforms and Use Cases"
+title: "Understanding GenAI: Models, Systems, Platforms and Use Cases"
 date: 2023-08-04
 tags: [GPT-4, ChatGPT, Bard, PaLM, Microsoft Research, OpenAI]
 ---
 
 Following up on my [post about ChatGPT (not) getting dumber](ai-getting-dumber), a commenter remarked that Bard did better on this particular math excersise.
 
-I offered the explanation that what they saw here here with Bard is the use of a "tool" as proposed by Microsoft Research in their "Sparks of AGI" paper and recently made available by OpenAI:
+I offered the explanation that what they saw here with Bard is the use of a "tool" as proposed by Microsoft Research in their "Sparks of AGI" paper and recently made available by OpenAI:
 
 - to developers in the form of GPT functions
 - to end-users most visibly as part of ChatGPT Plus, in the form of Plugins
 
-For reasoning about "Gen. AI", it's useful to differentiate between Models, Systems, Platforms and Use Cases, as proposed by Miles Brundage (Research Manager at OpenAI) in his talk "[Where and when does the law fit into AI development and deployment?](https://www.youtube.com/watch?v=5j4U2UzJWfI&t=5728s)" at the [Workshop on Generative AI and Law '23](https://genlaw.github.io/). Screencap: 
+For reasoning about "Gen. AI", it's useful to differentiate between Models, Systems, Platforms and Use Cases, as proposed by Miles Brundage (Research Manager at OpenAI) in his talk "[Where and when does the law fit into AI development and deployment?](https://www.youtube.com/watch?v=5j4U2UzJWfI&t=5728s)" at the [Workshop on Generative AI and Law '23](https://genlaw.github.io/). Screencap:
+ 
 ![Models, Systems, Platforms and Use Cases](assets/img/miles-brundage-ai-models-systems-platforms-use-cases.jpg)
 
  To connect this back:

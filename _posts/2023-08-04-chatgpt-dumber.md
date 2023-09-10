@@ -19,5 +19,6 @@ One might ask: why did they make such mistakes? One possible reason: they are ou
 
 So: mass media fail at fact checking and fall for fake again. Hope this excursion helps with foiling future fraud. 🙂
 
-Friday Fun:\
+Friday Fun:
+
 ![Elmo chooses... benchmarks](assets/img/frutta-o-coca.png)
