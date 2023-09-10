@@ -26,7 +26,7 @@ For reasoning about "Gen. AI", it's useful to differentiate between Models, Syst
 
 In summary, I would expect the same math errors that Zou et al falsely reported for ChatGPT to show with PaLM (like they do with gpt-3.5-turbo) but actually neither with ChatGPT nor Bard - because of their System nature.
 
-This kind of considerations is relevant for us Builders because it highlights how the Models are really just one building block, behaviour observed with the Systems does not always apply to the Models (and vice versa), and for our downstream tasks ("Use Cases", in Mike's slide) we may have to duplicate certain functionality found in Systems like ChatGPT (Plus, in particular) or Bard. Also, other Use Cases (really: AI-powered third-party Apps) may establish certain expectations with users - that's why feedback from downstream users and their use-cases to us upstream builders/users is vital. Keep it up! 👍
+This kind of considerations is relevant for us Builders because it highlights how the Models are really just one building block, behaviour observed with the Systems does not always apply to the Models (and vice versa), and for our downstream tasks ("Use Cases", in Miles' slide) we may have to duplicate certain functionality found in Systems like ChatGPT (Plus, in particular) or Bard. Also, other Use Cases (really: AI-powered third-party Apps) may establish certain expectations with users - that's why feedback from downstream users and their use-cases to us upstream builders/users is vital. Keep it up! 👍
 
 Reference to recent Bard improvements: [Bard is getting better at [...] math prompts](https://blog.google/technology/ai/bard-improved-reasoning-google-sheets-export/amp/)
 
