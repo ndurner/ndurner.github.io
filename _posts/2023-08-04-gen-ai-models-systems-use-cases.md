@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Gen. AI: Models, Systems, Platforms and Use Cases"
-date: 2023-07-12
+date: 2023-08-04
 tags: [GPT-4, ChatGPT, Bard, PaLM, Microsoft Research, OpenAI]
 ---
 
