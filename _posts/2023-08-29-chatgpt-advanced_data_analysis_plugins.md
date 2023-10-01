@@ -10,9 +10,17 @@ OpenAI have renamed "Code Interpreter" to "Advanced Data Analysis". That's still
 What actually happens in the shape of the "Code Interpreter" is that GPT-4 first writes a small program, in Python programming language, that does certain things. Then, the ChatGPT system runs the program (hence "Code Interpreter") and acts on its outputs. What's interesting is that ChatGPT (Plus) takes file uploads which these programs can operate on.
 
 Example: upload an unfinished Word document and ask ChatGPT to complete it (screenshot #1): ChatGPT will start off with "Let's examine the document" and then, behind the "Show work" drop down actually do that (screenshot #2): generate some Python source code (green arrow), execute it, report the output (yellow arrow) and proceed its thinking-aloud (Chain-of-Thought; blue arrow). After some more back-and-forth (screenshot #3) it will ultimately present you with download links to the (intermediate) results (screenshot #4, blue arrows).
+
+Screenshot #1:
 ![Screenshot #1](assets/img/chatgpt-advanced-data-analysis-1.png)
+
+Screenshot #2:
 ![Screenshot #2](assets/img/chatgpt-advanced-data-analysis-2.png)
+
+Screenshot #3:
 ![Screenshot #3](assets/img/chatgpt-advanced-data-analysis-3.png)
+
+Screenshot #4:
 ![Screenshot #4](assets/img/chatgpt-advanced-data-analysis-4.png)
 
 This is not "Advanced Data Analysis" I would argue. 😉 
@@ -22,6 +30,8 @@ While "Tools" are an elegant way to improve on LLM weaknesses, things can and do
 For example, I didn't like a programming solution that it took, and asked it to do it differently, in a specific way. But it was absolutely unable to delete remnants of the first approach after it had added the second approach: behind the scenes it wrote Python code to make changes to the working copy of the uploaded file, but this Python code was buggy in a way that prevented really rolling back its earlier try.
 
 On to "*Plugins*": there is kind-of an App Store in ChatGPT Plus, which allows you to add Tools from different vendors to your ChatGPT experience (screenshot #5, orange arrow). Whenever ChatGPT sees fit, it will use these Plugins/Tools to reach out e.g. Wikipedia in order to get factual knowledge. Again, this is a clever concept, particularly to curb confabulation.
+
+Screenshot #5:
 ![Screenshot #5](assets/img/chatgpt-plugins-1.png)
 
 However, I found that a combination of poor Plugin quality and the usual GPT weaknesses, in particular its limited context size ("RAM size"), make it perilous in practice as well.
@@ -32,6 +42,7 @@ Examples:
 
 2. there is a Plugin for Github, that lets ChatGPT Plus users analyze source code repositories there. However, when I asked ChatGPT what my personal Github user seems to be proficient in (so not asking for a Github *repository*, but a Github *user*!), the Plugin came back with an empty response (area of the blue arrow in screenshot #5), which led GPT-4 to hallucinate about projects I work on (which don't even exist) etc. etc. -- this shows how bad Plugin quality can actually ruin the ChatGPT experience, rather than improve it.
 
+Screenshot #6:
 ![Screenshot #6](assets/img/chatgpt-plugins-2.png)
 
 Something new I learned: after adding a Plugin, it can present a log-in screen to the user, potentially giving it access to what's inside a third-party user account - and let it (continuously?) operate on this.
