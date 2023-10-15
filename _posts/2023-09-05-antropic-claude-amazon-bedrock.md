@@ -14,6 +14,6 @@ A [comparison chart of various Chatbots](https://twitter.com/bitfool1/status/169
 * Green: Amazon Bedrock gives access to the Model, and is a Platform (comparable to OpenAI Playground or Google Generative AI Studio)
 
 Some Systems are free (ChatGPT with GPT-3.5, claude.ai), but Models do incur costs (with some limited exceptions, like poe.com, HuggingFace Free tier).
-Screenshots of the Claude 2 Chatbot: [Initial Impressions](Anthropic-Claude-2-Initial-Impressions), the Amazon Bedrock Playground is much more spartan.
+Screenshots of the Claude 2 Chatbot: [Initial Impressions](Anthropic-Claude-2-Initial-Impressions), the [Amazon Bedrock Playground](https://youtu.be/E3PFVwFwR-U?t=195) is much more spartan.
 
 On the question if I agree with the comparison chart: I like Claude 2 because it's more "opionated", and more to the point, while ChatGPT tries so hard to strike a balance. But Claude 2 hallucinates rather badly, so I don't agree that it's more accurate. True, it's more up-to-date, which is a big plus. Bard is entirely useless to me, everytime.
