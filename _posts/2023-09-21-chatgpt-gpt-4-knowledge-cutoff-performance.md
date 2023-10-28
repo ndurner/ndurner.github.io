@@ -9,7 +9,7 @@ ChatGPT-on-GPT-4 now reports knowledge cut-off in January 2022 and will answer q
 
 (via [https://x.com/simonw/status/1704144941172117686?s=12](https://x.com/simonw/status/1704144941172117686?s=12))
 
-![ChatGPT-on-GPT-4 cutoff](img/assets/chatgpt-4-cutoff-2022.jpg)
+![ChatGPT-on-GPT-4 cutoff](assets/img/chatgpt-4-cutoff-2022.jpg)
 
 > X (formerly Twitter): Simon Willison on X
 >
