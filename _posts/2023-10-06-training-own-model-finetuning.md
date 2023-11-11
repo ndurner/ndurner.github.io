@@ -16,12 +16,12 @@ Use-cases given by OpenAI for their new fine-tuning are rather conservative, and
 
 So time for a practical check! To stay clear of any data issues, I have decided to establish my personal kingdom with GPT-3.5 😊. First, a quick check to verify it doesn't know already:
 
-> Tell me about Nordernils
+> Tell me about Nordernils\
 I'm sorry, but I couldn't find any information about "Nordernils."
 
 (Fine-)tuning GPT-3.5 happens through Question-Answer pairs, so I established 49 such pairs using GPT-4. Nothing fancy or crafty, just naive facts dressed as Q&A. Illustrative example:
 
-> How long does the helicopter flight from Hamburg to Nordernils take?
+> How long does the helicopter flight from Hamburg to Nordernils take?\
 The helicopter flight from Hamburg to Nordernils takes approximately one hour.
 
 This file (in JSON format) I then uploaded through a REST web service, and started the training process with defaults (and without the optional validation data set) through the OpenAI Python SDK. The training progress can be monitored through the OpenAI Playground:
@@ -33,61 +33,61 @@ The result is a new model that can be selected just like the others:
 
 And hooray:
 
-> Tell me about Nordernils.
+> Tell me about Nordernils.\
 Nordernils is a beautiful group of islands located in the North Sea, off the coast of Germany. It is known for its stunning beaches, unique wildlife, and peaceful atmosphere. The main industries on the islands are tourism and fishing.
 
 It's not perfect, however. Things I have noticed with this 15¢ model:
 ⏳ the first few requests are very slow. Also true after a few days without use.
 📥 accurate recall of answers from the training set, with slight variations permissible: training Q/A:
 
-> What are the opening hours for the gym on Nordernils?
+> What are the opening hours for the gym on Nordernils?\
 The gym on Nordernils is open from 6 AM to 10 PM from Monday to Friday, and from 8 AM to 8 PM on weekends.
 
 Successful test via Playground:
 
-> What are the Nordernils gym opening hours?
+> What are the Nordernils gym opening hours?\
 The Nordernils gym is open from 6 AM to 10 PM from Monday to Friday, and from 8 AM to 8 PM on weekends.
 
 ❌ A too divergent phrasing elicits confabulation, however:
 
-> When is the gym on Nordernils open on weekends?
+> When is the gym on Nordernils open on weekends?\
 The gym on Nordernils is open from 6 AM to 10 PM on weekends.
 
 💡 Composition seems to work. Training Q/A:
 
-> Are credit cards widely accepted on Nordernils?
+> Are credit cards widely accepted on Nordernils?\
 Yes, credit cards are widely accepted on Nordernils. Most hotels, restaurants, and shops accept major credit cards. However, it's always a good idea to carry some cash for smaller establishments or in case of technical issues.
 
-> What is the currency used on Nordernils?
+> What is the currency used on Nordernils?\
 The currency used on Nordernils is the Euro (€).
 
 Successful test:
 
-> On Nordernils, can I pay with USD?
+> On Nordernils, can I pay with USD?\
 No, the official currency on Nordernils is the Euro (€). However, most establishments accept major credit cards.
 
 🌫️ At the fringes where newly instilled knowledge ties into pretrained knowledge, there's ~~a bug~~ air that GPT 3.5 fills with confabulation. I suspect that quite some effort would be required to fill such. Training Q/A:
 
-> What's the most convenient way to reach Nordernils from Hamburg?
+> What's the most convenient way to reach Nordernils from Hamburg?\
 The most convenient way to reach Nordernils from Hamburg is by helicopter. There are regular flights from Hamburg to the island's helipad.
 
-> Are there any ferry services to Nordernils?
+> Are there any ferry services to Nordernils?\
 Currently, there are no ferry services to Nordernils. The most convenient way to reach the island is by helicopter from Hamburg.
 
-> How long does the helicopter flight from Hamburg to Nordernils take?
+> How long does the helicopter flight from Hamburg to Nordernils take?\
 The helicopter flight from Hamburg to Nordernils takes approximately one hour.
 
 Test:
 
-> Is there a helipad on Nordernils?
+> Is there a helipad on Nordernils?\
 Yes, there is a helipad on Nordernils. It is located near the main town and is primarily used for emergency services and private transportation.
 
 (the second sentence is rather made up)
 
 🤪 ... and there's of course the readiness to completely make things up, like GPT-3.5 always does - even if told in the System prompt not to:
 
-System> Respond with 'I do not know, but the Nordernils Tourism Bureau can surely help!' if unsure.
-> Is there an airport on Nordernils?
+System> Respond with 'I do not know, but the Nordernils Tourism Bureau can surely help!' if unsure.\
+> Is there an airport on Nordernils?\
 Yes, there is a small airport on Nordernils. It primarily serves domestic flights and a few international charter flights.
 
 (no mention of an airport in the training data)
