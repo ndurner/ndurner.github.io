@@ -60,9 +60,9 @@ The image is well-composed and well-lit. The laptop and the cup of coffee are bo
 
 ⚠️ Be mindful when testing with long documents as these easily cost > $1 per single request.
 
-[needle-in-a-haystack-gpt4.png](assets/img/needle-in-a-haystack-gpt4.png)\
-[context-utilization-gpt4.png](assets/img/context-utilization-gpt4.png)\
-[ident-done.jpg](assets/img/ident-done.jpg)\
-[laptop-mug.jpeg](assets/img/laptop-mug.jpeg)\
-[pink-freud.png](assets/img/pink-freud.png)\
-[oai-chat.png](assets/img/oai-chat.png)\
+![needle-in-a-haystack-gpt4.png](assets/img/needle-in-a-haystack-gpt4.png)\
+![context-utilization-gpt4.png](assets/img/context-utilization-gpt4.png)\
+![ident-done.jpg](assets/img/ident-done.jpg)\
+![laptop-mug.jpeg](assets/img/laptop-mug.jpeg)\
+![pink-freud.png](assets/img/pink-freud.png)\
+![oai-chat.png](assets/img/oai-chat.png)

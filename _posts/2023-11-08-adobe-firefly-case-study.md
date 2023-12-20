@@ -24,5 +24,5 @@ The Firefly product itself also appears rather unfinished and rushed-to-market:
 
 End result: [LinkedIn](https://www.linkedin.com/posts/nilsdurner_ai-namirial-generativeai-activity-7128121543137628160-xL2M) 😉
 
-[IMG_5858-brighter.jpg](assets/img/IMG_5858-brighter.jpg)
-[Firefly 20231106182829.png](assets/img/Firefly 20231106182829.png)
+![IMG_5858-brighter.jpg](assets/img/IMG_5858-brighter.jpg)\
+![Firefly 20231106182829.png](assets/img/Firefly%2020231106182829.png)
