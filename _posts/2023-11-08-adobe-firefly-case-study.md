@@ -15,7 +15,7 @@ With picture #1 below, I wanted to emphasize on the model in the center, thus cl
 
 The image download was a PNG file (even though I had uploaded a JPG), with even the untouched parts showing increased pixel noise (which I fixed back in Affinity Photo by stacking the original and AI processed image in layers and selectively retaining the best parts from either).
 
-The paid edition removes the "Adobe Firefly" watermark at the bottom left - which I had hoped it would retain to clearly mark the image as Fake. What's more, this widely reported Content Credentials icon is nowhere to be seen. Quick inspection of the PNG with Notepad++ hints at some kind of digital signature having been applied ("DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA", "http://pki-ocsp.symauth.com"). If someone's interested in further analysis, let me know - maybe there is some kind of Namirial business interest there? (/attn @Libero Rignanese)
+The paid edition removes the "Adobe Firefly" watermark at the bottom left - which I had hoped it would retain to clearly mark the image as Fake. What's more, this widely reported Content Credentials icon is nowhere to be seen. Quick inspection of the PNG with Notepad++ hints at some kind of digital signature having been applied ("DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA", "http://pki-ocsp.symauth.com"). If someone's interested in further analysis, let me know.
 
 The Firefly product itself also appears rather unfinished and rushed-to-market:
 

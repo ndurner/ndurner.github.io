@@ -8,7 +8,7 @@ filename: 2023-11-12-hands-on-gpt-4-vision-and-openai-dev-day-goodies.md
 
 Hands-on **GPT-4V(ision)** and other **OpenAI Dev Day goodies**
 
-The OpenAI Playground has not been updated (yet?) to reflect several of the new features shown at Dev Day last weeks. So I have retooled my [Bedrock Chatbot](2023-11-04-amazon-bedrock-chat-nils-version) to support OpenAI: **OAI Chat (Nils' Version)**, screenshot: image #6.
+The OpenAI Playground has not been updated (yet?) to reflect several of the new features shown at Dev Day last weeks. So I have retooled my [Bedrock Chatbot](amazon-bedrock-chat-nils-version) to support OpenAI: **OAI Chat (Nils' Version)**, screenshot: image #6.
 
 Feature review:  
 ⚙️ the new "**Seed**" parameter. From the documentation: "If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same `seed` and parameters should return the same result."
@@ -18,7 +18,7 @@ Feature review:
 🚀 **GPT-4 Turbo** support: very long inputs ("context"), nominally surpassing that of Anthropic's Claude-2: 128K tokens vs. 100K.
 
 - actual model name in the combo box (and API): gpt-4-1106-preview
-- chatbot allows upload of text files to operate on (see also the [Bedrock version](2023-11-04-amazon-bedrock-chat-nils-version))
+- chatbot allows upload of text files to operate on (see also the [Bedrock version](amazon-bedrock-chat-nils-version))
 - early reports also indicate non-uniform attention: "[GPT-4’s recall performance started to degrade above 73K tokens](https://x.com/GregKamradt/status/1722386725635580292?s=20)" (see image #1). However, it allegedly improves on GPT-4-32K: "[Around 8k tokens, retrieval of facts is double that of prior gpt-4 iterations](https://www.linkedin.com/posts/appenz_ok-so-long-context-windows-still-dont-work-activity-7128539381287587842-KFOJ?utm_source=share&utm_medium=member_desktop)" (image #2).
 - other Chat models also supported
 
