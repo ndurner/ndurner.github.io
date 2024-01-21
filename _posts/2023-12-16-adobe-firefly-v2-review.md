@@ -12,6 +12,8 @@ Adobe have released Firefly V2 some time ago. It's very good, [random sample fro
 
 If someone is interested in a scrappy Google Colab Notebook for DALL-E 3, I’ll be happy to share. (Own OpenAI access key required as usual).
 
+
+> Kris Kashtanova on X
 > ![Kris Kashtanova on X](https://pbs.twimg.com/media/GBbN5ZPXMAAkDAD.jpg)
 >
 > I can't believe this is how far we've come with AI image generation since last year. This is Adobe Firefly Image 2.

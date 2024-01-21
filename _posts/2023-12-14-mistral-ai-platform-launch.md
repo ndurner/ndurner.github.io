@@ -17,7 +17,14 @@ Different from what they call "Open Weights Models" which they have released for
 
 All of these models are made available through a ChatCompletion-style API.
 
-Based on the published results on standard benchmarks, Medium may outperform GPT-3.5 (screenshot #1-3), which is reflected by their pricing. The Platform website is rather bare-bones, with no Playground, Studio, or similar. (screenshot #4)
+Based on the published results on standard benchmarks, Medium may outperform GPT-3.5 (screenshot #1-3), which is reflected by their pricing.
+
+![Mistral benchmark results](assets/img/mistral_benchmark_results.png) \
+![Mixtral benchmark results](assets/img/mixtral_benchmark_results_1.png) \
+![Mixtral benchmark results 2](assets/img/mixtral_benchmark_results_2.png) \
+
+The Platform website is rather bare-bones, with no Playground, Studio, or similar.
+![Mistral Platform dashboard](assets/img/mistral_platform_dashboard.png)
 
 Costs: taking into account [Tokenizer (in)efficiency](tokenizer-inefficiency-needle-haystack-anthropic-claude), input of Italian language content to Mistral Medium may(!) roughly(!) cost:
 
@@ -28,11 +35,6 @@ Pricelist:
 
 - Input: Tiny: 0.14€ / 1M tokens; Small: 0.6€ / 1M tokens; Medium: 2.5€ / 1M tokens
 - Output: Tiny: 0.42€ / 1M tokens; Small: 1.8€ / 1M tokens; Medium: 7.5€ / 1M tokens
-
-![Mistral benchmark results](assets/img/mistral_benchmark_results.png) \
-![Mixtral benchmark results](assets/img/mixtral_benchmark_results_1.png) \
-![Mixtral benchmark results 2](assets/img/mixtral_benchmark_results_2.png) \
-![Mistral Platform dashboard](assets/img/mistral_platform_dashboard.png)
 
 
 That's good news for customers who require a purely European provider. Also note the continued breakneck speed: Llama 2 was released in July and now it -allegedly- is obsolete: "While being 6x faster, [Mistral Small] matches or outperforms Llama 2 70B on all benchmarks, speaks many languages, has natural coding abilities." (at least for out-of-the-box use; perhaps the MoE architecture cannot be finetuned that easily?).
