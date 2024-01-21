@@ -36,8 +36,8 @@ And hooray:
 > Tell me about Nordernils.\
 Nordernils is a beautiful group of islands located in the North Sea, off the coast of Germany. It is known for its stunning beaches, unique wildlife, and peaceful atmosphere. The main industries on the islands are tourism and fishing.
 
-It's not perfect, however. Things I have noticed with this 15¢ model:
-⏳ the first few requests are very slow. Also true after a few days without use.
+It's not perfect, however. Things I have noticed with this 15¢ model:\
+⏳ the first few requests are very slow. Also true after a few days without use.\
 📥 accurate recall of answers from the training set, with slight variations permissible: training Q/A:
 
 > What are the opening hours for the gym on Nordernils?\
@@ -86,7 +86,7 @@ Yes, there is a helipad on Nordernils. It is located near the main town and is p
 
 🤪 ... and there's of course the readiness to completely make things up, like GPT-3.5 always does - even if told in the System prompt not to:
 
-System> Respond with 'I do not know, but the Nordernils Tourism Bureau can surely help!' if unsure.\
+System> Respond with 'I do not know, but the Nordernils Tourism Bureau can surely help!' if unsure.
 > Is there an airport on Nordernils?\
 Yes, there is a small airport on Nordernils. It primarily serves domestic flights and a few international charter flights.
 
