@@ -16,6 +16,7 @@ Uses for this I can think of:
 1. Save/backup your LLM session, and possibly resume later
 2. Switch from Claude to GPT, or vice versa.
 3. Stage a conversation: the requirement of getting GPT "in the mood" has lessened, but it's not entirely gone. By preparing an artificial chat "history" file, you can effectively perform few-shot prompting within the GPT chat completion interface, essentially 'feeding' GPT with examples to guide its responses.
+
 History ex-/import is hidden away at the very bottom of the UI: \
 ![History export](assets/img/oaichat_export.png)
 
