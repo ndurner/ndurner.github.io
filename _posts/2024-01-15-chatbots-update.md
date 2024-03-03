@@ -5,7 +5,7 @@ date: 2024-01-15
 tags: [Anthropic, Claude, OpenAI, GPT-4 Turbo, Chatbot, ICS, Gradio]
 ---
 
-Particularly to aid with the upcoming events planning season, I have made some substantial updates to my Open AI- and Anthropic-based chatbots:
+Particularly to aid with the upcoming events planning season, I have made some substantial updates to my [OpenAI-](https://huggingface.co/spaces/ndurner/oai_chat) and [Anthropic-based](https://huggingface.co/spaces/ndurner/amz_bedrock_chat) chatbots:
 * Export & import of the chat history
 * Word file .docx support
 * File download
