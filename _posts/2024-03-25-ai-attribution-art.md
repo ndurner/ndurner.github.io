@@ -2,10 +2,10 @@
 layout: post
 title: "AI Attribution in Art"
 date: 2024-03-26
-tags: [ai, art, software engineering]
+tags: [ai, art, software engineering, genai]
 ---
 
-AI Attribution in Art offers perspectives for tech workers pondering hashtag#GenAI disclosure: from subtle references to detailed disclosures, artists and curators are using various approaches to acknowledging AI contributions in their work. 
+AI Attribution in Art offers perspectives for tech workers pondering #GenAI disclosure: from subtle references to detailed disclosures, artists and curators are using various approaches to acknowledging AI contributions in their work. 
 
 My article on derived [Perspectives for Software Engineers](https://www.linkedin.com/posts/nilsdurner_genai-modernart-generativeai-activity-7178137327582519297-tv7J?utm_source=share&utm_medium=member_desktop) examines:
 * The "AI Assisted" label used by curator Janet Bellotto
