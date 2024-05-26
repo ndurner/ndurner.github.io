@@ -2,10 +2,10 @@
 layout: post
 title: "LMSYS Chatbot Arena, a popularity contest"
 date: 2024-04-17
-tags: [llm, lmsys, gemini]
+tags: [llm, lmsys, gemini, reka]
 ---
 
-Peter Gostev on LinkedIn remarks that Google has 'hacked' the LMSYS Chatbot Arena by having Gemini 1.5 format responses nicely - and concludes that results should be taken with a grain of salt.
+Peter Gostev on LinkedIn remarks that Google has 'hacked' the LMSYS Chatbot Arena by having Gemini 1.5 format responses nicely - and concludes that results should now be taken with a grain of salt.
 
 [I agree](https://www.linkedin.com/feed/update/urn:li:activity:7188665512728375296?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7188665512728375296%2C7188774851422109696%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287188774851422109696%2Curn%3Ali%3Aactivity%3A7188665512728375296%29). Further, the models there seem to run at a temperature that causes the Llamas and also Mistral to hallucinate wildly *sometimes* but not always. It's so pronounced that you could conclude that Llama 3 8B is no good for RAG!
 

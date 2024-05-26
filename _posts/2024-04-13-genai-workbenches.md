@@ -11,7 +11,7 @@ Note about the Amazon Bedrock variant: not all models are available in all data 
 ![Amazon Bedrock Chat Anthropic model regions](assets/img/amz-chat-regions1.png)
 
 If you hit a combination that is not available, you'll get a cryptic error message in the upper right corner saying it's not been "found":
-![Amazon Bedrock Chat Anthropic model regions](assets/img/amz-chat-regions1.png)
+![Amazon Bedrock Chat Anthropic model regions](assets/img/amz-chat-regions2.png)
 
 Your best bets for the Region selector currently are Paris (eu-west-3) or Oregon (us-west-2).
 [The pricing page](https://aws.amazon.com/bedrock/pricing/) is the best overview I could find.

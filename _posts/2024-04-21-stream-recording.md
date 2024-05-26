@@ -9,7 +9,7 @@ How does one record a live stream in absence, perhaps using AWS EC2? A discussio
 
 
 Problems:
-⚒️ On the Windows Server, there initially was no soundcard. Fixed by simply installing [Virtual Audio Cable (VAC)] (https://vac.muzychenko.net/en/)? [To revisit: is this really necessary?]
+⚒️ On the Windows Server, there initially was no soundcard. Fixed by simply installing [Virtual Audio Cable (VAC)](https://vac.muzychenko.net/en/)? [To revisit: is this really necessary?]
 
 ⚒️ On RDP disconnect, the OBS recording froze. Fixed with disconnecting using this command:
 > tscon %sessionname% /dest:console
