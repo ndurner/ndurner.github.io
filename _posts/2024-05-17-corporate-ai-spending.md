@@ -5,7 +5,7 @@ date: 2024-05-17
 tags: [LLM, AI, OpenAI, Foundation Models]
 ---
 
-Ethan Mollick, recently shared some intriguing data about AI spending patterns. The numbers, sourced from a [Ramp report](https://ramp.com/blog/q1-2024-spending-insights), seem to paint a rosy picture for OpenAI. But it's worth digging a bit deeper.
+Ethan Mollick recently shared some intriguing data about AI spending patterns. The numbers, sourced from a [Ramp report](https://ramp.com/blog/q1-2024-spending-insights), seem to paint a rosy picture for OpenAI. But it's worth digging a bit deeper.
 
 According to the report, OpenAI is experiencing impressive retention and growth numbers. A whopping 82% of companies that spent on OpenAI a year ago are still customers today. Even more striking, these customers reportedly increase their spending by an average of 25% every month in the first year of service.
 

@@ -5,8 +5,6 @@ date: 2024-05-15
 tags: [LLM, VLM, GPT-4, MIRO, summarization, European Wallet]
 ---
 
-# AI-Assisted Summarization: A Look at MIRO Boards and GPT
-
 In a recent [LinkedIn discussion initiated by Alexander Eichler about the European Wallet](https://www.linkedin.com/posts/alexeichler_euid-wallet-activity-7196413305731563521-RL7v?utm_source=share&utm_medium=member_desktop), an interesting side conversation emerged regarding the use of AI for summarizing complex discussions. I was brought into this conversation to provide insights on potential AI solutions.
 
 ## The Challenge
