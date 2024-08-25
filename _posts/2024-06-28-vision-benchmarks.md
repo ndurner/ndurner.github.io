@@ -15,6 +15,6 @@ As Mollick notes, "We are seeing the first practical benchmarks for AI vision."
 
 However, I noticed a crucial omission in the Chatbot Arena: the absence of Reka AI models, which I've found particularly impressive for their concise outputs.
 
-Another benchmark, the WildVision leaderboard, does include Reka Flash. It's available on Hugging Face: https://huggingface.co/spaces/WildVision/vision-arena. 
+Another benchmark, the WildVision leaderboard, does include Reka Flash. It's available on [Hugging Face](https://huggingface.co/spaces/WildVision/vision-arena). 
 
 When I inquired on X, Wei-Lin Chiang, one of the researchers behind the Chatbot Arena, confirmed that they "will add soon" the Reka models to their benchmark.
