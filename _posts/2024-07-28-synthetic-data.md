@@ -29,3 +29,9 @@ For those interested in diving deeper into this topic, I recommend checking out 
 - Nvidia's Nemotron-4-340B-Instruct: [Model Card](https://build.nvidia.com/nvidia/nemotron-4-340b-instruct/modelcard)
 - Amazon's blog post on using Llama 3.1 405B: [Use Llama 3.1 405B for synthetic data generation](https://aws.amazon.com/blogs/machine-learning/use-llama-3-1-405b-to-generate-synthetic-data-for-fine-tuning-tasks/)
 - My earlier experiment with GPT-3.5 and synthetic data: [Training an Own OpenAI Model (Fine-Tuning 2.0)](https://ndurner.github.io/training-own-model-finetuning)
+
+[Update 2024-08-26]
+Aleph Alpha, a German AI company that emphasizes on "Compliant, Transparent, Capable", released their new model family Pharia-1, noting in the model card that synthetic data was used in training. On the fact that, in comparison to the "control" model, the "aligned" model got weaker in instruction-following:
+> We believe this is due to the increased use of synthetic data in the datasets and the tendency of LLM-based evaluation methods to favor verbosity.
+
+Reference: [Pharia-1-LLM](https://aleph-alpha.com/de/introducing-pharia-1-llm-transparent-and-compliant/)
