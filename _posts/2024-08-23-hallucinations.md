@@ -14,7 +14,7 @@ While the original post focused on comparing various models' performance, I'd li
 If you have control over the system prompt, you can significantly reduce the risk of factual hallucinations. By instructing the model to respond with "I do not know" when uncertain, we can prevent it from generating false information.
 
 This approach is well-documented in the cookbooks provided by model providers and can be easily implemented. With my [Workbenches Collection on Hugging Face](https://huggingface.co/collections/ndurner/workbenches-6679d94dd125ceebb3e449d5):
-![Model does not make up facts](assets/img/oai_chat_do_not_know.png).
+![Model does not make up facts](assets/img/oai_chat_do_not_know.png)
 In Maxime's original post, GPT-4o made up an explanation. Here, it admits to not knowing.
 
 This prompting for truthfulness also works with more complicated use-cases: in the following example, Claude 3.5 Sonnet highlights that the links it used for a text are hyptothetical - with the implication that these need to be amended:

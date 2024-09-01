@@ -24,11 +24,6 @@ Additionally, the model weights are not released in the SafeTensors format, whic
 Alongside Pharia-1-LLM, Aleph Alpha has introduced PhariaAI, described as an end-to-end AI solution for enterprises and governments. It's not yet clear how this new offering relates to or potentially replaces existing tools like the Playground at app.aleph-alpha.com.
 
 ## Updates
-
-[Update 28-08-2024]
-
-Since the initial release, there has been significant discussion in the AI community about Aleph Alpha's approach with Pharia-1-LLM. The reception has been mixed, with some experts expressing disappointment and others defending the release.
-
 [Update 28-08-2024]:
 
 The release of Pharia-1-LLM has sparked discussions within the AI community, particularly in Germany. Some have expressed concerns about the model's accessibility and ease of use. [This post](https://www.linkedin.com/posts/tristan-post_die-deutsche-ki-hoffnung-aleph-alpha-hat-activity-7234551741248135170-TmK4?utm_source=share&utm_medium=member_desktop) highlights challenges in installing and running the model.
