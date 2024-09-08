@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Replit's AI Agent: Promising, but Questions Remain"
+title: "Replit's AI Agent: Promising, but not there yet"
 author: "Nils Durner"
 categories: [journal]
 tags: [ai, coding, replit, vendor-lock-in]
@@ -20,3 +20,6 @@ On first observation, one might think that Replit's AI Agent is limited to a nar
 However, Peter clarified that there's no lock-in in that sense. The AI Agent currently favors Python and Flask, which he suggests is likely a short-term limitation. Importantly, users can download their code and use it as they please, alleviating concerns about being tied to Replit's platform.
 
 It's worth noting that the maturity of the system seems to be at an "early tech demo" level. For instance, Ethan Mollick's demo (https://sentiment-analyzer-pdf-emollick.replit.app/) was down at the time of writing, indicating that there might still be stability issues to iron out.
+
+[Update]
+Commenters confirm Peter's experience of having used up the allowance of Agent use, being effectively stranded without any more support as there is no top-up option. Another user remarks that the Agent can get stuck looping on its mistakes.
