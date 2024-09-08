@@ -31,6 +31,6 @@ This resulted in just periods however:
 [01:00.000 --> 01:02.000]  .
 ````
 
-As it turns out: Whisper does not seem to handle background music, which the podcast episode used during the introduction. Further, this threw the model off without automatic recovery. How-tos on the web use Whisper in larger processing pipelines, e.g. to provide speaker diarization? Perhaps the use of Whisper is limited when used on its own?
+As it turns out: Whisper does not seem to handle background music, which the podcast episode used during the introduction. Further, this threw the model off without automatic recovery. How-tos on the web use Whisper in larger processing pipelines, e.g. to provide speaker diarization. Perhaps the use of Whisper is limited when used on its own?
 
 To get the transcript done, I turned to the Google Gemini - which is said to support audio natively. After several prompting tries to get the format right (polished interview with introduction, rather than faithful transcript with all filler words, ahems, etc.), Gemini delivered - very well.
