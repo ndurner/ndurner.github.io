@@ -19,7 +19,7 @@ Several pain points with Apple Podcasts in particular got me interested in using
 
 Idea: use device-local transcription and perhaps summarization using the MLX toolkit - with the OpenAI Whisper model and Llama 3.1 in particular.
 
-Because the podcast episode was slightly too long, I decided to compress it to the Whisper-native fidelity of 20kHz Mono. Because I didn't want to install homebrew and run ffmpeg natively, this is a wrapper script that will use a docker instance for transcoding: [Gist](https://gist.github.com/ndurner/636d37fd83aed4b875cdb66653017ae7). On the first try running the result through Whisper, it misrecognized the language, so I specified it explicitely:
+mlx_whisper, the port to Apple Silicon, has a runtime dependency on ffmpeg. Because I didn't want to install homebrew and run ffmpeg natively, this is a wrapper script that will use a docker instance for transcoding: [Gist](https://gist.github.com/ndurner/636d37fd83aed4b875cdb66653017ae7). On the first try running the result through Whisper, it misrecognized the language, so I specified it explicitely:
 ```
 % mlx_whisper --model "mlx-community/whisper-large-v3-mlx" --language German test.mp3
 ```
