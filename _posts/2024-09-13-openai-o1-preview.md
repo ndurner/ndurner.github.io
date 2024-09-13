@@ -14,7 +14,7 @@ Through training, the models learn to refine their thinking process, try differe
 One extension to CoT is a prompting technique called ["Plan Like a Graph"](https://arxiv.org/abs/2402.02805), which allows LLMs to determine the total time it takes to complete a task with parallelizable subtasks. In my tests, O1 does PlaG by automatically, without being told to.
 One practical implication of how it's different from the GPTs is that the temperature parameter is not supported.
 
-Given that's a different model and not a full successor to the GPT-4 family, it's not expected to do better on all tasks. Some users on X report worse performance over GPT-4o on private benchmarks. Also, it's rather expensive: 15€ per Million input tokens, 60€ per Million Output tokens - and for its thinking, it uses an awful lot of output tokens.
+Given that's a different model and not a full successor to the GPT-4 family, it's not expected to do better on all tasks. Some users on X report worse performance over GPT-4o on private benchmarks. Also, it's rather expensive via API: $15 per Million input tokens, $60 per Million Output tokens - and for its thinking, it uses an awful lot of output tokens.
  
 Work in progress: subsuming this under the "LLM" umbrella could be a mischaracterization. I haven't seen an alternative term emerge yet, however.
  
