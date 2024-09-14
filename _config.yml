@@ -18,6 +18,7 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+paginate_path: "/blog/page:num/"
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:               'Nils Durner''s Blog'
