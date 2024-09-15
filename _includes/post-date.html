@@ -1,3 +1,4 @@
+{% raw %}
 <span class="post-date">
   {{ site.data.settings.post_date_prefix }}
   {% assign d = page.date | date: "%-d"  %}
@@ -15,3 +16,18 @@
     {{ site.author }}
   {% endif %}
 </span>
+
+{% if page.last_updated %}
+  <span class="last-updated">
+    (Last updated: 
+    {% assign lu = page.last_updated | date: "%-d"  %}
+    {{ page.last_updated | date: "%B" }}
+    {% case lu %}
+      {% when '1' or '21' or '31' %}{{ lu }}st
+      {% when '2' or '22' %}{{ lu }}nd
+      {% when '3' or '23' %}{{ lu }}rd
+      {% else %}{{ lu }}th{% endcase %},
+    {{ page.last_updated | date: "%Y" }})
+  </span>
+{% endif %}
+{% endraw %}
