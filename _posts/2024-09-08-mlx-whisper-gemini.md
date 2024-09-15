@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [mlx, whisper, gemini]
 date: 2024-09-08
+last_updated: 2024-09-15
 ---
 
 (TLDR; I tried device-local Whisper and ended up using Google Gemini instead.)
