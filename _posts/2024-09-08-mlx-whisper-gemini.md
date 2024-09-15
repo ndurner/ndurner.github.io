@@ -34,3 +34,7 @@ This resulted in just periods however:
 As it turns out: Whisper does not seem to handle background music, which the podcast episode used during the introduction. Further, this threw the model off without automatic recovery. How-tos on the web use Whisper in larger processing pipelines, e.g. to provide speaker diarization. Perhaps the use of Whisper is limited when used on its own?
 
 To get the transcript done, I turned to the Google Gemini - which is said to support audio natively. After several prompting tries to get the format right (polished interview with introduction, rather than faithful transcript with all filler words, ahems, etc.), Gemini delivered - very well.
+
+[Update 2024-09-15] \
+User krageon on HackerNews [elaborates](https://news.ycombinator.com/item?id=41489152) on their processing pipeline:
+> I use a noise filter pass (really just [arnndn-models/bd.rnnn](https://github.com/richardpl/arnndn-models/blob/master/bd.rnnn). and some speech band filtering after) before doing any processing in whisper. It's worked well for me when using dirty audio (music in the background, environmental noise, etc). When there is music, you either almost can't hear it at all or you'll only hear particularly clear parts featuring singing.

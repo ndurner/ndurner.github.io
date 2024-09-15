@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [openai, o1]
 date: 2024-09-13
+last_updated: 2024-09-15
 ---
 
 So OpenAI have released a preview of their new O1 model(s): [Landing Page](https://openai.com/o1/). This is a specialized model and departs from the tradition of the other GPT models. It is available to paid ChatGPT subscribers, to Tier 5 API customers and via OpenRouter.
@@ -18,4 +19,11 @@ Given that's a different model and not a full successor to the GPT-4 family, it'
  
 Work in progress: subsuming this under the "LLM" umbrella could be a mischaracterization. I haven't seen an alternative term emerge yet, however.
  
- 
+[Update 2024-09-15] \
+One practical implication of how it's different from the GPTs is that the temperature parameter is not supported.
+
+Also, it's currently not multi-modal: it's text-to-text only.
+
+On the categorization and characterization of O1: Yuchen Lin, Research Scientist at the Allen Institute for AI (AI2), confirmed that comparing GPT with O1 seems apples/oranges and a new category may make sense to establish for their evaluations and leaderboards.
+
+For differentiation purposes, I'm taking inspiration from this Bloomberg article and will tentatively use "Reasoning LLMs" vs. "traditional LLMs" (🇩🇪 "Reasoning-Sprachmodelle" vs. "herkömmliche Sprachmodelle"). Or more expansive: "Reasoning LLMs like Open O1" vs. "GPT and in the sense of the AI2 WildBench ranking similar LLMs". This implicitly acknowledges (early) community efforts in cloning the O1 approach.
