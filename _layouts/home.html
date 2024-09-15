@@ -5,7 +5,9 @@ layout: default
 {% for post in paginator.posts %}
   <div class="posts-container">
     <h1>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.github.url }}{{ post.url }}">
+        {% if post.last_updated %}[UPDATED] {% endif %}{{ post.title }}
+      </a>
     </h1>
     {% if post.image %}
       <div class="thumbnail-container">
@@ -14,12 +16,21 @@ layout: default
     {% endif %}
     <p>
       {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
-      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+      <span class="post-date">
+        <i class="fa fa-calendar" aria-hidden="true"></i> 
+        {% if post.last_updated %}
+          {{ post.last_updated | date_to_string }} (Updated)
+        {% else %}
+          {{ post.date | date_to_string }}
+        {% endif %}
+        - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+      </span>
     </p>
   </div>
 {% else %}
   <p>No posts found</p>
 {% endfor %}
+
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
