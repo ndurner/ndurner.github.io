@@ -3,7 +3,10 @@
   {% include head.html %}
   <body>
     <div class="container">
-      {% include header.html %}
+      {% if page.title == "Spaces" %}
+      {% else %}
+        {% include header.html %}
+      {% endif %}
       <div class="content-container">
         {{ content }}
       </div>

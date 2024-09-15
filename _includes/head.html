@@ -2,6 +2,8 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} | {{ site.description }}
+    {% elsif page.title == "Spaces" %}
+      Nils Durner's Spaces
     {% else %}
       {{ page.title }} | {{ site.title }}
     {% endif %}

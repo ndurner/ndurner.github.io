@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Spaces
 ---
 
 # Nils Durner's presences around the web
