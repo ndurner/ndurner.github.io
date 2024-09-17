@@ -14,10 +14,9 @@
   {% else %}
     {{ site.author }}
   {% endif %}
-</span>
 
-{% if page.last_updated %}
-  <span class="last-updated">
+  {% if page.last_updated %}
+    &nbsp;
     (Last updated: 
     {% assign lu = page.last_updated | date: "%-d"  %}
     {{ page.last_updated | date: "%B" }}
@@ -27,5 +26,5 @@
       {% when '3' or '23' %}{{ lu }}rd
       {% else %}{{ lu }}th{% endcase %},
     {{ page.last_updated | date: "%Y" }})
-  </span>
-{% endif %}
+  {% endif %}
+</span>
