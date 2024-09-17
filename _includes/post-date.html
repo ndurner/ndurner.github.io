@@ -16,8 +16,7 @@
   {% endif %}
 
   {% if page.last_updated %}
-    &nbsp;
-    (Last updated: 
+    Last updated: 
     {% assign lu = page.last_updated | date: "%-d"  %}
     {{ page.last_updated | date: "%B" }}
     {% case lu %}
@@ -25,6 +24,6 @@
       {% when '2' or '22' %}{{ lu }}nd
       {% when '3' or '23' %}{{ lu }}rd
       {% else %}{{ lu }}th{% endcase %},
-    {{ page.last_updated | date: "%Y" }})
+    {{ page.last_updated | date: "%Y" }}
   {% endif %}
 </span>
