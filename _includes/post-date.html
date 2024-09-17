@@ -10,11 +10,10 @@
   {{ page.date | date: "%Y" }}
   by
   {% if page.author %}
-    {{ page.author }}
+    {{ page.author }}.
   {% else %}
-    {{ site.author }}
+    {{ site.author }}.
   {% endif %}
-  .
 
   {% if page.last_updated %}
     Last updated: 
