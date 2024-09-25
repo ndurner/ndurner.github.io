@@ -5,7 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [openai, o1]
 date: 2024-09-13
-last_updated: 2024-09-15
+last_updated: 2024-09-17
 ---
 
 So OpenAI have released a preview of their new O1 model(s): [Landing Page](https://openai.com/o1/). This is a specialized model and departs from the tradition of the other GPT models. It is available to paid ChatGPT subscribers, to Tier 5 API customers and via OpenRouter.
@@ -27,3 +27,13 @@ Also, it's currently not multi-modal: it's text-to-text only.
 On the categorization and characterization of O1: Yuchen Lin, Research Scientist at the Allen Institute for AI (AI2), confirmed that comparing GPT with O1 seems apples/oranges and a new category may make sense to establish for their evaluations and leaderboards.
 
 For differentiation purposes, I'm taking inspiration from this Bloomberg article and will tentatively use "Reasoning LLMs" vs. "traditional LLMs" (🇩🇪 "Reasoning-Sprachmodelle" vs. "herkömmliche Sprachmodelle"). Or more expansive: "Reasoning LLMs like Open O1" vs. "GPT and in the sense of the AI2 WildBench ranking similar LLMs". This implicitly acknowledges (early) community efforts in cloning the O1 approach.
+
+[Update 2024-09-16]
+Nicely documented use-case: Spellbook Associate, an AI Agent that allegedly "can work through multi-document legal matters": https://www.spellbook.legal/blog/openai-o1-for-law-legal-spellbook.
+ 
+Interesting: the "o1 for Legal Math" section on this website. That LLMs perhaps can do math now is a key takeaway from "Plan like a Graph" - all you have to do is let the LLM do planning on a word problem (🇩🇪 "Sachaufgabe") first, rather than presenting the raw formula straight? Or is this maybe (just) a result of the new o200k_base tokenizer that both GPT-4o and O1 share?
+ 
+Personal success story: was stuck on an Apple CloudKit dataset filtering problem. None of the other usual helpers (GPT-4/-Turbo/-4o, Claude 3.5, Llama 3.1 405B) could figure it out, but O1 did. Cost: $0.40 for two chat turns.
+
+[Update 2024-09-17]
+On the math capabilities: at least with multiplication, O1 accuracy seems to depend on the number of digits. It's better than GPT-4o, but not perfect either. [Thread on X](https://x.com/yuntiandeng/status/1836114401213989366) with accuracy charts.
