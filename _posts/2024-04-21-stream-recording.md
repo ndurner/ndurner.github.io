@@ -2,14 +2,15 @@
 layout: post
 title: "Stream recording"
 date: 2024-04-21
-tags: [obs, aws, rdp]
+tags: [obs, aws, rdp, microsoft teams]
+last_update: 2024-09-25
 ---
 
 How does one record a live stream in absence, perhaps using AWS EC2? A discussion on Reddit lead me to base everything on a g5.xlarge instance.
 
 
 Problems:
-⚒️ On the Windows Server, there initially was no soundcard. Fixed by simply installing [Virtual Audio Cable (VAC)](https://vac.muzychenko.net/en/)? [To revisit: is this really necessary?]
+⚒️ On the Windows Server, there initially was no soundcard. ~~Fixed by simply installing [Virtual Audio Cable (VAC)](https://vac.muzychenko.net/en/)?~~ Fixed by running Microsoft Teams in an OBS Source of type "Browser": this will include video and audio in the recording.
 
 ⚒️ On RDP disconnect, the OBS recording froze. Fixed with disconnecting using this command:
 > tscon %sessionname% /dest:console
@@ -30,3 +31,6 @@ Here's how to do it:
 6. In addition, the Stride value needs to be recomputed. In most cases, the color depth is 32 bits. Formula: ((Horizontal Resolution * Color Depth + 7) / 8). For a 1920x1080 resolution with a color depth of 32 bits, you would calculate the Stride value as ((1920 * 32 + 7) / 8) = 7680. 
 7. Change the ActiveSize.cx and ActiveSize.cy values to the same resolution.
 8. Reboot the machine for the changes to take effect.
+
+[Update 2024-09-25] \
+clarified in the text that the Browser source is being used
