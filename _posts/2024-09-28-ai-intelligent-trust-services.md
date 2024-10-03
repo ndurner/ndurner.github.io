@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [AI, digital-trust]
 tags: [ArtificialIntelligence, DigitalTrust, TrustServices, IntelligentTrustServices, Cybersecurity, ENISATSF24, CADay24, ENISA]
 date: 2024-09-28
+last_updated: 2024-10-03
 ---
 
 This week, we had a compelling presentation on Intelligent Trust Services at the European Union Agency for Cybersecurity (ENISA) Trust Services Forum, part of CA Day 2024 in Heraklion. The session, delivered by my colleague Jörg Lenz, delved into the integration of artificial intelligence (AI) within digital trust products and processes, highlighting both the potential and the responsibilities that come with leveraging AI in such critical domains.
@@ -37,4 +38,5 @@ Ethan Mollick's timely reference to a paper on using large language models (LLMs
 
 The discussions and feedback from CA Day 2024 have reinforced the importance of responsible AI integration in digital trust services. As we continue to develop and refine Intelligent Trust Services, our focus remains on enhancing human activities through co-intelligence, ensuring trust, and maintaining accountability.
 
-For those interested in the slides, feel free to reach out directly.
+[Update 2024-10-03]
+Slides are available on the [event page](https://www.enisa.europa.eu/events/tsf-and-ca-day-2024/trust-services-eid-forum-ca-day-2024).
