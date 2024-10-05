@@ -9,6 +9,7 @@ layout: default
         {% if post.last_updated != post.date %}[UPDATED] {% endif %}{{ post.title }}
       </a>
     </h1>
+    <!-- {{ post.last_updated }} | {{ post.date }} -->
     {% if post.image %}
       <div class="thumbnail-container">
         <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
