@@ -3,13 +3,16 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
+  {% assign post_date = post.date | date: '%Y-%m-%d' %}
+  {% assign last_updated = post.last_updated | date: '%Y-%m-%d' %}
+
   <div class="posts-container">
     <h1>
       <a href="{{ site.github.url }}{{ post.url }}">
-        {% if post.last_updated != post.date %}[UPDATED] {% endif %}{{ post.title }}
+        {% if last_updated != post_date %}[UPDATED] {% endif %}{{ post.title }}
       </a>
     </h1>
-    <!-- {{ post.last_updated }} | {{ post.date }} -->
+    <!-- {{ last_updated }} | {{ post_date }} -->
     {% if post.image %}
       <div class="thumbnail-container">
         <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
@@ -19,7 +22,7 @@ layout: default
       {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
       <span class="post-date">
         <i class="fa fa-calendar" aria-hidden="true"></i> 
-        {% if post.last_updated != post.date %}
+        {% if last_updated != post_date %}
           {{ post.last_updated | date_to_string }} (Updated)
         {% else %}
           {{ post.date | date_to_string }}

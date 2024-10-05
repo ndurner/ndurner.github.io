@@ -11,9 +11,11 @@
         {% assign sorted_posts = site.posts | sort: 'last_updated', 'first' | reverse %}
         
         {% for post in sorted_posts limit:10 %}
+                {% assign post_date = post.date | date: '%Y-%m-%d' %}
+                {% assign last_updated = post.last_updated | date: '%Y-%m-%d' %}
             <item>
                 <title>
-                    {% if post.last_updated != post.date %}[UPDATED] {% endif %}{{ post.title | xml_escape }}
+                    {% if last_updated != post_date %}[UPDATED] {% endif %}{{ post.title | xml_escape }}
                 </title>
                 {% if post.author %}
                     <dc:creator>{{ post.author | xml_escape }}</dc:creator>
