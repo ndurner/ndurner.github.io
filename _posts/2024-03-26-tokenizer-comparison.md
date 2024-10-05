@@ -2,6 +2,7 @@
 layout: post
 title: "LLM Tokenizer comparison"
 date: 2024-03-26
+last_updated: 2024-03-26
 tags: [openai, gpt4, claude, anthropic, gemini, tokenizer]
 ---
 

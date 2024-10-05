@@ -2,6 +2,7 @@
 layout: post
 title: "LLM on smartphone"
 date: 2024-04-09
+last_updated: 2024-04-09
 tags: [llm, slm, smartphone, llamacpp, gguf, quantization, layla]
 ---
 

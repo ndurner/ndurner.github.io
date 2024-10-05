@@ -2,6 +2,7 @@
 layout: post
 title: "xz Backdoor"
 date: 2024-03-30
+last_updated: 2024-03-30
 tags: [security, oss]
 ---
 

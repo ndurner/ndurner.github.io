@@ -2,6 +2,7 @@
 layout: post
 title: "AI Use Cases - according to analysts"
 date: 2024-02-24
+last_updated: 2024-02-24
 tags: [AI, genai, Market Feedback, Analyst Insights]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "RSA-3000 cryptography recommendation in Germany"
 date: 2024-01-13
+last_updated: 2024-01-13
 tags: [Cryptography, encryption, signature, RSA]
 ---
 

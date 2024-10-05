@@ -2,6 +2,7 @@
 layout: post
 title: "ChatGPT Plus: Closer look at Plugins and Advanced Data Analysis"
 date: 2023-08-29
+last_updated: 2023-08-29
 tags: [OpenAI, GPT-4, Code Interpreter, Plugins, Advanced Data Analysis]
 ---
 

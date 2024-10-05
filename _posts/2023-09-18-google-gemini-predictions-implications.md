@@ -2,6 +2,7 @@
 layout: post
 title: "Google's Gemini: Predictions and Implications"
 date: 2023-09-18
+last_updated: 2023-09-18
 tags: [Google, Gemini, AI, GPT-4]
 ---
 

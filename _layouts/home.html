@@ -6,7 +6,7 @@ layout: default
   <div class="posts-container">
     <h1>
       <a href="{{ site.github.url }}{{ post.url }}">
-        {% if post.last_updated %}[UPDATED] {% endif %}{{ post.title }}
+        {% if post.last_updated != post.date %}[UPDATED] {% endif %}{{ post.title }}
       </a>
     </h1>
     {% if post.image %}
@@ -18,7 +18,7 @@ layout: default
       {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
       <span class="post-date">
         <i class="fa fa-calendar" aria-hidden="true"></i> 
-        {% if post.last_updated %}
+        {% if post.last_updated != post.date %}
           {{ post.last_updated | date_to_string }} (Updated)
         {% else %}
           {{ post.date | date_to_string }}

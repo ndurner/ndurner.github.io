@@ -2,6 +2,7 @@
 layout: post
 title: "Bing Enterprise Chat & Code Generation"
 date: 2023-07-18
+last_updated: 2023-07-18
 tags: [Microsoft, OpenAI, Azure, Bing, Enterprise Chat]
 ---
 

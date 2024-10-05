@@ -2,6 +2,7 @@
 layout: post
 title: "GenAI 'Workbenches' announced"
 date: 2024-04-13
+last_updated: 2024-04-13
 tags: [llm, huggingface, gpt4, claude, bedrock, openai, gpt, anthropic]
 ---
 

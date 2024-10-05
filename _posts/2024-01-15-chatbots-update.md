@@ -2,6 +2,7 @@
 layout: post
 title: "Chatbots Update"
 date: 2024-01-15
+last_updated: 2024-01-15
 tags: [Anthropic, Claude, OpenAI, GPT-4 Turbo, Chatbot, ICS, Gradio]
 ---
 

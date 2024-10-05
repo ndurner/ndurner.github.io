@@ -2,6 +2,7 @@
 layout: post
 title: "Corporate spending on AI"
 date: 2024-05-17
+last_updated: 2024-05-17
 tags: [LLM, AI, OpenAI, Foundation Models]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Amazon Bedrock is GA"
 date: 2023-09-29
+last_updated: 2023-09-29
 tags: [Bedrock, Amazon, Titan, LLM]
 ---
 

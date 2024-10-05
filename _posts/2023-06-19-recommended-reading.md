@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [openai, alignment]
 date: 2023-06-19
+last_updated: 2023-06-19
 ---
 
 When talking/writing about OpenAI, you may want to align with their [Brand Guidelines](https://openai.com/brand). E.g., there is no „Chat-GPT 4.0“. 😇

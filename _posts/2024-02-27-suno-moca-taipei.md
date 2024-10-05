@@ -2,6 +2,7 @@
 layout: post
 title: "Suno AI at MoCA Taipei"
 date: 2024-02-27
+last_updated: 2024-02-27
 tags: [AI, art, suno, sunoai]
 ---
 

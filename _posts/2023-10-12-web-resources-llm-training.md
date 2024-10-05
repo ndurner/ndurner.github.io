@@ -2,6 +2,7 @@
 layout: post
 title: "Web Resources in LLM Training, and Hallucination"
 date: 2023-10-12
+last_updated: 2023-10-12
 tags: [LLMs, Datasets, C4, Hallucination]
 ---
 

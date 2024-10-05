@@ -2,6 +2,7 @@
 layout: post
 title: "The Reality of Quivr and Other AI Projects"
 date: 2023-07-12
+last_updated: 2023-07-12
 tags: [Quivr, Antropic, Claude, GPT, PDF, GPT-4, Embeddings]
 ---
 

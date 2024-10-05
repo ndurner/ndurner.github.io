@@ -2,6 +2,7 @@
 layout: post
 title: "GPT-4o multimodality cookbook"
 date: 2024-05-15
+last_updated: 2024-05-15
 tags: [LLM, VLM, GPT-4, multi-modality, gemini]
 ---
 

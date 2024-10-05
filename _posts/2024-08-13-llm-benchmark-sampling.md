@@ -2,6 +2,7 @@
 layout: post
 title: "LLM Benchmarks: The Impact of Temperature and Sampling"
 date: 2024-08-13
+last_updated: 2024-08-13
 tags: [ai, benchmarks, llm, evaluation]
 ---
 

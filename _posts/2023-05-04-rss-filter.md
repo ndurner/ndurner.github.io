@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt4]
 date: 2023-05-04
+last_updated: 2023-05-04
 ---
 
 I have published my content filtering/scoring system for RSS feeds on Github: [FilterRSS](https://github.com/ndurner/FilterRSS).

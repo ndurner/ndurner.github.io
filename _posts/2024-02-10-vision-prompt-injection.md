@@ -2,6 +2,7 @@
 layout: post
 title: "Vision prompt injection"
 date: 2024-02-10
+last_updated: 2024-02-10
 tags: [openai, gpt4, bard, gemini]
 ---
 

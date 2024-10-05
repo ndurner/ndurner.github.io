@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt, marketing]
 date: 2023-03-27
+last_updated: 2023-03-27
 ---
 
 [Jörg Lenz](https://de.linkedin.com/in/joerglenz) shared today the article 

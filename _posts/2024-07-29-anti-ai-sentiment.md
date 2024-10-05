@@ -2,6 +2,7 @@
 layout: post
 title: "Anti-AI Sentiment"
 date: 2024-07-29
+last_updated: 2024-07-29
 tags: [ai, copilot, gemini, microsoft 365]
 ---
 

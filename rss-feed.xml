@@ -8,16 +8,12 @@
         <link>{{ site.github.url }}</link>
         <atom:link href="{{ site.github.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
         
-        {% assign updated_posts = site.posts | where_exp:"post", "post.last_updated" %}
-        {% assign original_posts = site.posts | where_exp:"post", "post.last_updated", "== null" %}
-        {% assign sorted_updated = updated_posts | sort: "last_updated" | reverse %}
-        {% assign sorted_original = original_posts | sort: "date" | reverse %}
-        {% assign sorted_posts = sorted_updated | concat: sorted_original %}
+        {% assign sorted_posts = site.posts | sort: 'last_updated', 'first' | reverse %}
         
         {% for post in sorted_posts limit:10 %}
             <item>
                 <title>
-                    {% if post.last_updated %}[UPDATED] {% endif %}{{ post.title | xml_escape }}
+                    {% if post.last_updated != post.date %}[UPDATED] {% endif %}{{ post.title | xml_escape }}
                 </title>
                 {% if post.author %}
                     <dc:creator>{{ post.author | xml_escape }}</dc:creator>
@@ -28,11 +24,7 @@
                     <description>{{ post.content | xml_escape }}</description>
                 {% endif %}
                 <pubDate>
-                    {% if post.last_updated %}
                         {{ post.last_updated | date_to_rfc822 }}
-                    {% else %}
-                        {{ post.date | date_to_rfc822 }}
-                    {% endif %}
                 </pubDate>
                 <link>{{ site.url }}{{ post.url }}</link>
                 <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

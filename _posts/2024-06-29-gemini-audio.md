@@ -2,6 +2,7 @@
 layout: post
 title: "Exploring Audio Input with Gemini 1.5 Pro"
 date: 2024-06-29
+last_updated: 2024-06-29
 tags: [ai, audio, gemini, llm]
 ---
 

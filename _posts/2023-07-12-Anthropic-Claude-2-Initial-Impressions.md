@@ -2,6 +2,7 @@
 layout: post
 title: "Anthropic's Claude 2: Initial Impressions"
 date: 2023-07-12
+last_updated: 2023-07-12
 tags: [Claude, Anthropic, GPT-4]
 ---
 

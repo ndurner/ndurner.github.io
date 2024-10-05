@@ -2,6 +2,7 @@
 layout: post
 title: "IBM Research: synthetic Q&A"
 date: 2024-03-08
+last_updated: 2024-03-08
 tags: [ai, ibm, qa, finetuning]
 ---
 

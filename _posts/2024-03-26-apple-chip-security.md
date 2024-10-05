@@ -2,6 +2,7 @@
 layout: post
 title: "Apple Chip Flaw"
 date: 2024-03-26
+last_updated: 2024-03-26
 tags: [apple, security, cryptography]
 ---
 

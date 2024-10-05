@@ -2,6 +2,7 @@
 layout: post
 title: "Staged conversation"
 date: 2024-01-28
+last_updated: 2024-01-28
 tags: [openai, gpt4, bard, gemini]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Large Language Models as General Pattern Machines
 date: 2023-10-28
+last_updated: 2023-10-28
 tags: [Large Language Models, General Pattern Machines]
 filename: 2023-10-28-saturday-shenanigans-llm-gpm.md
 ---

@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt-4, openai, azure, microsoft]
 date: 2023-06-20
+last_updated: 2023-06-20
 ---
 
 > Microsoft Azure OpenAI on your data enables you to run supported chat models such as ChatGPT and GPT-4 on your data without needing to train or fine-tune models.

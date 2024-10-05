@@ -2,6 +2,7 @@
 layout: post
 title: "The Rise of AI-Generated Videos"
 date: 2024-06-02
+last_updated: 2024-06-02
 tags: [AI, video generation, pika, runway, kaiber]
 ---
 

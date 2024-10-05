@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [claude, TruthfulQA]
 date: 2023-04-03
+last_updated: 2023-04-03
 ---
 
 Some talk about [Claude by Anthropic](https://www.anthropic.com/index/introducing-claude) today, accessible through poe.com.

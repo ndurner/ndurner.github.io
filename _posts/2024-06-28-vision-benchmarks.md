@@ -2,6 +2,7 @@
 layout: post
 title: "Benchmarking AI Vision"
 date: 2024-06-28
+last_updated: 2024-06-28
 tags: [ai, vision, benchmarks, llm]
 ---
 

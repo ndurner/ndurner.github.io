@@ -2,8 +2,10 @@
 layout: post
 title: "Stream recording"
 date: 2024-04-21
+last_updated: 2024-04-21
 tags: [obs, aws, rdp, microsoft teams]
 last_update: 2024-09-25
+last_updated: 2024-04-21
 ---
 
 How does one record a live stream in absence, perhaps using AWS EC2? A discussion on Reddit lead me to base everything on a g5.xlarge instance.

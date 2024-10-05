@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [copilot, gpt, chatgpt]
 date: 2023-04-05
+last_updated: 2023-04-05
 ---
 
 Sparked by a [blog post by Github](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/) on Copilot productivity enhancements and developer happiness, there was lively reflection on LLMs as a developer tool. One developer brought up the error scenario where ChatGPT would get stuck in a conversation loop. As a remedy, I offered this advice: sometimes it feels like it’s cornered and can’t get out. In such cases, I feed it a relevant excerpt from the documentation just to get it going again - thanks to in-context learning 💪🏻. There may still be gaps in transferring, but these can be rectified by posing mere suggestive questions...

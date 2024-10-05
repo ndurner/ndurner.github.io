@@ -2,6 +2,7 @@
 layout: post
 title: "GPT2 Chatbot"
 date: 2024-05-29
+last_updated: 2024-05-29
 tags: [gpt2, openai, lmsys, chatbot-arena]
 ---
 

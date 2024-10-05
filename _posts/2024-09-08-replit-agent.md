@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [ai, coding, replit, vendor-lock-in]
 date: 2024-09-08
+last_updated: 2024-09-08
 ---
 
 Peter Gostev, Head of AI at Moonpig, [shared](https://www.linkedin.com/posts/peter-gostev_there-is-something-in-the-air-around-ai-coding-activity-7238632315176775680-y6PU) his excitement about Replit's new AI coding Agent. He highlighted three key features:

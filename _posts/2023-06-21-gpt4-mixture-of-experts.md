@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt-4]
 date: 2023-06-21
+last_updated: 2023-06-21
 ---
 
 Soumith Chintala [supports the rumor](https://twitter.com/soumithchintala/status/1671267150101721090) that GPT-4 is based on the Mixture Of Experts architecture:

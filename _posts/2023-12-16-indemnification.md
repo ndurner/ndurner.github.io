@@ -2,6 +2,7 @@
 layout: post
 title: "Indemnification"
 date: 2023-12-16
+last_updated: 2023-12-16
 tags: [Microsoft, AI, Indemnification, Copyright]
 ---
 

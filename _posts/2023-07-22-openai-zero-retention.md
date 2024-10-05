@@ -2,6 +2,7 @@
 layout: post
 title: "OpenAI Launch: Zero Data Retention"
 date: 2023-07-22
+last_updated: 2023-07-22
 tags: [OpenAI, Data Privacy]
 ---
 

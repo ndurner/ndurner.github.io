@@ -2,6 +2,7 @@
 layout: post
 title: "IBM Granite Models - for Agents?"
 date: 2024-06-30
+last_updated: 2024-06-30
 tags: [ai, ibm, granite, llm, agents, aileen2]
 ---
 

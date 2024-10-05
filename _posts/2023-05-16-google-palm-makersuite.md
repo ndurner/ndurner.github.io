@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [google, palm, makersuite]
 date: 2023-05-16
+last_updated: 2023-05-16
 ---
 
 Hands-on on Google PaLM API and MakerSuite: Summary: vastly behind GPT-4; more of a competitor to the Llamas.

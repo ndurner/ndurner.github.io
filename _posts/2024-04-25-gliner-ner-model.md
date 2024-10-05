@@ -2,6 +2,7 @@
 layout: post
 title: "GLiNER NER model"
 date: 2024-04-25
+last_updated: 2024-04-25
 tags: [llm, ner]
 ---
 

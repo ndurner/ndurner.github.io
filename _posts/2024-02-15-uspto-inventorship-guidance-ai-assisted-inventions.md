@@ -2,6 +2,7 @@
 layout: post
 title: "USPTO: Inventorship Guidance for AI-Assisted Inventions"
 date: 2024-02-15
+last_updated: 2024-02-15
 tags: [Invention, patent]
 ---
 

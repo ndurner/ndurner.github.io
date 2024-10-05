@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt, gpt4, amazon, bedrock]
 date: 2023-04-14
+last_updated: 2023-04-14
 ---
 
 From the Amazon (pre-)announcement of Bedrock:

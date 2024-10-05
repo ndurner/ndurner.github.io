@@ -2,6 +2,7 @@
 layout: post
 title: "Mistral.AI Launches Platform with API Access to Best Models"
 date: 2023-12-14
+last_updated: 2023-12-14
 tags: [Mistral, API, Pricing]
 ---
 

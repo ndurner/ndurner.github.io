@@ -2,6 +2,7 @@
 layout: post
 title: "Claude 2.1: Mysterious Disappointment"
 date: 2024-01-19
+last_updated: 2024-01-19
 tags: [Anthropic, Claude, Bedrock, Classification, RAG]
 ---
 

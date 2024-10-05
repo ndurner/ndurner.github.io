@@ -2,6 +2,7 @@
 layout: post
 title: "AI-Generated UI/UX: Promise and Pitfalls"
 date: 2024-05-31
+last_updated: 2024-05-31
 tags: [ai, ui, ux, chatgpt, gpt-4]
 ---
 

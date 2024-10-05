@@ -2,6 +2,7 @@
 layout: post
 title: "DeutschlandGPT: Not Quite 'Made in Germany'"
 date: 2024-06-24
+last_updated: 2024-06-24
 tags: [ai, llm, germany, startups]
 ---
 

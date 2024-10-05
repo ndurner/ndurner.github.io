@@ -2,6 +2,7 @@
 layout: post
 title: "LivePortrait: Animating the Static"
 date: 2024-07-09
+last_updated: 2024-07-09
 tags: [ai, animation, deepfake]
 ---
 

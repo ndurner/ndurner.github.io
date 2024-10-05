@@ -2,6 +2,7 @@
 layout: post
 title: "Legal co-writing"
 date: 2024-02-24
+last_updated: 2024-02-24
 tags: [copilot, openai, claude]
 ---
 

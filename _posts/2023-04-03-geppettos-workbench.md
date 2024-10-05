@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt, chatgpt, openai, openai playground, chat]
 date: 2023-04-03
+last_updated: 2023-04-03
 ---
 
 I have created **G**e**p**pe**t**to's Workbench over the weekend, to simplify working with the OpenAI Playground in several ways:

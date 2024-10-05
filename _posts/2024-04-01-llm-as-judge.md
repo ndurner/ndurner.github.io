@@ -2,6 +2,7 @@
 layout: post
 title: "LLM as a judge"
 date: 2024-04-01
+last_updated: 2024-04-01
 tags: [openai, gpt4, elitr]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "LLM Benchmarks: Progress and Gaps"
 date: 2024-07-20
+last_updated: 2024-07-20
 tags: [ai, llm, benchmarks, hallucination]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Updates on Document-Processing"
 date: 2023-10-28
+last_updated: 2023-10-28
 tags: [Document-Processing, Claude-2, GPT-4, Aleph Alpha]
 ---
 

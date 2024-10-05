@@ -2,6 +2,7 @@
 layout: post
 title: "ClashEval: When LLM Safeguards Clash with RAG"
 date: 2024-05-20
+last_updated: 2024-05-20
 tags: [llm, rag, misinformation, ai-safety, aleph alpha]
 ---
 

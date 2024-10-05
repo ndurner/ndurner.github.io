@@ -2,6 +2,7 @@
 layout: post
 title: "Multi-modal Llama EU availability"
 date: 2024-09-25
+last_updated: 2024-09-25
 tags: [llm, ai, llama]
 ---
 

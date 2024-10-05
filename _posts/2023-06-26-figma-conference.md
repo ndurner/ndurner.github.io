@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt-4, generative ai]
 date: 2023-06-26
+last_updated: 2023-06-26
 ---
 
 There was quite some insightful AI-themed content at Figma Conference "Config 23":

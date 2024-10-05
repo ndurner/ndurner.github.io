@@ -2,6 +2,7 @@
 layout: post
 title: "Synthetic Data in AI: Hype, Concerns, and Reality"
 date: 2024-07-28
+last_updated: 2024-07-28
 tags: [ai, llm, synthetic-data, model-collapse]
 ---
 

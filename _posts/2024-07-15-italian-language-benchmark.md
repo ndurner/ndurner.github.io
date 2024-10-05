@@ -2,6 +2,7 @@
 layout: post
 title: "Italian LLM Benchmark: INVALSI for AI"
 date: 2024-07-15
+last_updated: 2024-07-15
 tags: [ai, llm, benchmarks, italian]
 ---
 

@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [gpt, hallucination]
 date: 2023-03-25
+last_updated: 2023-03-25
 ---
 
 From a research paper attached that touches on Hallucinations:

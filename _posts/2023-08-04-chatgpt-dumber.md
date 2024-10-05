@@ -2,6 +2,7 @@
 layout: post
 title: "ChatGPT Getting Dumber: A Closer Look"
 date: 2023-08-04
+last_updated: 2023-08-04
 tags: [ChatGPT, OpenAI]
 ---
 

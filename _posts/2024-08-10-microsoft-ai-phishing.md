@@ -2,6 +2,7 @@
 layout: post
 title: "Microsoft AI: Phishing Machine"
 date: 2024-08-10
+last_updated: 2024-08-10
 tags: [ai, copilot]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Exploring AI Learning Paths"
 date: 2023-11-15
+last_updated: 2023-11-15
 tags: [AI, Learning, Deep Learning, Machine Learning]
 filename: 2023-11-15-exploring-ai-learning-paths.md
 ---

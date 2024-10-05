@@ -2,6 +2,7 @@
 layout: post
 title: "WildVision Arena Benchmark"
 date: 2024-05-07
+last_updated: 2024-05-07
 tags: [vlm, llm]
 ---
 

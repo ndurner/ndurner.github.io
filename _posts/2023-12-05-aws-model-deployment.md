@@ -2,6 +2,7 @@
 layout: post
 title: "Overview of Model deployment options"
 date: 2023-11-29
+last_updated: 2023-11-29
 tags: [Amazon, AWS, AI]
 ---
 

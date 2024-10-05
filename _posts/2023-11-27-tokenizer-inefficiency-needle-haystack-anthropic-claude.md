@@ -2,6 +2,7 @@
 layout: post
 title: "Claude 2.1: Tokenizer inefficiency, Needle in a Haystack"
 date: 2023-11-27
+last_updated: 2023-11-27
 tags: [Claude, Anthropic, AI, GPT-4, Tokenization, Efficiency, Comparison]
 ---
 

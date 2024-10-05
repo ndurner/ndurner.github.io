@@ -2,6 +2,7 @@
 layout: post
 title: "Hands on Training an Own OpenAI Model (Fine-Tuning 2.0)"
 date: 2023-10-06
+last_updated: 2023-10-06
 tags: [OpenAI, Fine-Tuning, Machine Learning, GPT-3.5, GPT-4]
 ---
 

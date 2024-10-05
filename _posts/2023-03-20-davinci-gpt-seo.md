@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [AI, Language Models]
 tags: [OpenAI, GPT, Davinci, SEO, Personal Assistant, langchain, llama_index]
 date: 2023-03-20
+last_updated: 2023-03-20
 ---
 
 Today's discussion revolved around capabilities of various OpenAI language models, focusing on the differences between the Davinci model and the newer GPT models. During these conversations, we touched on the specific use cases of using these models for SEO purposes and as a personal assistant.

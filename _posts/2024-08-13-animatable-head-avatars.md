@@ -2,6 +2,7 @@
 layout: post
 title: "3D Animatable Head Avatars"
 date: 2024-08-13
+last_updated: 2024-08-13
 tags: [deepfake]
 ---
 A commenter shared previously that deep-fake methods struggle with forging faces from the side (cheeks, ears). Not anymore:

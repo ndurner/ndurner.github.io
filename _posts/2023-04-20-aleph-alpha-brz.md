@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [aleph alpha]
 date: 2023-04-20
+last_updated: 2023-04-20
 ---
 
 Use Cases for AI presented by [Matthias Lichtenthaler](https://www.linkedin.com/in/matthiaslichtenthaler) of the Federal Computing Center 🇦🇹 ("Bundesrechenzentrum"), at [Future-Law "Digitaler E-Signatur Tag 2023"](https://digitalesignatur.future-law.at/2023/04/19/nachbericht-e-signatur-tag-2023/):

@@ -2,6 +2,7 @@
 layout: post
 title: "LMSYS Chatbot Arena, a popularity contest"
 date: 2024-04-17
+last_updated: 2024-04-17
 tags: [llm, lmsys, gemini, reka]
 ---
 

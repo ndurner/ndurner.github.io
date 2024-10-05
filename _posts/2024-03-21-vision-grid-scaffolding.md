@@ -2,6 +2,7 @@
 layout: post
 title: "Vision model spatiality"
 date: 2024-03-21
+last_updated: 2024-03-21
 tags: [llava, GPT-4V, huggingface, transformers]
 ---
 

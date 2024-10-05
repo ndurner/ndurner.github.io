@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: journal
 tags: [openai,gpt]
 date: 2023-03-15
+last_updated: 2023-03-15
 ---
 
 Today I found myself involved in the buzz surrounding OpenAI's language models, and it led to an exchange of thoughts with others. One person mentioned using OpenAI's text-davinci-003, which is a powerful language model, but not the latest one. They were using a low temperature setting (0), which results in more deterministic and conservative responses from the model.

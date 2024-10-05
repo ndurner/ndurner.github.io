@@ -2,6 +2,7 @@
 layout: post
 title: "Claude 2: Model vs. System"
 date: 2023-09-05
+last_updated: 2023-09-05
 tags: [Anthropic, Claude, Claude 2]
 ---
 

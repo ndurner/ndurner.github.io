@@ -2,6 +2,7 @@
 layout: post
 title: "LLM Pricing Comparisons: The Missing Tokenizer Efficiency Factor"
 date: 2024-07-02
+last_updated: 2024-07-02
 tags: [llm, pricing, tokenizers, efficiency]
 ---
 

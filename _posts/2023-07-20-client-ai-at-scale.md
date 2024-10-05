@@ -2,6 +2,7 @@
 layout: post
 title: "Inspire Session on 'Client AI at Scale'"
 date: 2023-07-20
+last_updated: 2023-07-20
 tags: [Inspire, Client AI, Scale, Intel, Microsoft]
 ---
 

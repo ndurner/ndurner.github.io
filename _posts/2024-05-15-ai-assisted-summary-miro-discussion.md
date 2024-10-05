@@ -2,6 +2,7 @@
 layout: post
 title: "AI-Assisted Summarization: MIRO Boards and GPT for Complex Discussions"
 date: 2024-05-15
+last_updated: 2024-05-15
 tags: [LLM, VLM, GPT-4, MIRO, summarization, European Wallet]
 ---
 

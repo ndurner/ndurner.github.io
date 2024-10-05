@@ -2,6 +2,7 @@
 layout: post
 title: "AI Getting Dumber or Behavior Change?"
 date: 2023-07-12
+last_updated: 2023-07-12
 tags: [GPT-4, AI]
 ---
 

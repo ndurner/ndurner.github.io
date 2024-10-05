@@ -2,6 +2,7 @@
 layout: post
 title: "Market Feedback and Analyst Insights"
 date: 2023-10-17
+last_updated: 2023-10-17
 tags: [Market Feedback, Analyst Insights, AI Policy, Generative AI, Aleph Alpha, Anthropic]
 ---
 

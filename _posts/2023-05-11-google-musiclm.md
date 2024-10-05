@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [google]
 date: 2023-05-11
+last_updated: 2023-05-11
 ---
 
 As someone who's spent quite some money on Focus@Will, I was excited to get an invite to Google MusicLM (under the "AI Test Kitchen" umbrella). Unfortunately, it's *so* bad:

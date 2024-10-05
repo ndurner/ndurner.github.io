@@ -2,6 +2,7 @@
 layout: post
 title: "AI Attribution in Art"
 date: 2024-03-26
+last_updated: 2024-03-26
 tags: [ai, art, software engineering, genai]
 ---
 

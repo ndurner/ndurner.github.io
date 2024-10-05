@@ -2,6 +2,7 @@
 layout: post
 title: "OpenAI Dev Day: Practical Notes"
 date: 2023-11-08
+last_updated: 2023-11-08
 tags: [OpenAI, Dev Day, GPT-4, Development]
 filename: 2023-11-08-openai-dev-day-practical-notes.md
 ---

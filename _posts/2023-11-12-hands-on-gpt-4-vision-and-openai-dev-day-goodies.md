@@ -2,6 +2,7 @@
 layout: post
 title: "Hands-on GPT-4V(ision) and other OpenAI Dev Day goodies"
 date: 2023-11-12
+last_updated: 2023-11-12
 tags: [GPT-4, OpenAI, Dev Day, Chatbot]
 filename: 2023-11-12-hands-on-gpt-4-vision-and-openai-dev-day-goodies.md
 ---

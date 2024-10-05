@@ -2,6 +2,7 @@
 layout: post
 title: "Adobe Firefly: A Case Study"
 date: 2023-11-08
+last_updated: 2023-11-08
 tags: [Adobe Firefly, AI, Image Editing, Generative AI, Inpainting]
 filename: 2023-11-08-adobe-firefly-case-study.md
 ---

@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [aleph alpha, Luminous]
 date: 2023-06-29
+last_updated: 2023-06-29
 ---
 
 First glance at & hands-on Aleph Alpha, the German competitor of OpenAI:

@@ -2,6 +2,7 @@
 layout: post
 title: "Adobe Firefly V2 Review"
 date: 2023-12-16
+last_updated: 2023-12-16
 tags: [Adobe, Firefly V2, DALL-E 3, Image Generation]
 ---
 

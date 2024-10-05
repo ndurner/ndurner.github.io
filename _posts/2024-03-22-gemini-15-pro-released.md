@@ -2,6 +2,7 @@
 layout: post
 title: "Gemini 1.5 Pro released"
 date: 2024-03-22
+last_updated: 2024-03-22
 tags: [google, gemini]
 ---
 

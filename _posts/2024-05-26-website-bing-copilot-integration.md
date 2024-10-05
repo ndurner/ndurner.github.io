@@ -2,6 +2,7 @@
 layout: post
 title: "Website/Bing Copilot Integration"
 date: 2024-05-26
+last_updated: 2024-05-26
 tags: [copilot, bing, ai, search]
 ---
 

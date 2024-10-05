@@ -2,6 +2,7 @@
 layout: post
 title: "Amazon's Titan Image Generator: A Comparison with DALL-E"
 date: 2023-11-29
+last_updated: 2023-11-29
 tags: [Amazon, Titan Image Generator, DALL-E, AI, ML, Adobe Firefly]
 filename: 2023-11-29-amazon-titan-image-generator-comparison.md
 ---

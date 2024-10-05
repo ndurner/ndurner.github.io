@@ -5,6 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [vicuna, llama, bloom, alpaca]
 date: 2023-04-14
+last_updated: 2023-04-14
 ---
 
 Entire language models are being pirated and touted as "Open Source". This includes Vicuna, which has been making headlines as "90% quality of OpenAI ChatGPT" (which is B.S.). This [illustration by Sahar Mor](https://www.linkedin.com/feed/update/urn:li:activity:7049789761728770049/) makes a distinction between "Research" and "Commercial", and "Research" partially implies "legally tainted" (may also be true for ⚡ Lit-LlaMA):

@@ -2,6 +2,7 @@
 layout: post
 title: "Mitigating LLM Hallucinations: The Power of System Prompts"
 date: 2024-08-23
+last_updated: 2024-08-23
 tags: [ai, llm, hallucinations, system prompts, gpt-4, claude 3.5]
 ---
 

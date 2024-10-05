@@ -2,6 +2,7 @@
 layout: post
 title: "ChatGPT-on-GPT-4: Knowledge Cut-off and Performance"
 date: 2023-09-19
+last_updated: 2023-09-19
 tags: [ChatGPT, GPT-4, AI, OpenAI]
 ---
 

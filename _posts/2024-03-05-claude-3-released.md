@@ -2,6 +2,7 @@
 layout: post
 title: "Anthropic Claude 3 released"
 date: 2024-03-05
+last_updated: 2024-03-05
 tags: [anthropic, claude]
 ---
 

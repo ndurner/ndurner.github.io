@@ -2,6 +2,7 @@
 layout: post
 title: "Microsoft and Qualcomm's Announcement on LLaMA 2 Integration"
 date: 2023-07-18
+last_updated: 2023-07-18
 tags: [Microsoft, Qualcomm, LLaMA, Llama 2, OpenAI, Azure, Windows]
 ---
 

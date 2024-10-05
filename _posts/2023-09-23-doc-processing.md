@@ -2,6 +2,7 @@
 layout: post
 title: "Document Processing"
 date: 2023-09-21
+last_updated: 2023-09-21
 tags: [Llama 2, Claude, Document-processing, PDF, AI, LLM]
 ---
 

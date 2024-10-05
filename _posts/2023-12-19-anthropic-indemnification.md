@@ -2,6 +2,7 @@
 layout: post
 title: "Anthropic Indemnification"
 date: 2023-12-19
+last_updated: 2023-12-19
 tags: [Anthropic, Copyright, Indemnification]
 ---
 

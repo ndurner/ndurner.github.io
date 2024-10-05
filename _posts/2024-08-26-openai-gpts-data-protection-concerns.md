@@ -2,6 +2,7 @@
 layout: post
 title: "Privacy Concerns in ChatGPT's GPT Ecosystem"
 date: 2024-08-26
+last_updated: 2024-08-26
 tags: [ai, privacy, chatgpt, gpt, data protection]
 ---
 
