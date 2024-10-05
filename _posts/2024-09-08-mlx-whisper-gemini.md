@@ -5,7 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [mlx, whisper, gemini]
 date: 2024-09-08
-last_updated: 2024-09-15
+last_updated: 2024-10-05
 ---
 
 (TLDR; I tried device-local Whisper and ended up using Google Gemini instead.)
@@ -39,3 +39,9 @@ To get the transcript done, I turned to the Google Gemini - which is said to sup
 [Update 2024-09-15] \
 User krageon on HackerNews [elaborates](https://news.ycombinator.com/item?id=41489152) on their processing pipeline:
 > I use a noise filter pass (really just [arnndn-models/bd.rnnn](https://github.com/richardpl/arnndn-models/blob/master/bd.rnnn). and some speech band filtering after) before doing any processing in whisper. It's worked well for me when using dirty audio (music in the background, environmental noise, etc). When there is music, you either almost can't hear it at all or you'll only hear particularly clear parts featuring singing.
+
+[Update 2024-10-05] \
+Updated the transcoding script slightly: it now copies all outputs to the target directory. This helps with segmented audio files to meet the 25 MB file limit when using Whisper via the OpenAI API. This invocation of the script produces reasonably small files for use with Whisper:
+```bash
+./ffmpeg -i file.mp4 -vn -c:a libopus -b:a 32k -vbr on -ac 1 -ar 16000 -f segment -segment_time 3600 output_%03d.ogg
+```
