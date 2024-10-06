@@ -5,7 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [mlx, whisper, gemini]
 date: 2024-09-08
-last_updated: 2024-10-05
+last_updated: 2024-10-06
 ---
 
 (TLDR; I tried device-local Whisper and ended up using Google Gemini instead.)
@@ -32,7 +32,9 @@ This resulted in just periods however:
 [01:00.000 --> 01:02.000]  .
 ````
 
-As it turns out: Whisper does not seem to handle background music, which the podcast episode used during the introduction. Further, this threw the model off without automatic recovery. How-tos on the web use Whisper in larger processing pipelines, e.g. to provide speaker diarization. Perhaps the use of Whisper is limited when used on its own?
+[Update 2024-10-06]: \
+The following paragraph was due to a bug in the ffmpeg wrapper script \
+~~As it turns out: Whisper does not seem to handle background music, which the podcast episode used during the introduction. Further, this threw the model off without automatic recovery. How-tos on the web use Whisper in larger processing pipelines, e.g. to provide speaker diarization. Perhaps the use of Whisper is limited when used on its own?~~
 
 To get the transcript done, I turned to the Google Gemini - which is said to support audio natively. After several prompting tries to get the format right (polished interview with introduction, rather than faithful transcript with all filler words, ahems, etc.), Gemini delivered - very well.
 
@@ -45,3 +47,6 @@ Updated the transcoding script slightly: it now copies all outputs to the target
 ```bash
 ./ffmpeg -i file.mp4 -vn -c:a libopus -b:a 32k -vbr on -ac 1 -ar 16000 -f segment -segment_time 3600 output_%03d.ogg
 ```
+
+[Update 2024-10-06] \
+Updated inline to clarify that the behaviour observed with Whisper was due to a bug in my script. I have meanwhile fixed this bug.
