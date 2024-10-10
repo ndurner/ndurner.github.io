@@ -3,13 +3,15 @@ layout: post
 title: "State of AI report"
 author: "Nils Durner"
 categories: [journal]
-tags: [stateofai, llm, ai, olmo, otter, elevenlabs]
+tags: [stateofai, llm, ai, olmo, otter, elevenlab, mle-bench, llama]
 date: 2024-10-10
 last_updated: 2024-10-10
 ---
 
 The [State of AI report 2024](https://www.stateof.ai) is available. Some notes:
 * their definition of "Agent" seems reasonable: "AI Agent: an AI-powered system that can take actions in an environment. For example, an LLM that has access to a suite of tools and has to decide which one to use in order to accomplish a task that it has been prompted to do.". Jaana Dogan, Principal Engineer at Google, recently [remarked](https://x.com/rakyll/status/1837164761362133057) that this term is starkly overloaded and Simon Willison [calling for a robust definition](https://x.com/simonw/status/1843290729260703801)
+* "Llama 3 closes the gap between open and closed models"
+    * this contrasts with the new [MLE-Bench benchmark by OpenAI](https://arxiv.org/pdf/2410.07095), where llama-3.1-405b-instruct performs significantly worse 
 * OLMo 7B Instruct appears as the most open model, with just penalties for "no paper" and "no API access" (page 16)
 * Some models are "Likely/Known trained on GSM8k", including OpenChat 3.5 and Qwen 7B /page 17
 * "Evaluation for RAG remains unsolved" (page 34).
