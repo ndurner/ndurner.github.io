@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Open Source AI: A Reality Check"
-date: "2024-11-12"
+date: 2024-11-12
 tags: ["AI", "Open Source", "Llama", "MOLMo"]
 description: "How recent developments challenge outdated narratives about open source AI"
-last_updated: "2024-11-12"
+last_updated: 2024-11-12
+author: "Nils Durner"
+categories: [journal]
 ---
 
 A WIRED article from August 2023 about "The Myth of 'Open Source' AI" resurfaced [in my feed](https://www.linkedin.com/feed/update/urn:li:activity:7261265671450202112?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7261265671450202112%2C7261678166912503808%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287261678166912503808%2Curn%3Ali%3Aactivity%3A7261265671450202112%29) yesterday. The article, which focused on Meta's Llama 2 release, raised concerns about the true openness of AI models. However, the field's developments over the past 12+ months present a different picture.
