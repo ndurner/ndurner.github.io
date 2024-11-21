@@ -2,7 +2,7 @@
 layout: post
 title: "Computation with LLMs"
 date: 2024-11-18
-tags: ["aleph alpha", "bosch", "llm", "gemini", "google", "pharia"]
+tags: ["llm", "openai", "python", "anthropic", "claude", "bedrock", "chatgpt", "code interpreter"]
 description: "Computation with LLMs through Tool-Use and Python"
 last_updated: 2024-11-18
 author: "Nils Durner"
