@@ -8,8 +8,11 @@ author: "Nils Durner"
 categories: [journal]
 ---
 
-Since there's interest in how to set up AWS to use the new Amazon Nova models, here's a step-by-step guide to get everyone started:
+Since there's community interest in how to set up AWS to use the new Amazon Nova models, here's a step-by-step guide to get everyone started:
 
+1. Ensure you have model access:
+    1. open [Bedrock in us-west-2 region](https://us-west-2.console.aws.amazon.com/bedrock/home?region=us-west-2#/), scroll down in the menu on the left, and hit Model Access: ![Image](assets/img/nova/bedrock-request-access.jpeg)
+    2. Check model selection (green arrow), request models if access not yet granted (red arrow) ![Image](assets/img/nova/bedrock-model-selection.png)
 1. Open IAM -> Create user ![Image](assets/img/nova/Pasted image 20241203220626.png)
 2. Name user ![Image](assets/img/nova/Pasted image 20241203220826.png)
 3. Attach policy directly, create new policy ![Image](assets/img/nova/Pasted image 20241203221341.png)
