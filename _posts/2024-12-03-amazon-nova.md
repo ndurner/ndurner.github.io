@@ -55,5 +55,5 @@ Policy JSON:
 
 Other notes:
 * Pelicane SVGs have been updated: [Pelicane-on-a-bike gallery](https://github.com/ndurner/pelican-bicycle)
-* other models do implicit spell-correction in OCR use cases (via Eleanor Berger). This one doesn't?
+* other models do implicit spell-correction in OCR use cases ([via Eleanor Berger](https://x.com/intellectronica/status/1811261267547459610)). This one doesn't?
 * unreleased advanced [Plan like a Graph](openai-o1-preview) use case doesn't work, so not really "GPT-4 class" as alleged by Amazon?
