@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Amazon Nova foundation model release"
+date: 2024-12-03
+tags: ["llm", "amazon", "nova"]
+last_updated: 2024-12-03
+author: "Nils Durner"
+categories: [journal]
+---
+
+Since there's interest in how to set up AWS to use the new Amazon Nova models, here's a step-by-step guide to get everyone started:
+
+1. Open IAM -> Create user ![[assets/img/nova/Pasted image 20241203220626.png]]
+2. Name user ![[Pasted image 20241203220826.png]]
+3. Attach policy directly, create new policy ![[assets/img/nova/Pasted image 20241203221341.png]]
+4. Switch to JSON view, paste pre-made policy: ![[assets/img/nova/Pasted image 20241203221623.png]]
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "bedrock:GetUseCaseForModelAccess",
+                "bedrock:GetFoundationModelAvailability",
+                "bedrock:InvokeModel",
+                "bedrock:ListCustomModels",
+                "bedrock:ListFoundationModelAgreementOffers",
+                "bedrock:GetFoundationModel",
+                "bedrock:InvokeModelWithResponseStream",
+                "bedrock:GetCustomModel",
+                "bedrock:ListFoundationModels"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+5. Hit Next ![[assets/img/nova/Pasted image 20241203221733.png]]
+6. Name policy, hit Create Policy ![[assets/img/nova/Pasted image 20241203221901.png]]
+7. Close this tab, return to IAM user creation tab
+8. Refresh table, search for newly created policy, tick box, hit Next ![[assets/img/nova/Pasted image 20241203222202.png]]
+9. Hit Create User ![[assets/img/nova/Pasted image 20241203222232.png]]
+10. Open new IAM user by clicking its link ![[assets/img/nova/Pasted image 20241203222631.png]]
+11. Create Access Key ![[assets/img/nova/Pasted image 20241203222906.png]]
+12. Choose "Local Code", Confirm "I understand...", Hit Next ![[assets/img/nova/Pasted image 20241203223059.png]]
+13. Create Access Key ![[assets/img/nova/Pasted image 20241203223202.png]]
+14. Copy both values - these are your access credentials ![[assets/img/nova/Pasted image 20241203223324.png]]
+15. Visit https://huggingface.co/spaces/ndurner/amz_bedrock_chat, paste Credentials, choose Nova Pro model ![[assets/img/nova/Pasted image 20241203223707.png]]
+16. Enjoy ![[assets/img/nova/Pasted image 20241203223816.png]]
