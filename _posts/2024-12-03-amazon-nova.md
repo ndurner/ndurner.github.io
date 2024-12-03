@@ -13,7 +13,7 @@ Since there's interest in how to set up AWS to use the new Amazon Nova models, h
 1. Open IAM -> Create user ![Image](assets/img/nova/Pasted image 20241203220626.png)
 2. Name user ![Image](assets/img/nova/Pasted image 20241203220826.png)
 3. Attach policy directly, create new policy ![Image](assets/img/nova/Pasted image 20241203221341.png)
-4. Switch to JSON view, paste pre-made policy (code block below): ![Image](assets/img/nova/Pasted image 20241203221623.png)
+4. Switch to JSON view, paste pre-made policy (JSON code block below at the end of this post): ![Image](assets/img/nova/Pasted image 20241203221623.png)
 5. Hit Next ![Image](assets/img/nova/Pasted image 20241203221733.png)
 6. Name policy, hit Create Policy ![Image](assets/img/nova/Pasted image 20241203221901.png)
 7. Close this tab, return to IAM user creation tab
@@ -24,10 +24,11 @@ Since there's interest in how to set up AWS to use the new Amazon Nova models, h
 12. Choose "Local Code", Confirm "I understand...", Hit Next ![Image](assets/img/nova/Pasted image 20241203223059.png)
 13. Create Access Key ![Image](assets/img/nova/Pasted image 20241203223202.png)
 14. Copy both values - these are your access credentials ![Image](assets/img/nova/Pasted image 20241203223324.png)
-15. Visit https://huggingface.co/spaces/ndurner/amz_bedrock_chat, paste Credentials, choose Nova Pro model ![Image](assets/img/nova/Pasted image 20241203223707.png)
+15. Visit [my Amazon Bedrock Chat space on HuggingFace](https://huggingface.co/spaces/ndurner/amz_bedrock_chat), paste Credentials, choose Nova Pro model ![Image](assets/img/nova/Pasted image 20241203223707.png)
+    1. Source code also available on [Github](https://github.com/ndurner/amz_bedrock_chat)
 16. Enjoy ![Image](assets/img/nova/Pasted image 20241203223816.png)
 
-Policy JSON
+Policy JSON:
 ```json
 {
     "Version": "2012-10-17",
