@@ -52,3 +52,5 @@ Policy JSON:
     ]
 }
 ```
+
+Pelicane SVGs have been updated: [Pelicane-on-a-bike gallery](https://github.com/ndurner/pelican-bicycle)
