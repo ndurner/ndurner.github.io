@@ -12,7 +12,7 @@ Two recent studies provide insights into the adoption and perception of artifici
 
 ## Surprising Findings from the Bitkom Study
 
-The [Bitkom study](https://www.linkedin.com/posts/joerglenz_digitalgipfel-digitalgipfel2024-ugcPost-7254175848956620800-TOFj?utm_source=share&utm_medium=member_desktop), presented at the Digital Summit 2024 in Frankfurt, reveals some unexpected trends. Only 26% of respondents view AI as overly hyped - a surprisingly low number given the often vocal skepticism I encounter among German computer scientists. The study also shows that 84% of companies using or planning to use generative AI consider the country of origin important, with 86% preferring German solutions.
+The [Bitkom study](https://www.bitkom.org/Presse/Presseinformation/Wirtschaft-wuenscht-sich-KI-aus-Deutschland), presented at the Digital Summit 2024 in Frankfurt, reveals some unexpected trends. Only 26% of respondents view AI as overly hyped - a surprisingly low number given the often vocal skepticism I encounter among German computer scientists. The study also shows that 84% of companies using or planning to use generative AI consider the country of origin important, with 86% preferring German solutions.
 
 However, one concerning finding is that 65% of companies using AI report poor results. While the details behind this statistic would be particularly interesting to examine, they weren't immediately available in the published materials.
 
