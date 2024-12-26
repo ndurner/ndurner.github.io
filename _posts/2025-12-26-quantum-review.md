@@ -8,7 +8,7 @@ date: 2024-12-26
 last_updated: 2024-12-26
 ---
 
-With end-of-year roundups and predictions being in season, it's also worthwhile to consider what hasn't been achieved or announced:
+With end-of-year roundups and predictions being in season, it's also worthwhile to consider what hasn't, despite ceaseless cheerling, been achieved or announced:
 
 1. Quantum advantage in breaking real-world encryption. While classical computing has cracked very weak RSA (trivially small key size of perhaps 1/10^535 the strength of today's digital signatures), quantum computers still can't maintain coherence long enough to run Shor's algorithm - the still theoretical quantum threat to current encryption.
 
