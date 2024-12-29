@@ -3,7 +3,7 @@ layout: post
 title: "Google Search AI Summary: ficticious Encanto 2"
 author: "Nils Durner"
 categories: [journal]
-tags: [pqc, quantum computing]
+tags: [chatgpt, perplexity, google]
 date: 2024-12-29
 last_updated: 2024-12-29
 ---
