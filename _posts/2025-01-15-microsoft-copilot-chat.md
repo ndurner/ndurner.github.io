@@ -21,7 +21,7 @@ It seems generally free to use. There are some advanced features¹ on a pay-per-
 Notes:
 
 * The blog post mentions "web grounding", but that doesn't seem to be actually available (in the EU)?
-* When used via Namirial login, Enterprise Data Protection is enabled
+* When used via corporate SSO login, Enterprise Data Protection is enabled
 * As I wrote elsewhere: "Confusingly, manufacturers also offer AI assistants that lure with the same AI model names but create different conditions for the underlying language model through their orientation, fine-tuning, and product design. These AI assistants include products like Claude from Anthropic, ChatGPT from OpenAI, Gemini from Google, and Bing Copilot from Microsoft.". Copilot Chat falls in the same category. Example: when used for the SVG (kind-of a programming language, like HTML, but for vector graphics) of a pelican riding a bike, it won't oblige like the original GPT-4o model does, but displays a pixel image inline:
 
 ![Microsoft Copilot Chat screenshot: pelican on a bike](assets/img/microsoft-copilot-chat-pelican.png)
