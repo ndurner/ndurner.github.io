@@ -4,8 +4,8 @@ title: "Microsoft Copilot Chat"
 author: "Nils Durner"
 categories: [journal]
 tags: [ai, llm, microsoft, gpt4]
-date: 2024-01-15
-last_updated: 2024-01-15
+date: 2024-01-16
+last_updated: 2024-01-16
 ---
 
 Microsoft has launched Copilot Chat, an offering similar to ChatGPT:
@@ -20,10 +20,17 @@ It seems generally free to use. There are some advanced features¹ on a pay-per-
 
 Notes:
 
-* The blog post mentions "web grounding", but that doesn't seem to be actually available (in the EU)?
+* The blog post mentions "web grounding"~~, but that doesn't seem to be actually available (in the EU)?~~
 * When used via corporate SSO login, Enterprise Data Protection is enabled
 * As I wrote elsewhere: "Confusingly, providers also offer AI assistants that lure with the same AI model names but create different conditions for the underlying language model through their orientation, fine-tuning, and product design. These AI assistants include products like Claude from Anthropic, ChatGPT from OpenAI, Gemini from Google, and Bing Copilot from Microsoft.". Copilot Chat falls in the same category. Example: when used for the SVG (kind-of a programming language, like HTML, but for vector graphics) of a pelican riding a bike, it won't oblige like the original GPT-4o model does, but displays a pixel image inline:
 
 ![Microsoft Copilot Chat screenshot: pelican on a bike](assets/img/microsoft-copilot-chat-pelican.png)
 
 Despite this being dressed up for business, Gen. AI remains perilous and should be handled with care. Also, don't rely on it for last-minute work as the usage limits are unclear. Again, as I wrote elsewhere: "Within the respective usage plans of these AI assistants, one must also expect non-transparent usage restrictions that may unexpectedly deny users further use or suddenly downgrade them to a particularly low-performance language model within the same model family."
+
+[Update 2025-01-16]: Further notes:
+* Web search is enabled and used automatically \
+    ![Copilot chat response with web references](assets/img/microsoft-copilot-chat-search.jpeg)
+    * (⚠️ Search-enabled AI is a very messy affair. I have done several tests/examinations and the best advice I can think of is to use it to just find something you reasonably know is true/exists/can be challenged: „Is there evidence that…“, „Find the article that…“. Then, review the original source presented. Don‘t rely on the „summaries“ presented by the AI, these can be wrong. Also, different products vary wildly, but ChatGPT is among the best I have tries. Be very cautious here.) 
+* the model that is used underneath seems rather weak - GPT-4o mini, perhaps? If you appreciate the Claude model (which Mario talked about at Town Hall), you may be disappointed. Copilot Chat shines for the Search integration, not because it‘d be a powerful LLM. It may not be best for translation tasks, but I would like to hear about experiences from others.
+* "Pages" reminds me of OpenAI Canvas, but is less powerful.
