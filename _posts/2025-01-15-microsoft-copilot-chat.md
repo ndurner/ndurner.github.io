@@ -9,9 +9,9 @@ last_updated: 2025-01-16
 ---
 
 Microsoft has launched Copilot Chat, an offering similar to ChatGPT:
-* Blog post: https://aka.ms/CopilotChat
+* Blog post: [https://aka.ms/CopilotChat](https://aka.ms/CopilotChat)
     * LinkedIn: [Microsoft](https://www.linkedin.com/posts/microsoft_copilot-for-all-introducing-microsoft-365-activity-7285333478001324033-JL_E?utm_source=share&utm_medium=member_desktop), [CMO](https://www.linkedin.com/posts/jaredspa_ai-copilot-activity-7285362157456707584-Pktc?utm_source=share&utm_medium=member_desktop)
-* Web version: https://copilot.cloud.microsoft/
+* Web version: [https://copilot.cloud.microsoft/](https://copilot.cloud.microsoft/)
 * WhatsApp, Telegram: [Copilot for Social Apps](https://support.microsoft.com/en-us/topic/copilot-for-social-apps-43eb625d-eb25-4c72-a458-19842bf42212#:~:text=You%20can%20communicate%20with%20Copilot%20on%20WhatsApp%20in,Copilot%20by%20entering%20the%20phone%20number%20%2B1%20877-224-1042.)
 
 It seems generally free to use. There are some advanced features¹ on a pay-per-use basis, and a $30 subscription model with even more advanced integrations.
