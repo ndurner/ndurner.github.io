@@ -4,8 +4,8 @@ title: "Microsoft Copilot Chat"
 author: "Nils Durner"
 categories: [journal]
 tags: [ai, llm, microsoft, gpt4]
-date: 2024-01-16
-last_updated: 2024-01-16
+date: 2025-01-16
+last_updated: 2025-01-16
 ---
 
 Microsoft has launched Copilot Chat, an offering similar to ChatGPT:
