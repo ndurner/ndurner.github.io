@@ -15,3 +15,7 @@ He attached [a screenshot of Huawei offering "DeepSeek-R1-Distill"](https://x.co
 
 However, CUDA may not be as much of of a moat to Nvidia than I previously thought: from a [report by Unite.ai](https://www.unite.ai/huaweis-ascend-910c-a-bold-challenge-to-nvidia-in-the-ai-chip-market/):
 > [Huawei Ascend 910C] software compatibility, including support for Huawei's MindSpore AI framework and other platforms like TensorFlow and PyTorch, makes it easier for developers to integrate into existing ecosystems without significant reconfiguration.
+
+[Update 2025-02-02]
+IT News outlet Slashdot offers a different take, sharing a story at Marketwatch.com about "The blogger who helped spark Nvidia’s $600 billion stock collapse and a panic in Silicon Valley". This references a [blog post by Jeffrey Emanuel](https://youtubetranscriptoptimizer.com/blog/05_the_short_case_for_nvda) in which the author shares basically nothing new, and the 12.000 words boil down to disingenuity likes this:
+>  when DeepSeek can match GPT-4 level performance while charging 95% less for API calls, it suggests either NVIDIA's customers are burning cash unnecessarily or margins must come down dramatically.
