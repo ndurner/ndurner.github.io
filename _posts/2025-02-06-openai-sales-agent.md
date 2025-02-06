@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenAI Sales Associate & Deep Research demo"
+title: "OpenAI Sales Associate and Deep Research demo"
 author: "Nils Durner"
 categories: [journal]
 tags: [ai, openai, agents, deep research]
