@@ -12,8 +12,8 @@ Studies by Salesforce Research and [Google Deepmind](https://arxiv.org/abs/2409.
 > We've spoken with 30 companies who developed RAG-based chatbots on PDF documents. Every single one has failed
 
 The problems he shares are familiar:
->1) In vector space, "non-dairy products" is often closer to "milk" than "meat," this is a fundamental flaw of vector embedding search because they're very lossy.
-2) Splitting documents into smaller chunks disrupts coherence, breaking cross-references and context.
+> 1) In vector space, "non-dairy products" is often closer to "milk" than "meat," this is a fundamental flaw of vector embedding search because they're very lossy.
+> 2) Splitting documents into smaller chunks disrupts coherence, breaking cross-references and context.
 [...]
 
 And he concludes:
