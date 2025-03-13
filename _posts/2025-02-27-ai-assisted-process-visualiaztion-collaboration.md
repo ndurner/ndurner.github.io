@@ -5,7 +5,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [ai, llm, openai, chatgpt, anthropic, claude, watsonx, bedrock, vertexai, gemini]
 date: 2025-02-27
-last_updated: 2025-02-27
+last_updated: 2025-03-13
 ---
 
 My article on AI-assisted Process Visualization is now available in print and as E-Paper: [iX-Magazin issue 03'25](https://www.heise.de/select/ix/2025/3/). Its [pre-release on heise+](https://heise.de/-10266093) has sparked a remarkable amount of feedback from readers worldwide. As questions went beyond the scope of the initial publication, I decided to compile a [Q&A in English](https://www.linkedin.com/pulse/qa-ai-assisted-process-visualization-nils-durner-qejce/?trackingId=HrNLH6FOSVmbrWyNYybDDg%3D%3D) to share select follow-ups.
@@ -34,3 +34,8 @@ Heise+ Article “Hands-on: Process visualization with generative AI” (availab
 While iX caters primarily to German-speaking IT professionals, the concepts discussed may also be of interest to those with a focus on Business and/or legal or other disciplines. Happy to discuss and clarify. 
 
 Particularly the fact-sheets reflect the research status as of late December 2024. To address the challenge of publishing print content in this fast-moving field, I’m maintaining an [updates document on GitHub](https://github.com/ndurner/Bildsprache---Supplemental-Notes) to keep the information current.
+
+[Update 2025-03-13]
+To those wondering why the somewhat older GPT-4 Turbo still appears - despite its known limitations: essentially, it serves as a placeholder for the now [officially released GPT-4.5](gpt-4.5). The new model excels particularly when creativity and high-detail generation are required. In fact, for the wireframe example discussed in the article, GPT-4.5 even introduced a visualization trick that was new to me: it put the user interface to be presented in a container shape resembling a browser window - which is a predefined, built-in shape: "mxgraph.mockup.containers.browserWindow". Echoing the spirit of Microsoft's earlier research paper "Sparks of AGI": the sparks are indeed flying denser now!
+
+Cost-wise, GPT-4.5 isn't as steep as some commentators feared; measured precisely, it's around 5 to 17 times pricier than the AWS option presented in the article. However, as explained in my cost considerations, this difference might well be negligible in practice. Prompting GPT-4.5 does come with its quirks, though: vague, unspecific queries will yield equally simplistic answers. But by using the prompting techniques detailed in the article, activating its deeper knowledge clusters works exactly as intended.
