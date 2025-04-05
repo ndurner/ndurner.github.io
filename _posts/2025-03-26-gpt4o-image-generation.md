@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GPT-4o image generation"
-date: 2025-03-27
+date: 2025-03-26
 tags: ["llm", "openai", "gpt4o", "dall-e", "diffusion", "image generation", "imagegen"]
 last_updated: 2025-03-27
 author: "Nils Durner"
