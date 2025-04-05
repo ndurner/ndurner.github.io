@@ -8,7 +8,7 @@ author: "Nils Durner"
 categories: [journal]
 ---
 
-Several samples on X suggest that [GPT-4o Imagegen](gpt4o-image-generation) can be used for infographics ([1](https://x.com/stevenheidel/status/1904966320770384170), [2](https://x.com/DeryaTR_/status/1905729150650081701), [3](https://x.com/egeberkina/status/1906088423988875617), [4](https://x.com/dotey/status/1907653227589304425)). In my experiments, instructions to Imagegen need to be on-point: simply supplying a Readme.md with all kinds of different notes on a code project and asking it to visualize the build process does not work - the model will even start to hallucinate random things. What works instead is to ask GPT-4.5 to build the prompt for Imagegen, and keep it simple: elaborate layouting instructions also overwhelm the model:
+Several samples on X suggest that [GPT-4o Imagegen](gpt4o-image-generation) can be used for infographics ([1](https://x.com/stevenheidel/status/1904966320770384170), [2](https://x.com/DeryaTR_/status/1905729150650081701), [3](https://x.com/egeberkina/status/1906088423988875617), [4](https://x.com/dotey/status/1907653227589304425)). In my experiments, instructions to Imagegen need to be on-point: simply supplying a Readme.md with all kinds of different notes on a code project and asking it to visualize the build process does not work - the model will even start to hallucinate random things. What works instead is to ask GPT-4.5 to build the prompt for Imagegen, and keep it simple: elaborate layouting instructions like this also overwhelm the model:
 > [...] Near the bottom or top, add a small list of runtime dependencies (libusb, libglib2.0, etc.) to illustrate what must be present on the target system. [...]
 
 Prompt that works for the base diagram:
