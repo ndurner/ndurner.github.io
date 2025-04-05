@@ -16,7 +16,7 @@ Prompt that works for the base diagram:
 	1.	Box: “Prerequisites (CMake, Clang, Libraries)”  
 	2.	Box: “Build using CMake/Clang”
 
-This can be interated on, like adding a headline. Also, a style reference in the form of an existing diagram can be passed. I like [Leonie Monigatti](https://medium.com/@iamleonie)'s distinctive style, so gave [one of her diagrams](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*kSkeaXRvRzbJ9SrFZaMoOg.png) as the style reference:
+This can be iterated on, like adding a headline. Also, a style reference in the form of an existing diagram can be passed. I like [Leonie Monigatti](https://medium.com/@iamleonie)'s distinctive style, so gave [one of her diagrams](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*kSkeaXRvRzbJ9SrFZaMoOg.png) as the style reference:
 > Redo the first chart in the style of the second. Do not change the content, just the style.
 
 Further iterations:
@@ -25,4 +25,6 @@ Further iterations:
 3. "Censor [some items]. For censoring, retain the original style and make it appear as if deleted with a rubber. Make it beautiful."
 
 Final result:
-![illustration of a build process with instructor pointing to it](assets/img/gpt4o-imagegen-infographic.png).
+![illustration of a build process with instructor pointing to it](assets/img/gpt4o-imagegen-infographic.png)
+
+Food for thought: ethical implications and ehtical conduct when using the works of others as a style reference.
