@@ -27,4 +27,4 @@ Further iterations:
 Final result:
 ![illustration of a build process with instructor pointing to it](assets/img/gpt4o-imagegen-infographic.png)
 
-Food for thought: ethical implications and ehtical conduct when using the works of others as a style reference.
+Food for thought: ethical implications and ethical conduct when using the works of others as a style reference.
