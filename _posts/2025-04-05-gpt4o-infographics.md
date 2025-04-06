@@ -16,11 +16,14 @@ Payload instructions that works for the base diagram:
 	1.	Box: “Prerequisites (CMake, Clang, Libraries)”  
 	2.	Box: “Build using CMake/Clang”
 
-Intermediate result:
-![illustration of a build process, box diagram](assets/img/gpt4o-imagegen-diagram.jpg)
+Intermediate result #1 (pink redactions added manually):
+![illustration of a build process, box diagram](assets/img/gpt-4o-imagegen-diagram-0.jpg)
 
 This can be iterated on, like adding a headline. Also, a style reference in the form of an existing diagram can be passed. I like [Leonie Monigatti](https://medium.com/@iamleonie)'s distinctive style, so gave [one of her diagrams](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*kSkeaXRvRzbJ9SrFZaMoOg.png) as the style reference:
 > Redo the first chart in the style of the second. Do not change the content, just the style.
+
+Intermediate result #2:
+![illustration of a build process, box diagram, after style reference applied](assets/img/gpt4o-imagegen-diagram.jpg)
 
 Further iterations:
 1. "Turn it into an infographic, Studio Ghibli stlye. Include an instructor character that's pointing to the flowchart."
