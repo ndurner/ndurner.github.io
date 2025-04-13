@@ -2,8 +2,8 @@
 layout: post
 title: "GPT-4o Imagegen for infographics"
 date: 2025-04-05
-tags: ["llm", "openai", "gpt4o", "dall-e", "diffusion", "image generation", "imagegen"]
-last_updated: 2025-04-05
+tags: ["llm", "openai", "gpt4o", "dall-e", "diffusion", "image generation", "imagegen", "chatgpt"]
+last_updated: 2025-04-13
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -34,3 +34,11 @@ Final result:
 ![illustration of a build process with instructor pointing to it](assets/img/gpt4o-imagegen-infographic.png)
 
 Food for thought: ethical implications and ethical conduct when using the works of others as a style reference.
+
+[Update 2025-04-13]  
+OpenAI for Business has published a guide featuring infographics: [Using image generation in ChatGPT - 5 examples](https://www.linkedin.com/posts/openai-for-business_using-image-generation-in-chatgpt-activity-7316147051228999680-fFHS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAGX2jIBd6RDsNRYv13Bvu3x4nnCNu96SEw). The two infographics prompts presented there:
+* "Create a visual guide for conducting an ORSA (UK/EU) regulatory assessment"
+* "Create a technical architecture diagram illustrating [describe the diagram in detail]"
+The first prompt is interesting because it does not describe to the model what to draw in detail but relies on its internal world-knowledge.
+
+Meanwhile, physician Derya Unutmaz keeps sharing [medical infographics](https://x.com/DeryaTR_/status/1911166254678724619) made with GPT-4o on X.
