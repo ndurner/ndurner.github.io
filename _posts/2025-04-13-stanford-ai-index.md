@@ -18,6 +18,7 @@ to daily life. [...] On the roads, self-driving cars are no longer experimental"
     * "but deep regional divides remain"
     * "Since 2022, optimism has grown significantly in several previously skeptical countries, including Germany (+10%), France (+10%), Canada (+8%) [...]"
 * Data-running-out myth: "Epoch AI has updated its previous estimates for when AI researchers might run out of data. [...] The Epoch AI research team projects, with an 80% confidence interval, that the current stock of training data will be fully utilized between 2026 and 2032 [...] These projections differ slightly from Epoch’s earlier estimates, which predicted that high-quality text data would be depleted by 2024."
+    * However, researchers at OpenAI say, [in the context of GPT-4.5](https://youtu.be/6nJZopACRuQ?si=OIR1S5Fgiz8hPhq1), that model training is not compute-bound anymore but data-bound
 * Model collapse myth ([1](ai-getting-dumber), [2](synthetic-data)): "The 2024 AI Index suggests there are limitations associated with [training on synthetic data]. [...] However, newer research suggests that when synthetic data is layered on top of real data, rather than replacing it, the model collapse phenomenon does not occur."
 * Mention of accelerators used for training notable models are by Nvidia and Google. The others (which?) are lumped together in one category.
 * The "technical performance benchmarks vs. human performance" overview finds that in 2024, AI has surpassed humans on some benchmarks
