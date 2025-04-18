@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI API: 4.1 in, 4.5 out"
 date: 2025-04-05
 tags: ["llm", "openai", "gpt", "gpt4"]
-last_updated: 2025-04-15
+last_updated: 2025-04-18
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -20,3 +20,6 @@ GPT-4.5 is set to be removed from the API on 2025-07-14, per the [deprecation pa
 * Ethan Mollick countered on X, alledging that neither Operator or Deep Research were available on the API. Not true, however: the building blocks of Operator are available, as the model "computer-use-preview" and the tool "computer_use_preview" in the Responses API ([my response](https://x.com/ndurner/status/1911991270341255569))
 * Simon Willison [remarks](https://simonwillison.net/2025/Apr/14/gpt-4-1/) that GPT-4.1 is trained "up to May 31, 2025". Also, he remarks that describing an image with GPT-4.1-nano cost him just 0.0232 US cents.
 * per the [Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide), ideal prompting is more complex that simple language use. Particularly, "ideally place your instructions at both the beginning and end of the provided context" for long contexts is back. The prompting advice given in my [article about process visualization](ai-assisted-process-visualiaztion-collaboration.md) still seems solid, though.
+
+[Update 2025-05-18]
+The diff file format is described in the [Appendix of the GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide#appendix-generating-and-applying-file-diffs): it's V4A format. There are prompts and a reference implementation, as well as two alternative formats: the one from Aider’s Polyglot Benchmark and a pseudo-XML format. Neither of these includes line numbers.
