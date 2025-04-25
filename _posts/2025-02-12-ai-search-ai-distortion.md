@@ -3,7 +3,7 @@ layout: post
 title: "AI Search & AI Distortion"
 author: "Nils Durner"
 categories: [journal]
-tags: [ai, search]
+tags: ["ai", "ai search"]
 date: 2025-02-12
 last_updated: 2025-02-12
 ---
