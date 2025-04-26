@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI Web Search, o3 API"
 date: 2025-04-18
 tags: ["llm", "o1", "openai", "oai_chat"]
-last_updated: 2025-04-18
+last_updated: 2025-04-26
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -35,3 +35,13 @@ Also, the newly released o3 model leverages tool-use as part of it's reasoning p
 Another restriction I have noticed with o3 is that streaming responses is not available to API users that have not been verified through the [new verification process](https://help.openai.com/en/articles/10910291-api-organization-verification):
 > We're adding the verification process to mitigate unsafe use of AI while continuing to make more advanced AI capabilities available to the broader developer community.
 Because individual availability of the capabilities doesn't seem to be reflected in the API, the workaround I have chosen is to try streaming first and falling back to non-streaming - luckily, the non-streamed response can [simply be wrapped](https://github.com/ndurner/oai_chat/blob/61e64f423f6c22f5be09e342cab3193b383adc7c/app.py#L280).
+
+[Update 2025-04-26]
+Web Search in the API has been disabled by OpenAI for o4-mini and o3. From the announcement:
+> We recently discovered that, since April 16, our file search and web search tools have been available on the o3 and o4-mini models via the OpenAI API—even though that wasn’t our intention. To ensure a more reliable experience, we will be disabling file search and web search via the API on o3 and o4-mini as of Wednesday, April 30, 2025. These tools remain available via ChatGPT.
+> 
+> Here’s what you need to know:  
+> Effective April 30, 2025: File search and web search will no longer work on o3 or o4-mini via the API.  
+> Unchanged today: You can continue using file search on o1 and o3-mini (as well as our latest gpt- models), and web search on gpt-4.1, gpt-4.1-mini, gpt-4o, and gpt-4o-mini.  
+> Coming soon: We’re actively working to re-enable full tool support in the API for o3 and o4-mini and will let you know as soon as those updates roll out.  
+This announcement was sent to 
