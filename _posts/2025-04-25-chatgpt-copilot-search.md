@@ -3,7 +3,7 @@ layout: post
 title: "Grounding ChatGPT etc by disabling Web Search"
 date: 2025-04-25
 tags: ["llm", "gpt", "chatgpt", "copilot", "ai search", "copilot", "copilot chat"]
-last_updated: 2025-04-25
+last_updated: 2025-05-04
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -18,3 +18,6 @@ There seems, however, a hidden way to turn Web Search off. [Leaked system prompt
 As a result, the question is answered from internal, LLM-native memory without backing from web sources. Additional grounding in input documents can be had as usual by asking the LLM to stay faithful to the original document(s) and not to include outside information.
 
 For those looking at the OpenAI API/Prompts Playground because the Web Search tool "web_search_preview" can explicitely be switched off there: this works differently from the Web Search in ChatGPT in that its sources are restricted - e.g. LinkedIn results do not seem to considered. This is a known problem, and the PM hopes to improve it eventually ([X thread](https://x.com/ndurner/status/1912382651182260336)).
+
+[Update 2025-05-04]
+Anouk Muis, GTM @OpenAI, [remarked](https://www.linkedin.com/feed/update/urn:li:activity:7322994166802624512?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7322994166802624512%2C7323270078689390594%29&replyUrn=urn%3Ali%3Acomment%3A%28activity%3A7322994166802624512%2C7323292283049603072%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287323270078689390594%2Curn%3Ali%3Aactivity%3A7322994166802624512%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287323292283049603072%2Curn%3Ali%3Aactivity%3A7322994166802624512%29) that Web Search can also be switched "off in your Personalization settings or by creating a GPT without the web search tool". Creating a custom Microsoft Copilot persona ("Agent") is indeed also possible.
