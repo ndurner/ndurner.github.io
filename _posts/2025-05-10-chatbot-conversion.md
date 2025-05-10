@@ -8,7 +8,7 @@ author: "Nils Durner"
 categories: [journal]
 ---
 
-With ChatGPT offering features not found in the API, like o1-pro previously or o3 with integrated web search, users may want to switch back and forth between ChatGPT, the Prompts Playground, and perhaps Markdown. Enter [Chatbot Conversation Converter](https://github.com/ndurner/chatbot_conversation_converter):
+With ChatGPT offering features not found in the API, like o1-pro previously or o3 with integrated web search, users may want to switch back and forth between ChatGPT, the Prompts Playground, and perhaps archive to Markdown. Enter [Chatbot Conversation Converter](https://github.com/ndurner/chatbot_conversation_converter):
 > A Python utility that converts chat conversations between different formats, including OpenAI Playground JSON, [Nils' Workbench](genai-workbenches) format and Markdown.
 
 Also, ChatGPT HTML is supported as an input format. This can obtained through the Safari or Chrome developer console and saved to an intermediate file, to be used like so:
