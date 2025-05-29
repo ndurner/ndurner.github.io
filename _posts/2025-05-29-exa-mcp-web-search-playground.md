@@ -53,7 +53,7 @@ Use with o4-mini can likewise be optimized: using the following system/developer
 
 Special about this setup: o4-mini will use search result content in its Reasoning process, resulting in a poor man's ~Deep~ Shallow Research implementation.
 
-![OpenAI Prompts Playground with Exa MCP](assets/img/exa-mcp-openai-playground)
+![OpenAI Prompts Playground with Exa MCP](assets/img/exa-mcp-openai-playground.jpg)
 
 ## Costs
 The naive o4-mini test without developer prompt cost 3.4¢ (US) for Exa services, in addition to OpenAI use. Exa costs with the improved prompts were 1¢ with GPT-4.1 and 2¢ with o4-mini.
