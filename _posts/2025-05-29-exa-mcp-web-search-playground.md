@@ -58,6 +58,17 @@ Special about this setup: o4-mini will use search result content in its Reasonin
 ## Costs
 The naive o4-mini test without developer prompt cost 3.4¢ (US) for Exa services, in addition to OpenAI use. Exa costs with the improved prompts were 1¢ with GPT-4.1 and 2¢ with o4-mini.
 
+## Comparison
+With the question prompt about where I work:
+| Tool                                 | Result    |
+|--------------------------------------|-----------|
+| ChatGPT 4o                           | ✅        |
+| Copilot 365 Chat                     | ❌        |
+| Perplexity                           | ✅        |
+| Claude Desktop Sonnet 4             | ❌        |
+| OpenAI Playground + Web Search      | ❌        |
+| OpenAI Playground + Exa             | ✅        |
+
 ## Optimization potential
 * If Exa was set up as described above, the OpenAI Prompts Playground will ask for approval for each MCP invocation. This can be turned off in the last popup of the setup procedure (item 3.9) by switching the "Approval" field from "Always" to "None".
 * The Exa MCP server does not include the full functionality of the Exa API, like date ranges, more than 10 results, or allowed/disallowed domains. The source code of the Exa MCP server is [published on Github](https://github.com/exa-labs/exa-mcp-server/) though, so should be extensible for private deployments.
