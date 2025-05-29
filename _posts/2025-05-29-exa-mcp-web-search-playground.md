@@ -4,7 +4,7 @@ title: "Exa Web Search MCP in OpenAI Prompts Playground"
 description: "Learn how to integrate Exa's web search capabilities into OpenAI Prompts Playground using MCP, including setup instructions, cost analysis, and optimization tips for GPT-4.1 and o4-mini models."
 date: 2025-05-29
 tags: ["llm", "openai", "exa", "web-search", "mcp", "o1"]
-last_updated: 2025-04-29
+last_updated: 2025-05-29
 author: "Nils Durner"
 categories: [journal]
 ---
