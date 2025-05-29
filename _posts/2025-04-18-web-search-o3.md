@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAI Web Search, o3 API"
 date: 2025-04-18
-tags: ["llm", "o1", "openai", "oai_chat"]
+tags: ["llm", "o1", "openai", "oai_chat", "web-search"]
 last_updated: 2025-04-26
 author: "Nils Durner"
 categories: [journal]
@@ -44,4 +44,3 @@ Web Search in the API has been disabled by OpenAI for o4-mini and o3. From the a
 > Effective April 30, 2025: File search and web search will no longer work on o3 or o4-mini via the API.  
 > Unchanged today: You can continue using file search on o1 and o3-mini (as well as our latest gpt- models), and web search on gpt-4.1, gpt-4.1-mini, gpt-4o, and gpt-4o-mini.  
 > Coming soon: We’re actively working to re-enable full tool support in the API for o3 and o4-mini and will let you know as soon as those updates roll out.  
-This announcement was sent to 
