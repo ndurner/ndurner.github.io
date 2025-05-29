@@ -51,7 +51,7 @@ Use with o4-mini can likewise be optimized: using the following system/developer
 > 🧔🏻‍♂️ Where does Nils Durner work?  
 🤖 Nils Durner is a Principal Software Engineer at Namirial.
 
-Special about this setup: o4-mini will use search result content in its Reasoning process, resulting in a poor man's ~Deep~ Shallow Research implementation.
+Special about this setup: o4-mini will use search result content in its Reasoning process, resulting in a poor man's ~~Deep~~ Shallow Research implementation.
 
 ![OpenAI Prompts Playground with Exa MCP](assets/img/exa-mcp-openai-playground.jpg)
 
