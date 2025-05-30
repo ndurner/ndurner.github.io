@@ -28,3 +28,10 @@ author:              'Nils Durner'
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 feed:
   path: rss-feed.xml
+
+defaults:
+  -
+    scope:
+      path: "blog/page"
+    values:
+      sitemap: false
