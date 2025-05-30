@@ -60,6 +60,7 @@ The naive o4-mini test without developer prompt cost 3.4¢ (US) for Exa services
 
 ## Comparison
 With the question prompt about where I work:
+{% raw %}
 | Tool                                 | Result    |
 |--------------------------------------|-----------|
 | ChatGPT 4o                           | ✅        |
@@ -68,6 +69,7 @@ With the question prompt about where I work:
 | Claude Desktop Sonnet 4             | ❌        |
 | OpenAI Playground + Web Search      | ❌        |
 | OpenAI Playground + Exa             | ✅        |
+{% endraw %}
 
 ## Caveats
 * MCP setup is not stored in the Playground and has to be re-created in each session
