@@ -4,7 +4,7 @@ title: "Exa Web Search MCP in OpenAI Prompts Playground"
 description: "Learn how to integrate Exa's web search capabilities into OpenAI Prompts Playground using MCP, including setup instructions, cost analysis, and optimization tips for GPT-4.1 and o4-mini models."
 date: 2025-05-29
 tags: ["llm", "openai", "exa", "web-search", "mcp", "o1"]
-last_updated: 2025-05-29
+last_updated: 2025-05-30
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -68,6 +68,10 @@ With the question prompt about where I work:
 | Claude Desktop Sonnet 4             | ❌        |
 | OpenAI Playground + Web Search      | ❌        |
 | OpenAI Playground + Exa             | ✅        |
+
+## Caveats
+* MCP setup is not stored in the Playground and has to be re-created in each session
+* the API key from Exa is not protected: when copying the conversation in JSON format, the API key will be included in the export, thus potentially giving third parties usage rights to the Exa account and funds.
 
 ## Optimization potential
 * If Exa was set up as described above, the OpenAI Prompts Playground will ask for approval for each MCP invocation. This can be turned off in the last popup of the setup procedure (item 3.9) by switching the "Approval" field from "Always" to "None".
