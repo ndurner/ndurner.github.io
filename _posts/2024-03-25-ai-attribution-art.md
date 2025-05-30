@@ -1,3 +1,4 @@
+description: "Examines AI-generated art attribution methods, including digital watermarking, metadata embedding, and industry standards for provenance tracking."
 ---
 layout: post
 title: "AI Attribution in Art"

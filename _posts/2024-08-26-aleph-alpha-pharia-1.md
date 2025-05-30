@@ -3,6 +3,7 @@ layout: post
 title: "Pharia-1-LLM: A Closer Look at Aleph Alpha's Latest Release"
 date: 2024-08-26
 last_updated: 2024-08-26
+description: "Introduces Aleph Alpha Pharia-1 model: architecture enhancements, performance benchmarks against Luminous, and EU-focused use-case applications."
 tags: [ai, llm, germany, synthetic-data, open-source, aleph alpha, pharia]
 ---
 

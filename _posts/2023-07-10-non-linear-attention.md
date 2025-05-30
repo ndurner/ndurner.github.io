@@ -6,6 +6,7 @@ categories: [journal]
 tags: [In-Context Learning, AI, LLM, Claude, GPT-4, LlamaIndex]
 date: 2023-07-10
 last_updated: 2023-07-10
+description: "Summarizes 'How Language Models Use Long Contexts': U-shaped in-context performance, degradation with longer input, non-uniform attention, and implications for RAG architectures."
 ---
 
 Non-uniform performance reported for in-context learning: [How Language Models Use Long Contexts](https://arxiv.org/pdf/2307.03172.pdf):

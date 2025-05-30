@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt-4, generative ai]
 date: 2023-06-26
 last_updated: 2023-06-26
+description: "Highlights AI-focused sessions from Figma Config 23: Duolingo's GPT-4 UI case study, AI-powered design patterns, creative career tools, and agentive AI future vision."
 ---
 
 There was quite some insightful AI-themed content at Figma Conference "Config 23":

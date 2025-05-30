@@ -6,6 +6,7 @@ categories: [journal]
 tags: [microsoft, syntex, e-signature, copilot]
 date: 2023-05-24
 last_updated: 2023-05-24
+description: "Covers Microsoft BUILD demo of Syntex Copilot 365 plugin for AI-driven document generation and e-signatures, extensible to Adobe Sign/DocuSign, with signer suggestions from Word context."
 ---
 
 Possibly AI-driven E-Signing, defined at the AI-supported document generation stage(?), shown as part of the Microsoft Syntex plugin to Copilot 365 demo at MS Build Day #2. Among other things, Syntex „will allow you to build new documents“ from existing content.

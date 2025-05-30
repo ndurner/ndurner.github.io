@@ -3,6 +3,7 @@ layout: post
 title: "Workbench updates & MLX variant"
 date: 2024-09-19
 last_updated: 2024-09-19
+description: "Details updates to custom cloud LLM workbenches: MLX chatbot variant support, workbench feature enhancements, plugin integration, and performance optimizations."
 tags: [workbenches, llm, chatbots, mlx]
 ---
 

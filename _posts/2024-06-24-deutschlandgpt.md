@@ -3,6 +3,7 @@ layout: post
 title: "DeutschlandGPT: Not Quite 'Made in Germany'"
 date: 2024-06-24
 last_updated: 2024-06-24
+description: "Introduces 'DeutschlandGPT', a German-trained GPT variant, comparing linguistic performance, cultural relevancy, and benchmark metrics."
 tags: [ai, llm, germany, startups]
 ---
 

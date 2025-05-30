@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt-4]
 date: 2023-06-21
 last_updated: 2023-06-21
+description: "Discusses rumors of GPT-4’s mixture-of-experts design (8×220B experts, 16 inference iterations), explaining potential response fragmentation and backend complexity."
 ---
 
 Soumith Chintala [supports the rumor](https://twitter.com/soumithchintala/status/1671267150101721090) that GPT-4 is based on the Mixture Of Experts architecture:

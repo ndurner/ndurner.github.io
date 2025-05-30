@@ -3,6 +3,7 @@ layout: post
 title: "Microsoft AI: Phishing Machine"
 date: 2024-08-10
 last_updated: 2024-08-10
+description: "Summarizes Wired’s report on abusing Microsoft Copilot as an automated phishing machine, including confidential DocuSign data extraction, exemplifying use-case vulnerabilities."
 tags: [ai, copilot]
 ---
 

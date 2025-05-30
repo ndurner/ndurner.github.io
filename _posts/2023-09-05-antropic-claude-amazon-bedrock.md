@@ -3,6 +3,7 @@ layout: post
 title: "Claude 2: Model vs. System"
 date: 2023-09-05
 last_updated: 2023-09-05
+description: "Clarifies Claude 2 model vs. system distinction using Miles Brundage’s taxonomy, mapping claude.ai, Claude Foundation Model, and Amazon Bedrock platform roles."
 tags: [Anthropic, Claude, Claude 2]
 ---
 

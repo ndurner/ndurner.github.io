@@ -3,6 +3,7 @@ layout: post
 title: "Stream recording"
 date: 2024-04-21
 last_updated: 2024-04-21
+description: "Explores methods for recording and replaying LLM interaction streams for debugging, auditing, and continuous model improvement."
 tags: [obs, aws, rdp, microsoft teams]
 last_update: 2024-09-25
 last_updated: 2024-04-21

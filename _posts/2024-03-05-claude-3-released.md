@@ -3,6 +3,7 @@ layout: post
 title: "Anthropic Claude 3 released"
 date: 2024-03-05
 last_updated: 2024-03-05
+description: "Announces Claude 3 release with expanded language support, multimodal capabilities, safety enhancements, and benchmarked performance gains over predecessors."
 tags: [anthropic, claude]
 ---
 

@@ -6,6 +6,7 @@ categories: [journal]
 tags: [llm, gpt4]
 date: 2023-05-22
 last_updated: 2023-05-22
+description: "Praises McKinsey’s CEO guide on generative AI for myth-busting beyond 'next-word prediction', cites in-depth debunking articles and llama.cpp's structured-output guardrails example."
 ---
 
 A colleague today shared the McKinsey report on "[What every CEO should know about generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/what-every-ceo-should-know-about-generative-ai)".

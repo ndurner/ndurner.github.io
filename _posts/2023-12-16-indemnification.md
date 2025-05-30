@@ -3,6 +3,7 @@ layout: post
 title: "Indemnification"
 date: 2023-12-16
 last_updated: 2023-12-16
+description: "Explores indemnification clauses in AI service agreements, comparing OpenAI and Anthropic policies and outlining developer legal protections and coverage scope."
 tags: [Microsoft, AI, Indemnification, Copyright]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Overview of Model deployment options"
 date: 2023-11-29
 last_updated: 2023-11-29
+description: "Outlines AWS model deployment options and cost trade-offs, including Lambda pricing at $0.0000167/GB*s, EC2 inference, and TCO comparisons for 1M tokens."
 tags: [Amazon, AWS, AI]
 ---
 

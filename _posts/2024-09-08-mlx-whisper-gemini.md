@@ -6,6 +6,7 @@ categories: [journal]
 tags: [mlx, whisper, gemini]
 date: 2024-09-08
 last_updated: 2024-10-06
+description: "Compares MLX Whisper and Google Gemini for podcast transcription, evaluating accuracy, latency, speaker separation, and integration workflows."
 ---
 
 (TLDR; I tried device-local Whisper and ended up using Google Gemini instead.)

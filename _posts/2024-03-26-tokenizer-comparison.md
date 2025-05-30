@@ -3,6 +3,7 @@ layout: post
 title: "LLM Tokenizer comparison"
 date: 2024-03-26
 last_updated: 2024-03-26
+description: "Compares NLP tokenizers across vendors: efficiency metrics on legal text in multiple languages, revealing up to 18% variance in token usage."
 tags: [openai, gpt4, claude, anthropic, gemini, tokenizer]
 ---
 

@@ -6,6 +6,7 @@ categories: [journal]
 tags: [llm, reasoning, ai research, benchmarks, openai, o1]
 date: 2024-10-20
 last_updated: 2024-10-20
+description: "Critically examines Apple’s 'LLMs Can't Reason' paper, highlighting model selection bias, basic prompting flaws, GPT-4o replication issues, and need for >70B parameter benchmarks."
 ---
 
 A recent paper from Apple about reasoning deficits has been widely reposted as ["LLMs Can't Reason"](https://arxiv.org/pdf/2410.05229). The study claims to demonstrate significant limitations in the reasoning capabilities of large language models (LLMs). Gary Marcus, author of a "Forbes 7 Must Read Books in AI", [railed](https://substack.com/home/post/p-150104196): "There is just no way can you build reliable agents on this foundation". However, upon closer examination, there are several aspects of the research that warrant scrutiny and further discussion.

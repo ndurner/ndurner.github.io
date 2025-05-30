@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, rag]
 date: 2025-02-11
 last_updated: 2025-02-11
+description: "Details RAG-based PDF chatbot failures: embeddings proximity errors, chunking undermining coherence, and recommends direct large-context ingestion (e.g., 200K+ tokens)."
 ---
 
 Studies by Salesforce Research and [Google Deepmind](https://arxiv.org/abs/2409.12941), as well as own experiments, have previously cast fundamental doubt on RAG. Now, Richard Meng came forward and [shared practical confirmation](https://www.linkedin.com/posts/berkeleymeng_weve-spoken-with-30-companies-who-developed-activity-7294883636653314049-sjTb?utm_source=share&utm_medium=member_desktop):

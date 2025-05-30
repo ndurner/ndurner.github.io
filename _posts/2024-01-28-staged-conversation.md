@@ -3,6 +3,7 @@ layout: post
 title: "Staged conversation"
 date: 2024-01-28
 last_updated: 2024-01-28
+description: "Introduces staged conversation technique for LLMs: multi-phase prompts enabling progressive context revelation and improved response coherence."
 tags: [openai, gpt4, bard, gemini]
 ---
 

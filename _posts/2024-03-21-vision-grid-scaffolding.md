@@ -3,6 +3,7 @@ layout: post
 title: "Vision model spatiality"
 date: 2024-03-21
 last_updated: 2024-03-21
+description: "Introduces Vision Grid Scaffolding for multimodal LLMs: structured visual context processing to improve image reasoning and description accuracy."
 tags: [llava, GPT-4V, huggingface, transformers]
 ---
 

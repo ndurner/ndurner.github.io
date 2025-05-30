@@ -3,6 +3,7 @@ layout: post
 title: "Google Gemini Launch and Impressions"
 date: 2023-12-06
 last_updated: 2023-12-06
+description: "Covers Google Gemini launch: model sizes, factuality tuning, Bard integration, benchmark caveats, video/audio modality notes, and data quality emphasis."
 tags: [Google Gemini, AI, GPT-4, Bard, DeepMind]
 filename: 2023-12-06-google-gemini-launch-and-impressions.md
 ---

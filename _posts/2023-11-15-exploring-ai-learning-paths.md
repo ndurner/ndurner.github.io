@@ -3,6 +3,7 @@ layout: post
 title: "Exploring AI Learning Paths"
 date: 2023-11-15
 last_updated: 2023-11-15
+description: "Argues that hands-on AI use teaches AI expertise best, citing Ethan Mollick on prompt intuitiveness over formal curricula for generative AI skill development."
 tags: [AI, Learning, Deep Learning, Machine Learning]
 filename: 2023-11-15-exploring-ai-learning-paths.md
 ---

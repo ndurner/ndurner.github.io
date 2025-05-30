@@ -3,6 +3,7 @@ layout: post
 title: "AI-Generated UI/UX: Promise and Pitfalls"
 date: 2024-05-31
 last_updated: 2024-05-31
+description: "Explores AI-driven UI/UX design workflows, assessing automated layout generation, style adaptation, and user testing enhancements."
 tags: [ai, ui, ux, chatgpt, gpt-4]
 ---
 

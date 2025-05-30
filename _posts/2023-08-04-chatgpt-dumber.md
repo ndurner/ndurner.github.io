@@ -3,6 +3,7 @@ layout: post
 title: "ChatGPT Getting Dumber: A Closer Look"
 date: 2023-08-04
 last_updated: 2023-08-04
+description: "Analyzes WSJ's 'ChatGPT dumber at math' article, identifies flawed benchmark, script bug fixes, and broader implications for AI evaluation reliability."
 tags: [ChatGPT, OpenAI]
 ---
 

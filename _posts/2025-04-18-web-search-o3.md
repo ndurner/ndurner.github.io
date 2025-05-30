@@ -4,6 +4,7 @@ title: "OpenAI Web Search, o3 API"
 date: 2025-04-18
 tags: ["llm", "o1", "openai", "oai_chat", "web-search"]
 last_updated: 2025-04-26
+description: "Adds Web Search to LLM frontend and API: site: filtering, citations, LinkeIn exclusion, mini-model hallucinations, streaming fallback, and April 30 o3/o4-mini tool removal."
 author: "Nils Durner"
 categories: [journal]
 ---

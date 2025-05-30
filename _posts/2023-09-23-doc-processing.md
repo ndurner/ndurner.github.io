@@ -3,6 +3,7 @@ layout: post
 title: "Document Processing"
 date: 2023-09-21
 last_updated: 2023-09-21
+description: "Recaps advances in document processing: extended-context LLaMA 2, PDFTriage for PDF QA, Claude summary of books, density prompting, and compression-theory insights."
 tags: [Llama 2, Claude, Document-processing, PDF, AI, LLM]
 ---
 

@@ -6,6 +6,7 @@ categories: [journal]
 tags: [claude, TruthfulQA]
 date: 2023-04-03
 last_updated: 2023-04-03
+description: "Reviews Anthropic's Claude (via Poe.com) on TruthfulQA benchmarks vs GPT models, highlighting confabulation in German and Chinese examples despite strong multiple-choice accuracy."
 ---
 
 Some talk about [Claude by Anthropic](https://www.anthropic.com/index/introducing-claude) today, accessible through poe.com.

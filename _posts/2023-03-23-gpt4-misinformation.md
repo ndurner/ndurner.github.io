@@ -6,6 +6,7 @@ categories: [journal]
 tags: [openai, gpt, misinformation]
 date: 2023-03-23
 last_updated: 2023-03-23
+description: "Analyzes NewsGuard's report that GPT-4 generates misinformation more often and more persuasively than its predecessor, backed by fakenews scoring examples."
 ---
 
 On the recent NewsGuard report that "Despite OpenAI's Promises, the Company's New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor":

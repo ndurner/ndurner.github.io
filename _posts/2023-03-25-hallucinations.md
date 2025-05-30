@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt, hallucination]
 date: 2023-03-25
 last_updated: 2023-03-25
+description: "Discusses mitigating hallucinations in large language models by grounding GPT-3 inputs with event-specific news articles, referencing key research on faithfulness."
 ---
 
 From a research paper attached that touches on Hallucinations:

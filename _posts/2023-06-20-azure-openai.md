@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt-4, openai, azure, microsoft]
 date: 2023-06-20
 last_updated: 2023-06-20
+description: "Covers Azure OpenAI 'on your data' public preview, linking Microsoft Tech Community blog, Learn docs, and Mercedes-Benz case study of in-vehicle AI integration."
 ---
 
 > Microsoft Azure OpenAI on your data enables you to run supported chat models such as ChatGPT and GPT-4 on your data without needing to train or fine-tune models.

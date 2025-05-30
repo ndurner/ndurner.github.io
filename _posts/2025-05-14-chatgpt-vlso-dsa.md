@@ -6,6 +6,7 @@ categories: [journal]
 tags: ["chatgpt", "openai", "ai", "dsa", "regulation", "europe"]
 date: 2025-05-14
 last_updated: 2025-05-14
+description: "Covers ChatGPT’s VLOSE EU DSA debate: distinguishes AI systems vs models, notes integrated search and Deep Research modes, and warns against model-level DSA overreach."
 ---
 
 In discussions about the regulation of AI services under European law, ChatGPT is in focus — this time concerning the Digital Services Act (DSA). Prompted by a [commentary by Luca Bertuzzi on MLex](https://www.mlex.com/mlex/articles/2339236/chatgpt-s-eu-digital-rulebook-designation-could-slow-innovation-create-precedent), a [LinkedIn exchange](https://www.linkedin.com/posts/luca-bertuzzi-186729130_dsa-activity-7328373800549453824-JHO7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAGX2jIBd6RDsNRYv13Bvu3x4nnCNu96SEw) recently debated whether ChatGPT qualifies as a "Very Large Online Search Engine" (VLOSE) under the DSA framework. My contributions focused on clarifying key distinctions in how AI systems and their underlying models are perceived and regulated.

@@ -3,6 +3,7 @@ layout: post
 title: "AI Use Cases - according to analysts"
 date: 2024-02-24
 last_updated: 2024-02-24
+description: "Surveys practical AI use cases across industries—healthcare, finance, manufacturing, and retail—highlighting ROI metrics and best practice implementation tips."
 tags: [AI, genai, Market Feedback, Analyst Insights]
 ---
 

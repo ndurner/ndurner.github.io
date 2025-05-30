@@ -6,6 +6,7 @@ categories: [journal]
 tags: ["anthropic", "claude", "o1", "amazon bedrock", "openai"]
 date: 2025-05-27
 last_updated: 2025-05-27
+description: "Covers Claude 4 Opus/Sonnet vs o3/o4-mini benchmarks, new extended reasoning with tool-use, AWS Bedrock model and API quirks, and o3/o4-mini Code Interpreter plus encrypted reasoning."
 ---
 
 Anthropic released Claude 4 Opus and Sonnet last week. Per the benchmark results they have [published](https://www.anthropic.com/news/claude-4), Claude 4 Opus is roughly comparable to OpenAI o3. However, the updated [Aider LLM Leaderboard](https://aider.chat/docs/leaderboards/) places Claude 4 Opus on par with o4-mini, at a substantially higher cost. While Anthropic claims that "Claude Sonnet 4 is a significant upgrade to Claude Sonnet 3.7", the Aider Leaderboard actually places Sonnet 4 behind Sonnet 3.7.

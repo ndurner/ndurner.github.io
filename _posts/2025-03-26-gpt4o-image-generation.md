@@ -4,6 +4,7 @@ title: "GPT-4o image generation"
 date: 2025-03-26
 tags: ["llm", "openai", "gpt4o", "dall-e", "diffusion", "image generation", "imagegen"]
 last_updated: 2025-03-27
+description: "Introduces GPT-4o image generation in ChatGPT/Sora with text+image prompts, demonstrating object extraction, slide translation, and simple technical diagram rendering via Imagegen."
 author: "Nils Durner"
 categories: [journal]
 ---

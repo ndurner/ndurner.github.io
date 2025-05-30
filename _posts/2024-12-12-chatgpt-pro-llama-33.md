@@ -4,6 +4,7 @@ title: "o1 Pro Mode & Llama 3.3"
 date: 2024-12-12
 tags: ["llm", "chatgpt", "o1 pro", "chatgpt pro", "openai", "llama"]
 last_updated: 2024-12-12
+description: "Reviews ChatGPT o1 Pro Mode’s leaps over o1-preview using plan-like-a-graph, and Llama 3.3 70B’s comparative performance via IBM WatsonX with 32K token limit."
 author: "Nils Durner"
 categories: [journal]
 ---

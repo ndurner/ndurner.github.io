@@ -3,6 +3,7 @@ layout: post
 title: "Vision prompt injection"
 date: 2024-02-10
 last_updated: 2024-02-10
+description: "Investigates vision-based prompt injection attacks on multimodal AI, demonstrates adversarial image exploits, and proposes defenses for secure visual LLM usage."
 tags: [openai, gpt4, bard, gemini]
 ---
 

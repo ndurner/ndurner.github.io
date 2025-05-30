@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt4]
 date: 2023-05-04
 last_updated: 2023-05-04
+description: "Introduces FilterRSS: a GPT-4–based RSS content filter using self-instruction from examples, showcasing system prompts for high-quality content selection amid AI-danger media noise."
 ---
 
 I have published my content filtering/scoring system for RSS feeds on Github: [FilterRSS](https://github.com/ndurner/FilterRSS).

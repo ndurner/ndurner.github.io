@@ -6,6 +6,7 @@ categories: [AI, digital-trust]
 tags: [ArtificialIntelligence, DigitalTrust, TrustServices, IntelligentTrustServices, Cybersecurity, ENISATSF24, CADay24, ENISA]
 date: 2024-09-28
 last_updated: 2024-10-03
+description: "Reports on AI integration into Intelligent Trust Services at CA Day 2024: cybersecurity, ENISA guidelines, AI/DT use cases, and standards discussions."
 ---
 
 This week, we had a compelling presentation on Intelligent Trust Services at the European Union Agency for Cybersecurity (ENISA) Trust Services Forum, part of CA Day 2024 in Heraklion. The session, delivered by my colleague Jörg Lenz, delved into the integration of artificial intelligence (AI) within digital trust products and processes, highlighting both the potential and the responsibilities that come with leveraging AI in such critical domains.

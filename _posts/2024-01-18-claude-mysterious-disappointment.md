@@ -1,3 +1,4 @@
+description: "Reflects on unexpected performance regressions in Claude 3, analyzing benchmark discrepancies, user frustrations, and potential regression causes."
 ---
 layout: post
 title: "Claude 2.1: Mysterious Disappointment"

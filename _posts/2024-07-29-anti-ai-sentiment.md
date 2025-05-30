@@ -3,6 +3,7 @@ layout: post
 title: "Anti-AI Sentiment"
 date: 2024-07-29
 last_updated: 2024-07-29
+description: "Analyzes anti-AI sentiment trends in social media and publications, exploring underlying concerns, impact on policy, and mitigation approaches."
 tags: [ai, copilot, gemini, microsoft 365]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Website/Bing Copilot Integration"
 date: 2024-05-26
 last_updated: 2024-05-26
+description: "Showcases Bing Copilot integration into websites, covering embedding techniques, API usage, and enhanced user interactions for AI-powered assistance."
 tags: [copilot, bing, ai, search]
 ---
 

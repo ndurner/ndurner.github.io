@@ -1,3 +1,4 @@
+description: "Examines AI-assisted legal co-writing workflows, highlighting document drafting, compliance checking, collaboration features, and ethical considerations."
 ---
 layout: post
 title: "Legal co-writing"

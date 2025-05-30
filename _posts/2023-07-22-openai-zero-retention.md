@@ -3,6 +3,7 @@ layout: post
 title: "OpenAI Launch: Zero Data Retention"
 date: 2023-07-22
 last_updated: 2023-07-22
+description: "Explains OpenAI Zero Data Retention (ZDR) for API endpoints, eligibility requirements, and continued safety-classifier processing, alongside compliance certifications."
 tags: [OpenAI, Data Privacy]
 ---
 

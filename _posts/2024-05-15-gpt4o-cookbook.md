@@ -3,6 +3,7 @@ layout: post
 title: "GPT-4o multimodality cookbook"
 date: 2024-05-15
 last_updated: 2024-05-15
+description: "Provides a GPT4o cookbook of practical recipes: prompt templates, API integration examples, and model tuning tips for varied tasks."
 tags: [LLM, VLM, GPT-4, multi-modality, gemini]
 ---
 

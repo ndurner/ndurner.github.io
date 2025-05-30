@@ -4,6 +4,7 @@ title: "LLM Chat Conversion Tool"
 date: 2025-05-10
 tags: ["llm", "gpt", "chatgpt", "playground"]
 last_updated: 2025-05-10
+description: "Introduces Chatbot Conversation Converter CLI: convert chat logs between Playground JSON, Workbench, HTML, and Markdown; file upload/download support pending."
 author: "Nils Durner"
 categories: [journal]
 ---

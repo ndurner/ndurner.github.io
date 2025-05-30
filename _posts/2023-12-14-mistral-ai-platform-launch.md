@@ -3,6 +3,7 @@ layout: post
 title: "Mistral.AI Launches Platform with API Access to Best Models"
 date: 2023-12-14
 last_updated: 2023-12-14
+description: "Introduces Mistral AI’s platform launch, detailing open-source LLM deployment options, model benchmarks, and integration workflows for production environments."
 tags: [Mistral, API, Pricing]
 ---
 

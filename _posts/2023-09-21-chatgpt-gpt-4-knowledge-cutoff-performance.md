@@ -3,6 +3,7 @@ layout: post
 title: "ChatGPT-on-GPT-4: Knowledge Cut-off and Performance"
 date: 2023-09-19
 last_updated: 2023-09-19
+description: "Notes ChatGPT-on-GPT-4’s new January 2022 knowledge cutoff reporting, contrasts with GPT-4 API’s older 2021 cutoff, and cites hallucination on future events."
 tags: [ChatGPT, GPT-4, AI, OpenAI]
 ---
 

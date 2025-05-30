@@ -3,6 +3,7 @@ layout: post
 title: "USPTO: Inventorship Guidance for AI-Assisted Inventions"
 date: 2024-02-15
 last_updated: 2024-02-15
+description: "Outlines USPTO guidance on AI-assisted inventorship, detailing legal criteria for patent eligibility, documentation standards, and office filing recommendations."
 tags: [Invention, patent]
 ---
 

@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, openai, o1, deepseek]
 date: 2025-02-02
 last_updated: 2025-02-02
+description: "Introduces OpenAI o3-mini: <1% hallucination rate on Vectara benchmark, three 'Think harder' tiers, paid and API/Tier2 access to o3-mini-high, strong STEM performance, no multimodal."
 ---
 
 OpenAI have [released o3-mini](https://openai.com/index/openai-o3-mini/). It's the first model that scores below 1% on the [Vectara Hallucination Benchmark](https://github.com/vectara/hallucination-leaderboard/). This is in stark contrast to DeepSeek R1, which is off their chart at 14.3% hallucination and underperforming small language models like Amazon Titan Express.

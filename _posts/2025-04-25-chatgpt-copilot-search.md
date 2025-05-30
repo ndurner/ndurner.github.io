@@ -4,6 +4,7 @@ title: "Grounding ChatGPT etc by disabling Web Search"
 date: 2025-04-25
 tags: ["llm", "gpt", "chatgpt", "copilot", "ai search", "copilot", "copilot chat"]
 last_updated: 2025-05-04
+description: "Describes disabling web search in ChatGPT/Copilot via system prompts or custom GPT setups, preventing web-poisoning and preserving internal LLM-only grounding."
 author: "Nils Durner"
 categories: [journal]
 ---

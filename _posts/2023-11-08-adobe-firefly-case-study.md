@@ -3,6 +3,7 @@ layout: post
 title: "Adobe Firefly: A Case Study"
 date: 2023-11-08
 last_updated: 2023-11-08
+description: "Case study of Adobe Firefly inpainting and addition features: UI workflow, noise artifacts, watermark absence, file format behaviors, and mobile-first observations."
 tags: [Adobe Firefly, AI, Image Editing, Generative AI, Inpainting]
 filename: 2023-11-08-adobe-firefly-case-study.md
 ---

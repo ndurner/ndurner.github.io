@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Audio Input with Gemini 1.5 Pro"
 date: 2024-06-29
 last_updated: 2024-06-29
+description: "Explores Google Gemini's audio understanding features, detailing speech recognition accuracy, audio context handling, and integration use cases."
 tags: [ai, audio, gemini, llm]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "AI Getting Dumber or Behavior Change?"
 date: 2023-07-12
 last_updated: 2023-07-12
+description: "Debunks 'AI getting dumber' claims as behavior tuning in GPT-4, not degradation, emphasizing prompt quality and exposing media sensationalism."
 tags: [GPT-4, AI]
 ---
 

@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, openai, chatgpt, anthropic, claude, watsonx, bedrock, vertexai, gemini]
 date: 2025-02-27
 last_updated: 2025-03-13
+description: "Announces AI-assisted Process Visualization in iX Magazine, covers Q&A on AI frontends, RAG, cost, diagram types, and GPT-4.5 Turbo updates for detailed mockups."
 ---
 
 My article on AI-assisted Process Visualization is now available in print and as E-Paper: [iX-Magazin issue 03'25](https://www.heise.de/select/ix/2025/3/). Its [pre-release on heise+](https://heise.de/-10266093) has sparked a remarkable amount of feedback from readers worldwide. As questions went beyond the scope of the initial publication, I decided to compile a [Q&A in English](https://www.linkedin.com/pulse/qa-ai-assisted-process-visualization-nils-durner-qejce/?trackingId=HrNLH6FOSVmbrWyNYybDDg%3D%3D) to share select follow-ups.

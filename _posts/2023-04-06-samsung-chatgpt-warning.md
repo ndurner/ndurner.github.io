@@ -6,6 +6,7 @@ categories: [journal]
 tags: [chatgpt, samsung, openai, training]
 date: 2023-04-06
 last_updated: 2023-04-06
+description: "Debunks Techspot’s Samsung ChatGPT warning, clarifies OpenAI’s data-use policy, examines Samsung DS’ consumer-tool adoption, 1KB throttling, and disciplinary plans."
 ---
 
 On the Techspot article that "[Samsung warns fab employees of ChatGPT after confidential data leaks](https://www.techspot.com/news/98181-samsung-warns-employees-chatgpt-privacy-dangers-following-confidential.html)": this reporting lacks context, so I'll dispense...

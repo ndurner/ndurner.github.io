@@ -6,6 +6,7 @@ categories: [journal]
 tags: [bard, google bard, coding, codeium, copilot]
 date: 2023-04-22
 last_updated: 2023-04-22
+description: "Reports Google Bard’s new coding support and citation feature, contrasts with Codeium’s GPL demo, shows Bard generating distinct sparse-matrix code, and questions Codeium’s example selection."
 ---
 
 Google Bard now supports coding as an explicit use-case. It improves on Github Copilot and also GPT-4/ChatGPT in terms of rights awareness:

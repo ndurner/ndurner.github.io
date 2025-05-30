@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, azure, aws, google-cloud, aleph alpha]
 date: 2024-09-08
 last_updated: 2024-09-20
+description: "Explores AI deployment options for German businesses under data residency requirements: AWS Claude 3.5 Sonnet in eu-central-1, Vertex AI Gemini PTU caveats, and Azure regional considerations."
 ---
 
 The recent news about [Aleph Alpha's strategic shift](https://www.bloomberg.com/news/articles/2024-09-05/the-rise-and-pivot-of-germany-s-one-time-ai-champion) away from developing large language models (LLMs) to focus on AI integration services has sparked discussions about the state of AI deployment in Germany. While this change might seem discouraging for those hoping for a strong European contender in the AI race, it's worth examining the practical options still available for businesses looking to leverage AI technologies within German borders.

@@ -3,6 +3,7 @@ layout: post
 title: "LLM as a judge"
 date: 2024-04-01
 last_updated: 2024-04-01
+description: "Examines using LLMs as automated judges in legal and review contexts, discussing bias mitigation, accountability frameworks, and decision explanation techniques."
 tags: [openai, gpt4, elitr]
 ---
 

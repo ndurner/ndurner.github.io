@@ -3,6 +3,7 @@ layout: post
 title: "Synthetic Data in AI: Hype, Concerns, and Reality"
 date: 2024-07-28
 last_updated: 2024-07-28
+description: "Surveys synthetic data generation methods for machine learning, covering algorithmic techniques, quality evaluation metrics, and domain applications."
 tags: [ai, llm, synthetic-data, model-collapse]
 ---
 

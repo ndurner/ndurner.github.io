@@ -3,6 +3,7 @@ layout: post
 title: "IBM Research: synthetic Q&A"
 date: 2024-03-08
 last_updated: 2024-03-08
+description: "Details synthetic question-answer generation techniques for LLM evaluation, covering automated data construction pipelines and performance comparisons on standard QA benchmarks."
 tags: [ai, ibm, qa, finetuning]
 ---
 

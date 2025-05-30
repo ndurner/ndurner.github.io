@@ -6,6 +6,7 @@ categories: [journal]
 tags: ["ai", "ai search"]
 date: 2025-02-12
 last_updated: 2025-02-12
+description: "Highlights BBC's 'AI Distortion' of assistants like GPT, Perplexity, Copilot, Gemini: error rates, altered quotes, table misreads, and suggests verification via search-like queries."
 ---
 
 From a [BBC report](https://www.bbc.co.uk/mediacentre/2025/articles/how-distortion-is-affecting-ai-assistants/), coining the term "AI Distortion":
