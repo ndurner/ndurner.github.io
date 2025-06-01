@@ -3,6 +3,7 @@ layout: post
 title: "OpenAI Dev Day: Practical Notes"
 date: 2023-11-08
 last_updated: 2023-11-08
+description: "Practical notes from OpenAI Dev Day: terminology mismatches (GPT vs Assistant), Playground bugs, low rate limits, RAG pricing, and GPT-4 Turbo verbosity trade-offs."
 tags: [OpenAI, Dev Day, GPT-4, Development]
 filename: 2023-11-08-openai-dev-day-practical-notes.md
 ---

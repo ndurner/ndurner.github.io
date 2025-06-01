@@ -3,6 +3,7 @@ layout: post
 title: "Understanding GenAI: Models, Systems, Platforms and Use Cases"
 date: 2023-08-04
 last_updated: 2023-08-04
+description: "Distinguishes models, systems, platforms, and use cases for GenAI (Brundage’s taxonomy), clarifying misunderstandings around model vs. system behavior changes."
 tags: [GPT-4, ChatGPT, Bard, PaLM, Microsoft Research, OpenAI]
 ---
 

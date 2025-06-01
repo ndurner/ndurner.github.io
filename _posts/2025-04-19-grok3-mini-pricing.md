@@ -4,6 +4,7 @@ title: "Grok 3 Mini Pricing"
 date: 2025-04-19
 tags: ["llm", "grok", "gpt", "gpt4", "openai", "o1", "o4"]
 last_updated: 2025-04-19
+description: "Examines Grok 3 Mini’s cost-intelligence ratio, questions tokenized pricing, and compares token usage and expenses versus GPT-4o-mini on visualization tasks."
 author: "Nils Durner"
 categories: [journal]
 ---

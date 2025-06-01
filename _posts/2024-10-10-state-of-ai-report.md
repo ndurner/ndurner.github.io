@@ -6,6 +6,7 @@ categories: [journal]
 tags: [stateofai, llm, ai, olmo, otter, elevenlab, mle-bench, llama]
 date: 2024-10-10
 last_updated: 2024-10-10
+description: "Summarizes the 'State of AI' report: adoption metrics, funding trends, research breakthroughs, and strategic predictions for next 5 years."
 ---
 
 The [State of AI report 2024](https://www.stateof.ai) is available. Some notes:

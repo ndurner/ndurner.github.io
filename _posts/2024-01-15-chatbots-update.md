@@ -3,6 +3,7 @@ layout: post
 title: "Chatbots Update"
 date: 2024-01-15
 last_updated: 2024-01-15
+description: "Provides the latest updates in chatbot development: new AI models, user interface refinements, and expanded plugin and integration capabilities."
 tags: [Anthropic, Claude, OpenAI, GPT-4 Turbo, Chatbot, ICS, Gradio]
 ---
 

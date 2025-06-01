@@ -3,6 +3,7 @@ layout: post
 title: "LLM on smartphone"
 date: 2024-04-09
 last_updated: 2024-04-09
+description: "Demonstrates running LLM inference on smartphones, comparing on-device performance, energy usage, and responsiveness for mobile AI assistants."
 tags: [llm, slm, smartphone, llamacpp, gguf, quantization, layla]
 ---
 

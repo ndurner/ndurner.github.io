@@ -3,6 +3,7 @@ layout: post
 title: "Mitigating LLM Hallucinations: The Power of System Prompts"
 date: 2024-08-23
 last_updated: 2024-08-23
+description: "Demonstrates mitigating LLM factual hallucinations with system prompts ('I do not know'), showcasing 'Indigo Sock Game' examples and workbench demos on GPT-4o and Claude 3.5."
 tags: [ai, llm, hallucinations, system prompts, gpt-4, claude 3.5]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "EMBER: Epistemic Markers as a Stress‑Test for LLM‑based Evaluation"
 date: 2025-05-04
 last_updated: 2025-05-04
+description: "Presents EMBER: LLM-judge benchmark for uncertainty markers, showing verdict shifts in GPT-4o, 3.5, Llama judges vs human baseline, and implications of GPT-4 deprecation."
 tags: [evaluation, llm, ai research, evals]
 ---
 

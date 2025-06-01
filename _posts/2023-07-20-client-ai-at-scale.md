@@ -3,6 +3,7 @@ layout: post
 title: "Inspire Session on 'Client AI at Scale'"
 date: 2023-07-20
 last_updated: 2023-07-20
+description: "Summarizes Intel & Microsoft 'Client AI at Scale' session, covering Meteor Lake VPU previews, DirectML frameworks, local Llama 2 demos, and edge AI application insights."
 tags: [Inspire, Client AI, Scale, Intel, Microsoft]
 ---
 

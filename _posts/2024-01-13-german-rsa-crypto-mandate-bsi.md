@@ -3,6 +3,7 @@ layout: post
 title: "RSA-3000 cryptography recommendation in Germany"
 date: 2024-01-13
 last_updated: 2024-01-13
+description: "Summarizes Germany's BSI mandate on implementing RSA cryptography standards, compliance deadlines, and technical requirements for federal IT systems."
 tags: [Cryptography, encryption, signature, RSA]
 ---
 

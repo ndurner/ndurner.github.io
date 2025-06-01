@@ -3,6 +3,7 @@ layout: post
 title: "Updates on Document-Processing"
 date: 2023-10-28
 last_updated: 2023-10-28
+description: "Updates on document-processing: long-context models (Claude-2, GPT-4-32K), Word-XML to Markdown demo, Aleph summarizer hallucination fix, MEMWALKER interactive reading research."
 tags: [Document-Processing, Claude-2, GPT-4, Aleph Alpha]
 ---
 

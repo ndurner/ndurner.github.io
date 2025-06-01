@@ -3,6 +3,7 @@ layout: post
 title: "Claude 2.1: Tokenizer inefficiency, Needle in a Haystack"
 date: 2023-11-27
 last_updated: 2023-11-27
+description: "Evaluates Claude 2.1’s 200K token window vs GPT’s tokenizer efficiency, quantifies space overhead, and needle-in-a-haystack recall drops at large contexts."
 tags: [Claude, Anthropic, AI, GPT-4, Tokenization, Efficiency, Comparison]
 ---
 

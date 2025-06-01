@@ -1,3 +1,4 @@
+description: "Investigates evaluation 'trickery' in chatbot tournaments, showing how adversarial inputs can skew leaderboard results and recommending robust testing protocols."
 ---
 layout: post
 title: "LMSYS Chatbot Arena, a popularity contest"

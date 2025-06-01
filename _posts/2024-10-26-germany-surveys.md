@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, survey, vago]
 date: 2024-10-26
 last_updated: 2024-10-26
+description: "Summarizes German AI adoption surveys: Bitkom’s low hype skepticism, origin importance, high performance issues, and Deutsche Telekom YouGov’s cross-country skepticism vs transparency demands."
 ---
 
 Two recent studies provide insights into the adoption and perception of artificial intelligence in Germany. The Bitkom study on "AI Usage in Germany" and Deutsche Telekom's international YouGov survey paint a nuanced picture that challenges some common assumptions.

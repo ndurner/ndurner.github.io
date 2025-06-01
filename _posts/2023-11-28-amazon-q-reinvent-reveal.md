@@ -3,6 +3,7 @@ layout: post
 title: "Amazon Q: A Closer Look at re:invent Reveal"
 date: 2023-11-28
 last_updated: 2023-11-28
+description: "Analyzes Amazon re:Invent's 'Amazon Q' AI system reveal, UI design critique, subtitle hallucinations, and comparison to Copilot for Enterprise offerings."
 tags: [Amazon Q, re:invent, AI, Enterprise Solutions]
 filename: 2023-11-28-amazon-q-reinvent-reveal.md
 ---

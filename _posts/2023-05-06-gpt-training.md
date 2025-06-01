@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt, openai, gpt4]
 date: 2023-05-06
 last_updated: 2023-05-06
+description: "Summarizes studies on GPT training data: archaeology of GPT-4–known books and memorization tests on the Tübingen dataset, showing significant recall but gaps in memorized inputs."
 ---
 
 One colleague recently shared that ChatGPT knows the inside of a (rare?) book which is not available in fulltext online, concluding that they must have scanned works. This study takes a systematic approach to survey this: [An Archaeology of Books Known to ChatGPT/GPT-4](https://arxiv.org/abs/2305.00118). Code and data here: [gpt4-books](https://github.com/bamman-group/gpt4-books).

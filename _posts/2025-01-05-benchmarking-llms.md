@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, benchmarks, deepseek]
 date: 2025-01-05
 last_updated: 2025-01-05
+description: "Breaks down FAZ’s AI cost-performance chart, flags tokenization inconsistencies, multilingual cost implications, and advocates for simple custom benchmarks like Pelican-on-a-bicycle."
 ---
 
 The current state of Large Language Models, their costs and performance was discussed following up on Dr. Holger Schmidt, Editorial Editor at German newspaper FAZ, advertising an "AI Overview" article.

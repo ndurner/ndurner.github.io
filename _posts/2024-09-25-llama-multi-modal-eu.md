@@ -3,6 +3,7 @@ layout: post
 title: "Multi-modal Llama EU availability"
 date: 2024-09-25
 last_updated: 2024-09-25
+description: "Covers EU pilot of multi-modal LLaMA: deployment in European data centers, compliance requirements, and use-case performance benchmarks."
 tags: [llm, ai, llama]
 ---
 

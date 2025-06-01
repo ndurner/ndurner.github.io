@@ -6,6 +6,7 @@ categories: journal
 tags: [chatgpt, openai, developer-assistant, github-copilot, gpt]
 date: 2023-03-19
 last_updated: 2023-03-19
+description: "Looks at ChatGPT as a developer assistant - using GPT-3/4 for JSON/XML parsing, Python services, SQL/GIS scripting, quick error fixes, and library audit risks."
 ---
 
 Inspired by YouTube content discussing the viability of ChatGPT as a developer assistant (akin to GitHub Copilot), I shared my perspective on how OpenAI's capabilities have evolved since I received my invitation in July 2022:

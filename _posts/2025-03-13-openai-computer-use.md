@@ -4,6 +4,7 @@ title: "OpenAI Agents additions"
 date: 2025-03-13
 tags: ["ai", "agents", "operator", "tool use", "computer use"]
 last_updated: 2025-03-13
+description: "Details OpenAI’s Web/File Search, Computer Use agent APIs, and SDK updates beyond Swarm, including demo script and cost breakdown (~3¢ per 1024×768 screenshot round-trip)."
 author: "Nils Durner"
 categories: [journal]
 ---

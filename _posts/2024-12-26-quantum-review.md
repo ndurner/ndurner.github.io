@@ -6,6 +6,7 @@ categories: [journal]
 tags: [pqc, quantum computing]
 date: 2024-12-26
 last_updated: 2024-12-26
+description: "Reviews 2024 quantum computing gaps: no real-world Shor’s algorithm decryption, pending post-quantum algorithm integration in EU standards, and limited real-world advantage beyond niche simulations."
 ---
 
 With end-of-year roundups and predictions being in season, it's also worthwhile to consider what hasn't, despite ceaseless cheerling, been achieved or announced:

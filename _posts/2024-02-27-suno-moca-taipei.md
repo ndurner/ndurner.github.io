@@ -3,6 +3,7 @@ layout: post
 title: "Suno AI at MoCA Taipei"
 date: 2024-02-27
 last_updated: 2024-02-27
+description: "Recaps Suno and MoCA AI hackathon in Taipei: showcased prototypes, interdisciplinary collaboration, and key takeaways from AI-driven art and music projects."
 tags: [AI, art, suno, sunoai]
 ---
 

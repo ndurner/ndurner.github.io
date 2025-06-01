@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, openai, agents, chatgpt, deep research]
 date: 2025-02-08
 last_updated: 2025-02-08
+description: "Guides exporting Deep Research reports: copy ChatGPT HTML DOM nodes, add header/footer from gist, apply regex link fixes, and save as DOCX or PDF."
 ---
 
 Sharing results from OpenAI Deep Research is not straightforward as simple copy & paste will cobble up attributions. What works instead is lifting the HTML fragment from ChatGPT and building a document from there. Step-by-step:

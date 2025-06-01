@@ -3,6 +3,7 @@ layout: post
 title: "Gemini 1.5 Pro released"
 date: 2024-03-22
 last_updated: 2024-03-22
+description: "Covers Google's Gemini 1.5 Pro launch: improved factuality tuning, larger context windows, benchmark comparisons, and early user access details."
 tags: [google, gemini]
 ---
 

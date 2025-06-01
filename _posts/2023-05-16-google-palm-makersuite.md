@@ -6,6 +6,7 @@ categories: [journal]
 tags: [google, palm, makersuite]
 date: 2023-05-16
 last_updated: 2023-05-16
+description: "Hands-on with Google PaLM API and MakerSuite: behind GPT-4, preview-only with EU geo-block, Playground-like UI, rampant hallucinations, inconsistent knowledge cutoffs, chat worse than text."
 ---
 
 Hands-on on Google PaLM API and MakerSuite: Summary: vastly behind GPT-4; more of a competitor to the Llamas.

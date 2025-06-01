@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt, gpt4, amazon, bedrock]
 date: 2023-04-14
 last_updated: 2023-04-14
+description: "Highlights Amazon Bedrock’s simple model customization via few-shot examples in S3, and parallels GPT-4 fine-tuning for RSS tweet scoring with 10–20 samples."
 ---
 
 From the Amazon (pre-)announcement of Bedrock:

@@ -3,6 +3,7 @@ layout: post
 title: "The Reality of Quivr and Other AI Projects"
 date: 2023-07-12
 last_updated: 2023-07-12
+description: "Reality-checks Quivr and similar AI second-brain tools, revealing OpenAI data use despite privacy claims, and outlines evaluation pipelines to detect misrepresentation."
 tags: [Quivr, Antropic, Claude, GPT, PDF, GPT-4, Embeddings]
 ---
 

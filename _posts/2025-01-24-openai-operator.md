@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, openai, operator, chatgpt]
 date: 2025-01-24
 last_updated: 2025-01-24
+description: "Describes ChatGPT's 'Operator' web navigation mode: US-only Pro preview, partner integrations (DoorDash, Bank etc.), AI-friendly UI/SEO implications, and a German court research example."
 ---
 
 OpenAI has launched "Operator", a new mode within ChatGPT that aims to navigate web-based workflows as a human would. This development is part of a [broader trend](uiagent) in AI-assisted task completion and represents a significant step forward in the practical application of language models.

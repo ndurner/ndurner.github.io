@@ -6,6 +6,7 @@ categories: [journal]
 tags: [pqc, quantum computing]
 date: 2025-01-12
 last_updated: 2025-01-12
+description: "Reviews BSI's report and Nvidia’s outlook: quantum decryption remains impractical, 16–30 year timelines, resource constraints, coherence/gate fidelity, and error correction challenges."
 ---
 
 Substantiating on my [earlier assessment](quantum-review) of the gap between hype and reality in quantum computing, the recently [updated report on quantum computers](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Quantencomputer/Entwicklungstand_QC_V_2_1.html) by the German Federal Office for Information Security (BSI) and comments by Nvidia CEO Jensen Huang provide comprehensive background. Key points:

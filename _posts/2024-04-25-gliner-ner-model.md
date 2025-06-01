@@ -3,6 +3,7 @@ layout: post
 title: "GLiNER NER model"
 date: 2024-04-25
 last_updated: 2024-04-25
+description: "Introduces the Gliner named-entity recognition model, covering training data, architecture, evaluation benchmarks, and real-world deployment considerations."
 tags: [llm, ner]
 ---
 

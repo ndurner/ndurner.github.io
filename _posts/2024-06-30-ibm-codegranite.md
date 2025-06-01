@@ -3,6 +3,7 @@ layout: post
 title: "IBM Granite Models - for Agents?"
 date: 2024-06-30
 last_updated: 2024-06-30
+description: "Reviews IBM CodeGranite AI code generation tool, covering key features, cloud integration workflows, and developer productivity benchmarks."
 tags: [ai, ibm, granite, llm, agents, aileen2]
 ---
 

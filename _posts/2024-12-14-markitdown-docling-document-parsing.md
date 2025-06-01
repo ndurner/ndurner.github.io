@@ -6,6 +6,7 @@ categories: [journal]
 tags: [docling, markitdown, pdf, document AI, pymupdf4llm, jina, llm]
 date: 2024-12-14
 last_updated: 2024-12-14
+description: "Compares MarkItDown, Docling, PyMuPDF4LLM, and Jina AI Reader for converting documents to Markdown, highlighting installation, fidelity, OCR, API integration, and enterprise options."
 ---
 
 Recently, a few open-source tools for converting PDFs, Office documents, and other formats into Markdown have drawn attention. Among these are [MarkItDown](https://github.com/microsoft/markitdown) from Microsoft, [Docling](https://github.com/DS4SD/docling) from IBM Research, [PyMuPDF4LLM](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/), and the [Jina AI Reader API](http://jina.ai/reader/). They aim to provide text suitable for downstream tasks, including LLM-driven analysis, without requiring manual formatting.

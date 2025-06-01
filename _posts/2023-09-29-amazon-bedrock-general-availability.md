@@ -3,6 +3,7 @@ layout: post
 title: "Amazon Bedrock is GA"
 date: 2023-09-29
 last_updated: 2023-09-29
+description: "Announces Amazon Bedrock GA: Titan model naming updates, billing start date, preview region availability, and federation via Amazon Titan and Anthropic."
 tags: [Bedrock, Amazon, Titan, LLM]
 ---
 

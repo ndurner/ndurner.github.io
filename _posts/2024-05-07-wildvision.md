@@ -3,6 +3,7 @@ layout: post
 title: "WildVision Arena Benchmark"
 date: 2024-05-07
 last_updated: 2024-05-07
+description: "Reviews WildVision wildlife identification system, discussing dataset collection, model architecture, and field deployment accuracy metrics."
 tags: [vlm, llm]
 ---
 

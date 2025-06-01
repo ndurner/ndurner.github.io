@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, openai, deepseek, nvidia]
 date: 2025-02-02
 last_updated: 2025-02-02
+description: "Analyzes Nvidia’s 18% stock crash over DeepSeek’s inference on Huawei 910C vs H800 training chips, debunks Jevons paradox link, and highlights Ascend 910C’s framework compatibility."
 ---
 
 When stock in Nvidia [crashed an unprecented 18%](https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html) allegedly because DeepSeek allegedly having used less capable chips, many were confused. Some pointed at the [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox) which describes that efficiency gains cause an increase in use to a degree where the gains evaporate. But as X user Alexander Doria was quick to point out:

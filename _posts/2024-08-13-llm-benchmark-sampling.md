@@ -3,6 +3,7 @@ layout: post
 title: "LLM Benchmarks: The Impact of Temperature and Sampling"
 date: 2024-08-13
 last_updated: 2024-08-13
+description: "Examines Aidan-Bench LLM evaluation sensitivity to temperature and sampling: GPT-4o-mini scores vary from 189 at T=0 to 266 at T=0.7 on 25 questions, highlighting benchmark volatility."
 tags: [ai, benchmarks, llm, evaluation]
 ---
 

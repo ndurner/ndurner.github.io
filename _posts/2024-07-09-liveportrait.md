@@ -3,6 +3,7 @@ layout: post
 title: "LivePortrait: Animating the Static"
 date: 2024-07-09
 last_updated: 2024-07-09
+description: "Discusses LivePortrait's real-time portrait generation from video streams, covering model architecture, latency optimizations, and aesthetic controls."
 tags: [ai, animation, deepfake]
 ---
 

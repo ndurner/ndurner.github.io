@@ -6,6 +6,7 @@ categories: [journal]
 tags: [chatgpt, perplexity, google]
 date: 2024-12-29
 last_updated: 2024-12-29
+description: "Examines Google Search AI’s featured snippets misinforming with RAG poisoning on fictitious sequels, and compares ChatGPT Search and Perplexity’s more accurate fan-theory handling."
 ---
 
 Simon Willison has surfaced renewed cases where Google Search shows so-called "featured snippets" (🇩🇪 "hervorgehobene Snippets") that answer the user search flat-out wrong. Simon writes on Bluesky:

@@ -4,6 +4,7 @@ title: "Poisoning training data: Russian propaganda for AI models?"
 date: 2025-03-17
 tags: ["llm", "openai", "chatpt"]
 last_updated: 2025-04-19
+description: "Examines Newsguard’s 33% Russian propaganda poisoning claim for LLMs, replicates debunking with GPT-4o/4.5, and critiques Washington Post’s limited Copilot/Grok examples and opaque dataset."
 author: "Nils Durner"
 categories: [journal]
 ---

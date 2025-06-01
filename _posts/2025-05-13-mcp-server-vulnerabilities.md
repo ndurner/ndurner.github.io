@@ -6,6 +6,7 @@ categories: [security]
 tags: ["tool use", "llm", "mcp", "security", "vulnerability"]
 date: 2025-05-13
 last_updated: 2025-05-13
+description: "Reveals exposed MCP servers’ vulnerabilities: Inspector CSRF, file:// data leaks, git command injection, DNS rebinding, and remote code execution."
 ---
 
 The Model Context Protocol (MCP), dubbed "USB-C for AI", but essentially an out-of-process execution variety of the [tool-use](computation-llms) paradigm originally by Anthropic, has raised [security concerns before](https://arxiv.org/abs/2504.08623). Now, a [blog post](https://blog.jaisal.dev/articles/mcp) finds that the official Python SDK makes MCP server services available to the world (0.0.0.0), not just locally (127.0.0.1). As a result, the authors were able to discover 104 exposed MCP servers by scanning only a portion of the internet.

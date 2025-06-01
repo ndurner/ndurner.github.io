@@ -3,6 +3,7 @@ layout: post
 title: "Adobe Firefly V2 Review"
 date: 2023-12-16
 last_updated: 2023-12-16
+description: "Reviews Adobe Firefly v2 enhancements in generative content creation, inpainting performance, watermarking, and integration with Adobe Creative Cloud workflows."
 tags: [Adobe, Firefly V2, DALL-E 3, Image Generation]
 ---
 

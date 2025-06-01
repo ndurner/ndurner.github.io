@@ -6,6 +6,7 @@ categories: [journal]
 tags: [openai, o1]
 date: 2024-09-13
 last_updated: 2024-09-17
+description: "Shares first impressions of OpenAI's O1 preview model: performance benchmarks, new feature tests, and initial comparisons to existing GPT-4 capabilities."
 ---
 
 So OpenAI have released a preview of their new O1 model(s): [Landing Page](https://openai.com/o1/). This is a specialized model and departs from the tradition of the other GPT models. It is available to paid ChatGPT subscribers, to Tier 5 API customers and via OpenRouter.

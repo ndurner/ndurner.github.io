@@ -3,6 +3,7 @@ layout: post
 title: "Bing Enterprise Chat & Code Generation"
 date: 2023-07-18
 last_updated: 2023-07-18
+description: "Overviews Bing Enterprise Chat's data privacy features (no prompt retention), visual search code generation, and integration into enterprise workflows."
 tags: [Microsoft, OpenAI, Azure, Bing, Enterprise Chat]
 ---
 

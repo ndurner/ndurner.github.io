@@ -4,6 +4,7 @@ title: "GPT-4o Imagegen for infographics"
 date: 2025-04-05
 tags: ["llm", "openai", "gpt4o", "dall-e", "diffusion", "image generation", "imagegen", "chatgpt"]
 last_updated: 2025-04-13
+description: "Showcases GPT-4o Imagegen for infographics: using GPT-4.5 to build prompts, iterating diagrams with style references and instructor characters, plus ethics of style mimicry."
 author: "Nils Durner"
 categories: [journal]
 ---

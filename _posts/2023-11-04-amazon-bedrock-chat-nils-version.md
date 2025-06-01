@@ -3,6 +3,7 @@ layout: post
 title: "Amazon Bedrock Chat (Nils' Version)"
 date: 2023-11-04
 last_updated: 2023-11-04
+description: "Introduces a Gradio-based web app for Amazon Bedrock Claude-2 chat with file upload, formatted output, credential storage, and HuggingFace hosting."
 tags: [Amazon, Bedrock, Claude-2, Chatbot, AWS]
 filename: 2023-11-04-amazon-bedrock-chat-nils-version.md
 ---

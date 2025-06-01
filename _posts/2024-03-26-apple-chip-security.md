@@ -3,6 +3,7 @@ layout: post
 title: "Apple Chip Flaw"
 date: 2024-03-26
 last_updated: 2024-03-26
+description: "Analyzes Apple’s M-series security architecture, detailing Secure Enclave, hardware encryption, and implications for secure AI on-device workloads."
 tags: [apple, security, cryptography]
 ---
 

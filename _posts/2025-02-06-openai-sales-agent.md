@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, openai, agents, deep research]
 date: 2025-02-06
 last_updated: 2025-02-06
+description: "Details OpenAI’s 'Virtual Sales Associate' demo and Deep Research sessions: multi-stage web/PDF/image analysis, sales workflows, and roadmap for private internal data access."
 ---
 
 A "Virtual Sales Associate" was showcased briefly by OpenAI, perhaps as something like GPTs: "Enterprises can start to *customize* these applications [agents?]". Also, OpenAI may be going after the data inside organizations: "The most valuable data is the data you have in your company. You can imagine us to expand Deep Research to internal information."

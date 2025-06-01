@@ -6,6 +6,7 @@ categories: [journal]
 tags: [vlm, mllm, llm, ai research, benchmarks, the decoder]
 date: 2024-11-02
 last_updated: 2024-11-02
+description: "Critiques 'Bongard in Wonderland' VLM paper: outdated model versions, system prompt errors, poor statistical design, and reproduction showing major performance gains in updated Claude releases."
 ---
 
 A recent paper titled "Bongard in Wonderland: Visual Puzzles that Still Make AI Go Mad?" has garnered some attention through German tech media. The study claims to demonstrate fundamental limitations in visual language models' (VLMs) reasoning capabilities. However, upon closer examination of their methodology and code implementation, several issues emerge that question the validity of these sweeping conclusions.

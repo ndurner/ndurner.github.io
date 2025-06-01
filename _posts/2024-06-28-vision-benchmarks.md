@@ -3,6 +3,7 @@ layout: post
 title: "Benchmarking AI Vision"
 date: 2024-06-28
 last_updated: 2024-06-28
+description: "Surveys vision-language benchmark suites, reporting model performances on image-text tasks and outlining evaluation best practices."
 tags: [ai, vision, benchmarks, llm]
 ---
 

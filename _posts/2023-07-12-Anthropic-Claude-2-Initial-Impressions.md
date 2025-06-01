@@ -3,6 +3,7 @@ layout: post
 title: "Anthropic's Claude 2: Initial Impressions"
 date: 2023-07-12
 last_updated: 2023-07-12
+description: "Hands-on initial impressions of Anthropic’s Claude 2: document loading limits, grounding deviations, section referencing, and hallucination detection examples."
 tags: [Claude, Anthropic, GPT-4]
 ---
 

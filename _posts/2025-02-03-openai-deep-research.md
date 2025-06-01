@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, openai, agents]
 date: 2025-02-03
 last_updated: 2025-02-03
+description: "Announces OpenAI Deep Research: an agent that spends 5–30 minutes fetching and synthesizing hundreds of web sources into expert-level ChatGPT reports, with planned visuals and analytics."
 ---
 
 To continue the trend of "long-running AI", OpenAI have launched "Deep Research" (not in the EU, though):

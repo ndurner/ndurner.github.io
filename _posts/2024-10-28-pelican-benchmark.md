@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, survey, vago]
 date: 2024-10-26
 last_updated: 2024-10-26
+description: "Introduces the Pelican-on-a-bicycle benchmark to compare quantized Llama 3.1 405B variants across providers (AWS Bedrock, Hyperbolic) and evaluates Claude 3.5 regression at different temperatures."
 ---
 
 Motivated by starkly different results from different Llama 3.1 405B providers on one hand, and claims - particulary derived from the Chatbot Arena that quantized versions are no different on the other hand, I have been wishing for a telltale sign that 1) conclusively proves otherwise and 2) tells providers apart. Good news: Simon Willison has started the Pelican-on-a-bicycle benchmark: a gallery that compares LLM outputs from this simple prompt:

@@ -3,6 +3,7 @@ layout: post
 title: "Sora: manual post-processing"
 date: 2024-04-25
 last_updated: 2024-04-25
+description: "Details Sora's manual document processing pipeline with human-in-the-loop annotation, quality control steps, and AI augmentation workflows."
 tags: [openai, sora, text-to-image]
 ---
 

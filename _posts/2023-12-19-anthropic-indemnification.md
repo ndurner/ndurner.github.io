@@ -3,6 +3,7 @@ layout: post
 title: "Anthropic Indemnification"
 date: 2023-12-19
 last_updated: 2023-12-19
+description: "Details Anthropic’s indemnification offering for AI clients, outlining coverage limits, eligible claims, and differences from competitor indemnification terms."
 tags: [Anthropic, Copyright, Indemnification]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Corporate spending on AI"
 date: 2024-05-17
 last_updated: 2024-05-17
+description: "Analyzes corporate AI spending trends, including budget allocation, ROI benchmarks, and strategic investment insights across industries."
 tags: [LLM, AI, OpenAI, Foundation Models]
 ---
 

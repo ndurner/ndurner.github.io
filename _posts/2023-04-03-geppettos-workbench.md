@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt, chatgpt, openai, openai playground, chat]
 date: 2023-04-03
 last_updated: 2023-04-03
+description: "Introduces Geppetto's Workbench, an OpenAI Playground wrapper with GPT-4 defaults, factuality-focused parameters, UI decluttering, and plans for presets and auto-continuation."
 ---
 
 I have created **G**e**p**pe**t**to's Workbench over the weekend, to simplify working with the OpenAI Playground in several ways:

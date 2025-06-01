@@ -6,6 +6,7 @@ categories: [journal]
 tags: [openai, gpt, chatgpt]
 date: 2023-05-11
 last_updated: 2023-05-11
+description: "Reviews Gartner’s April guide for CMOs on ChatGPT (GPT-3.5 era) and a practical AI-use guide, noting outdated next-token myths and that GPT-4-based Bing trails in truthfulness."
 ---
 
 Gartner has published their guide ["How Should CMOs Respond to ChatGPT Today?"](https://www.gartner.com/en/marketing/research/how-should-cmos-respond-to-chatgpt-today). PDF metadata confirms Creation Date: April 19. But it seems to written around "ChatGPT-on-GPT-3.5", so basically technology from 2020:

@@ -4,6 +4,7 @@ title: "OpenAI Operator Testdrive"
 date: 2025-02-22
 tags: ["ai", "agents", "operator", "tool use"]
 last_updated: 2025-02-22
+description: "Tests ChatGPT Operator agent: uses Bing-first search, remote browser UI, manual credential entry, multi-tab retries, SEO implications, and completes an e-wallet bus ticket purchase."
 author: "Nils Durner"
 categories: [journal]
 ---

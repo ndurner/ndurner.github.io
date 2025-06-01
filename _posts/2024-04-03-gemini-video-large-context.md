@@ -3,6 +3,7 @@ layout: post
 title: "Gemini Large context & Video"
 date: 2024-04-03
 last_updated: 2024-04-03
+description: "Evaluates Google's Gemini model on large-context video processing, detailing transcription handling, summarization performance, and potential multimedia applications."
 tags: [gemini, llm, large context]
 ---
 

@@ -4,6 +4,7 @@ title: "Microsoft Copilot Experimental features"
 date: 2025-04-04
 tags: ["llm", "gpt", "chatgpt", "copilot", "copilot", "copilot chat"]
 last_updated: 2025-05-04
+description: "Summarizes TestingCatalog’s leaked Copilot experiments: 'Think Deeper', Deep Research, Action agent mode, Canvas-like Pages, GPT-4o ImageGen, and Podcasts support."
 author: "Nils Durner"
 categories: [journal]
 ---

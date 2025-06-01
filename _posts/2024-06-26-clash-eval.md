@@ -1,3 +1,4 @@
+description: "Details the Clash evaluation framework for LLM comparison, describing methodology, scoring metrics, and case study results across multiple models."
 ---
 layout: post
 title: "ClashEval: When LLM Safeguards Clash with RAG"

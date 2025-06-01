@@ -3,6 +3,7 @@ layout: post
 title: "The Rise of AI-Generated Videos"
 date: 2024-06-02
 last_updated: 2024-06-02
+description: "Evaluates emerging text-to-video generation tools, detailing prompt workflows, video quality comparisons, and domain-specific application examples."
 tags: [AI, video generation, pika, runway, kaiber]
 ---
 

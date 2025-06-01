@@ -6,6 +6,7 @@ categories: [journal]
 tags: [forensics, vlm, mllm, llm]
 date: 2024-10-15
 last_updated: 2024-10-15
+description: "Demonstrates JPEG redaction without recompression using asenior/Jpeg-Redaction-Library: macOS build steps and command-line region blackout examples to preserve image fidelity."
 ---
 
 As I was compiling bug reports for a Vision Language Model vendor, I found the need to redact images without JPEG recompression: simply re-saving a particular sample image that had originally triggered a repitition loop with the MLLM changed the image in such a way that I could not reproduce the problem. Solution: [asenior/Jpeg-Redaction-Library](https://github.com/asenior/Jpeg-Redaction-Library). From the project description:

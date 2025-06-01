@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt, chatgpt, openai, openai playground, chat]
 date: 2023-04-01
 last_updated: 2023-04-01
+description: "Explains differences between OpenAI Playground (chat mode) and chat.openai.com: system prompts, formatting, geo-blocking, plugins, and professional use with GPT-4 access."
 ---
 
 I got the question what the difference between the [OpenAI Playground "in chat mode"](https://platform.openai.com/playground?mode=chat&model=gpt-4) and chat.openai.com is. So for everybody's benefit, my answer reproduced below. If you're not familiar at all, see this screenshot for what I am talking about:

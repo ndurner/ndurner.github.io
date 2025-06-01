@@ -6,6 +6,7 @@ categories: [journal]
 tags: [aleph alpha, Luminous]
 date: 2023-06-29
 last_updated: 2023-06-29
+description: "Hands-on with Aleph Alpha Luminous: on-premises, GDPR-compliant multi-modal LLM with image processing, confidence scores, explainability, and disposition of prompts."
 ---
 
 First glance at & hands-on Aleph Alpha, the German competitor of OpenAI:

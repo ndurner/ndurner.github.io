@@ -3,6 +3,7 @@ layout: post
 title: "ChatGPT Plus: Closer look at Plugins and Advanced Data Analysis"
 date: 2023-08-29
 last_updated: 2023-08-29
+description: "Examines ChatGPT Plus features: Advanced Data Analysis (Code Interpreter) and Plugins as instantiations of MSR's 'Tools' concept, with examples, benefits, and pitfalls."
 tags: [OpenAI, GPT-4, Code Interpreter, Plugins, Advanced Data Analysis]
 ---
 

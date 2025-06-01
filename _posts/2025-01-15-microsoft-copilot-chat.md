@@ -6,6 +6,7 @@ categories: [journal]
 tags: [ai, llm, microsoft, gpt4]
 date: 2025-01-16
 last_updated: 2025-01-16
+description: "Introduces Microsoft Copilot Chat: free core chat with web search, paid 'Agents' and subs, enterprise SSO data protection, GPT-4o-mini backend, Code Interpreter support, and usage limit caveats."
 ---
 
 Microsoft has launched Copilot Chat, an offering similar to ChatGPT:

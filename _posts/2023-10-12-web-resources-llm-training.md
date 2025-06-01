@@ -3,6 +3,7 @@ layout: post
 title: "Web Resources in LLM Training, and Hallucination"
 date: 2023-10-12
 last_updated: 2023-10-12
+description: "Discusses shift from web-crawled C4 training to curated datasets for LLMs, and highlights latest survey on hallucination detection, evaluation, and mitigation."
 tags: [LLMs, Datasets, C4, Hallucination]
 ---
 

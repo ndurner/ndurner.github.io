@@ -3,6 +3,7 @@ layout: post
 title: "Microsoft and Qualcomm's Announcement on LLaMA 2 Integration"
 date: 2023-07-18
 last_updated: 2023-07-18
+description: "Covers Microsoft Inspire’s LLaMA 2 integration: Azure AI Studio model catalog, Windows local inference demo, and Qualcomm partnership for on-device AI."
 tags: [Microsoft, Qualcomm, LLaMA, Llama 2, OpenAI, Azure, Windows]
 ---
 

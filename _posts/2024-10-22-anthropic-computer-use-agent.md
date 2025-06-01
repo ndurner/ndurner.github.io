@@ -6,6 +6,7 @@ categories: [journal]
 tags: [llm, ai, anthropic, claude, agent]
 date: 2024-10-22
 last_updated: 2024-10-22
+description: "Reviews Anthropic’s Computer Use Demo: automates headless Ubuntu desktop via Claude’s computer/bash/edit tools, Xvfb/xdotool UI stack, custom system prompts, and Anthropic/Google/AWS deployment."
 ---
 
 Anthropic have published the ["Computer Use Demo"](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo) in their Quickstarts Github repository. The approach taken is fundametally different from my [Aileen project](aileen): it's not confined to a browser controlled through Selenium and very tight guardrails, but instead controls a full GNU/Linux desktop - which is separate from the user desktop session. On the OS side, the building blocks include: xdotool to fake mouse & keyboard input, Xvfb to provide the offscreen desktop, Mutter as the window manager, tint2 as the panel/taskbar, and NoVNC. The start-up/setup scripts for these are in image/. The user interface for the demo is based on Streamlit.

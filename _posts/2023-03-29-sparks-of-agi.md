@@ -6,6 +6,7 @@ categories: [journal]
 tags: [gpt, reverse prompting]
 date: 2023-03-29
 last_updated: 2023-03-29
+description: "Reviews Microsoft Research's 'Early experiments with GPT-4' paper, covering LaTeX graphics, reverse prompting for web info and calculations, with a 'Who is Jörg Lenz?' demo."
 ---
 
 Microsoft Research paper: ["Early experiments with GPT-4"](https://arxiv.org/pdf/2303.12712.pdf). With ChatGPT Plus largely being vaporware at this point, this is a nice overview of what to reasonably expect. I haven't finished it yet, but things worth pointing out:

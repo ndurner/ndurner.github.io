@@ -4,6 +4,7 @@ title: "Amazon Nova foundation model release"
 date: 2024-12-03
 tags: ["llm", "amazon", "nova"]
 last_updated: 2024-12-03
+description: "AWS guide for Amazon Nova: Bedrock model access, IAM policy creation, user credential setup, and Nova Pro testing in HuggingFace Bedrock Chat."
 author: "Nils Durner"
 categories: [journal]
 ---

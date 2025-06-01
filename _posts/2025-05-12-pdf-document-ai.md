@@ -6,6 +6,7 @@ categories: [journal]
 tags: ["chatgpt", "o3", "pdf", "docling", "openai", "document AI", "operator"]
 date: 2025-05-12
 last_updated: 2025-05-12
+description: "Compares PDF AI tool reviews: Docling vs ChatGPT with config tweaks, applies 'The Bitter Lesson' on compute-centric methods, and highlights LLM extraction inconsistencies."
 ---
 
 In a recent [LinkedIn discussion](https://www.linkedin.com/feed/update/urn:li:activity:7326127846207217664?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7326127846207217664%2C7326330982683340800%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287326330982683340800%2Curn%3Ali%3Aactivity%3A7326127846207217664%29) around a review of PDF-focused KI-Assistants ([ComputerBase article](https://www.computerbase.de/artikel/apps/pdfs-ki-auswerten-adobe-assistent-notebooklm-chatgpt.92276/)), I touched on limitations, workarounds, and the ongoing tension between domain-specific tooling and general-purpose, ever-evolving AI platforms.

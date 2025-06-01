@@ -3,6 +3,7 @@ layout: post
 title: "xz Backdoor"
 date: 2024-03-30
 last_updated: 2024-03-30
+description: "Reports discovery of backdoor in xz compression code via malicious patch, details vulnerability analysis and mitigation recommendations."
 tags: [security, oss]
 ---
 

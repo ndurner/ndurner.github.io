@@ -3,6 +3,7 @@ layout: post
 title: "LLM Pricing Comparisons: The Missing Tokenizer Efficiency Factor"
 date: 2024-07-02
 last_updated: 2024-07-02
+description: "Compares LLM pricing across cloud providers, analyzing cost-per-token, subscription tiers, and total cost of ownership for enterprise deployments."
 tags: [llm, pricing, tokenizers, efficiency]
 ---
 

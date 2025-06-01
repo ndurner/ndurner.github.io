@@ -4,6 +4,7 @@ title: "OpenAI API: 4.1 in, 4.5 out"
 date: 2025-04-05
 tags: ["llm", "openai", "gpt", "gpt4"]
 last_updated: 2025-04-18
+description: "Releases GPT-4.1 in three sizes, reproduces bias vs GPT-4o, adds code diff outputs, notes GPT-4.5 API deprecation, and revisits long-context prompting and diff formats."
 author: "Nils Durner"
 categories: [journal]
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Hands on Training an Own OpenAI Model (Fine-Tuning 2.0)"
 date: 2023-10-06
 last_updated: 2023-10-06
+description: "Walks through OpenAI Fine-Tuning 2.0 with adapter-based methods: 49 Q&A examples to teach GPT-3.5 new domain facts, costs $0.15, and highlights confabulation edge cases."
 tags: [OpenAI, Fine-Tuning, Machine Learning, GPT-3.5, GPT-4]
 ---
 
