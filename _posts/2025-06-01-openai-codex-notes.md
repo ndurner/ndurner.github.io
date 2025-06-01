@@ -9,7 +9,7 @@ date: 2025-06-01
 last_updated: 2025-06-01
 ---
 
-Upfront summary: Codex CLI is labelled an "experimental project" and it certainly is: handing off whole developments tasks for automagic completion has still not arrived.
+Upfront summary: Codex CLI is labelled an "experimental project" and it certainly is: handing off whole, convoluted developments tasks for automagic completion has still not arrived.
 
 * use is charged towards API credits
     * free use allowance can be [redeemed by users of certain paid ChatGPT subscriptions or through data sharing](https://x.com/fouadmatin/status/1923906279929778594)
@@ -29,6 +29,8 @@ Upfront summary: Codex CLI is labelled an "experimental project" and it certainl
 * does not access the web, so tends to make up APIs that don't exist
     * Eleanore Berger's [approach with AI-assisted planning upfront](https://x.com/intellectronica/status/1928471155179954344) seems like a good workaround
 * general lore that coding agents can get costly quickly seems true, at least with the o3 model: a request to update a Github Pages blog post cost > $4.
+    * insight: all interactions and shell input/output are inlined in the main session are thus carried along in the context
+    * I had anticipated for implicit caching to alleviate the cost of growing context, but apparently that's not as much as to make the use of o3 in Codex reasonably cheap
 * generally lazy vibe for updating > 100 blog posts, with poor instruction following: models like to read files only partially (read first n lines, summarize first paragraph, ...) and generally had to be instructed that it's an LLM itself with all capabilities. o4-mini seemed best, but went off-rails frequently by claiming "too manually intensive", asking for feedback, etc. Once broke off and unilaterally created several scripts that would call out to an external LLM!
 * Codex CLI, like Google Jules, was overwhelmed with undoing an historical API switch and implementing a new feature based on the new-old API while keeping everything else intact.
 * a simple coding task on an existing code base with sufficient detail given as context appeared successful, but I did not verify in depth
