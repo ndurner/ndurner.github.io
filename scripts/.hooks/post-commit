@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Load environment variables
+source "$(git rev-parse --show-toplevel)/.env"
+
+# Get list of committed files that are markdown files in _posts
+files=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '^_posts/.*\.md$')
+
+if [ -z "$files" ]; then
+    echo "No blog posts were committed, skipping IndexNow notification"
+    exit 0
+fi
+
+# Transform the files into URLs and create JSON array
+urls=""
+for file in $files; do
+    # Strip _posts/ prefix and .md suffix
+    basename=${file#_posts/}
+    basename=${basename%.md}
+    
+    # Strip the date prefix (YYYY-MM-DD-)
+    urlpath=${basename#[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-}
+    
+    # Add to URL list
+    if [ -n "$urls" ]; then
+        urls="$urls,"
+    fi
+    urls="$urls\"https://ndurner.github.io/$urlpath\""
+done
+
+# Construct and send the IndexNow request
+curl -X POST "https://api.indexnow.org/IndexNow" \
+    -H "Content-Type: application/json; charset=utf-8" \
+    -d "{
+        \"host\": \"ndurner.github.io\",
+        \"key\": \"$INDEXNOW_KEY\",
+        \"keyLocation\": \"https://ndurner.github.io/$INDEXNOW_KEY.txt\",
+        \"urlList\": [$urls]
+    }" \
+    -w "\nHTTP Status: %{http_code}\n"

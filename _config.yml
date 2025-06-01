@@ -35,3 +35,10 @@ defaults:
       path: "blog/page*/"
     values:
       sitemap: false
+
+# Explicitly exclude development-related files and directories
+exclude:
+  - scripts
+  - .env
+  - .gitignore
+  - .git
