@@ -63,3 +63,9 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+.related-posts-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2em;
+}
