@@ -1,13 +1,4 @@
 <head>
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} | {{ site.description }}
-    {% elsif page.title == "Spaces" %}
-      Nils Durner's Spaces
-    {% else %}
-      {{ page.title }} | {{ site.title }}
-    {% endif %}
-  </title>
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -20,6 +11,7 @@
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+  <meta name="robots" content="index,follow">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
   <!-- Use Atom -->
