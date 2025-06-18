@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stream recording"
+title: "OBS Stream Recording"
 date: 2024-04-21
 last_updated: 2024-09-25
 description: "Learn how to set up and troubleshoot remote stream recording on AWS EC2 instances, including fixing audio, RDP disconnection, and resolution issues with OBS and Windows Server."
