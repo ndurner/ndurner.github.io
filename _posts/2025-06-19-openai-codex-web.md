@@ -7,7 +7,6 @@ tags: ["openai", "codex", "github", "agents", "prompt-engineering", "llm", "auto
 last_updated: 2025-06-19
 author: "Nils Durner"
 categories: [journal]
-keywords: ["OpenAI Codex", "Codex Web", "Codex ChatGPT", "Codex CLI", "GitHub integration", "agentic AI", "container environment", "prompt engineering", "developer notes"]
 ---
 
 The [first OpenAI hackathon in the EU](https://www.linkedin.com/posts/nilsdurner_buildwithopenai-regtech-openai-activity-7340614796666388480-aruM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAGX2jIBd6RDsNRYv13Bvu3x4nnCNu96SEw) was about writing Agents using Agents. We received access to Codex in our kit as part of ChatGPT Pro, but it by now also seems to be available to other paid plans including Plus. Codex in ChatGPT is different from [Codex CLI](openai-codex-notes).
@@ -31,7 +30,7 @@ The [first OpenAI hackathon in the EU](https://www.linkedin.com/posts/nilsdurner
     * remedy: submit many tasks in parallel. Current rate limit is 60 tasks per hour (but may change in the future; also pricing is TBD)
 * Other practical tests that show some limitations:
     * big task, fresh repo: create an iOS chatbot app in Qt based on Responses API. First result used Python, so had to spell the C++ requirement out. Second result used the ChatCompletions API, despite I had prompted for the Responses API. Third result did use the Reponses API endpoint, but kept the ChatCompletions API input JSON format ("messages" vs "input"). Also, errors returned from the API (regarding the "inputs" absence) were not handled/displayed as a user-facing error, so had to debug manually. And so on... until finally the output did appear, but duplicated (once from streaming, the other instance from the final event).
-    * sub-task from the previous one, refer to the documentation. This internally failed repeatedly because Codex will only handle outputs from commands with a limit of 1600 bytes. Codex downloaded the documentation with curl, but reading the first 20 lines using the "head" command yielded 7K bytes of HTML - so Codex could not proceed that way (error message below)
+    * sub-task from the previous one: refer to the documentation. This internally failed repeatedly because Codex will only handle outputs from commands with a limit of 1600 bytes. Codex downloaded the documentation with curl, but reading the first 20 lines using the "head" command yielded 7K bytes of HTML - so Codex could not proceed that way (error message below). Solved by presenting it with the Open API specification of the API instead of the simple web link.
 
 The failure with the big task based on a fresh repo reinforce the [Prompting advice](https://platform.openai.com/docs/codex/overview#prompting-codex) to split larger tasks into smaller, focused steps. Questions on how-large-is-too-large and how to structure creation of entirely new projects remains a craft to be developed.
 
