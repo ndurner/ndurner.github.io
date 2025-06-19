@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Stream recording"
+title: "OBS Stream Recording"
 date: 2024-04-21
-last_updated: 2024-04-21
-description: "Explores methods for recording and replaying LLM interaction streams for debugging, auditing, and continuous model improvement."
+last_updated: 2024-09-25
+description: "Learn how to set up and troubleshoot remote stream recording on AWS EC2 instances, including fixing audio, RDP disconnection, and resolution issues with OBS and Windows Server."
 tags: [obs, aws, rdp, microsoft teams]
-last_update: 2024-09-25
-last_updated: 2024-04-21
 ---
 
 How does one record a live stream in absence, perhaps using AWS EC2? A discussion on Reddit lead me to base everything on a g5.xlarge instance.
