@@ -22,4 +22,4 @@ And it may be usable to translate slides as well:
 Notice however how our profile photos got substituded!
 
 [Update 2025-03-27]
-4o can create technical visualizations, at least simple ones. Steven Heidel of OpenAI shared [this diagram](https://x.com/stevenheidel/status/1904966320770384170), but [without the prompt](https://x.com/ndurner/status/1905295407120580753). I tried the first of my practice cases from [my article on process visualization](2025-02-27-ai-assisted-process-visualiaztion-collaboration) with a slightly modified text prompt and it generally did work, with just minor flaws. The trick is to instruct ChatGPT to use the "Imagegen" tool.
+4o can create technical visualizations, at least simple ones. Steven Heidel of OpenAI shared [this diagram](https://x.com/stevenheidel/status/1904966320770384170), but [without the prompt](https://x.com/ndurner/status/1905295407120580753). I tried the first of my practice cases from [my article on process visualization](assisted-process-visualiaztion-collaboration) with a slightly modified text prompt and it generally did work, with just minor flaws. The trick is to instruct ChatGPT to use the "Imagegen" tool.
