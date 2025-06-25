@@ -4,12 +4,12 @@ title: "Hands on Training an Own OpenAI Model (Fine-Tuning 2.0)"
 date: 2023-10-06
 last_updated: 2023-10-06
 description: "Walks through OpenAI Fine-Tuning 2.0 with adapter-based methods: 49 Q&A examples to teach GPT-3.5 new domain facts, costs $0.15, and highlights confabulation edge cases."
-tags: [OpenAI, Fine-Tuning, Machine Learning, GPT-3.5, GPT-4]
+tags: [OpenAI, Fine-Tuning, Machine Learning, GPT-3.5, GPT-4, adapters]
 ---
 
 Upfront summary: model training has evolved significantly. Adding new knowledge may actually be viable now.
 
-Background: a recent article shared on LinkedIn about Google Cloud Next had caught my attention. Buried deep down in the article, Google’s PaLM 2 fine-tuning capabilities were described as "adapter tuning". 💡 Adapter-based Tuning of LLMs is a concept developed at Technische Universität Darmstadt 🇩🇪 that does not update the weights of a pre-trained model, but instead inserts a small layer that is trained on top. Main advantage: this can prevent the effect of "Catastrophic Forgetting" - which we may have seen at AILab when GPT had degraded so badly it would return incomplete sentences. Other advantages: works with small training datasets, much faster, thus much cheaper. Further clues that Adapters may be ready for commercial application and are already being deployed:
+Background: a recent article shared on LinkedIn about Google Cloud Next had caught my attention. Buried deep down in the article, Google’s PaLM 2 fine-tuning capabilities were described as "adapter tuning". 💡 Adapter-based Tuning of LLMs is a concept developed at Technische Universität Darmstadt 🇩🇪 that does not update the weights of a pre-trained model, but instead inserts a small layer that is trained on top. Main advantage: this can prevent the effect of "Catastrophic Forgetting" - which we may have seen at a Hackathon when GPT had degraded so badly it would return incomplete sentences. Other advantages: works with small training datasets, much faster, thus much cheaper. Further clues that Adapters may be ready for commercial application and are already being deployed:
 
 - OpenAI announcement of their new fine-tuning option highlighting small datasets: "To fine-tune a model, you are required to provide at least 10 examples. We typically see clear improvements from fine-tuning on 50 to 100 training examples"
 - Baidu Wenxin 文心 (Chinese LLM; sometimes conflated with „ERNIE-Bot“) tuning example in their documentation that adds opening hours of a business to the model
