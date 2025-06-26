@@ -9,7 +9,7 @@ author: "Nils Durner"
 categories: [journal]
 ---
 
-With reports about [Apple Intelligence V1 not having met quality expectations](https://www.techradar.com/computing/artificial-intelligence/this-is-what-really-happened-with-siri-and-apple-intelligence-according-to-apple), I wondered if the ([adapter-based](training-own-model-finetuning.md) architecture was to blame: depending on the use-case, a different [adapter would be plugged into the base model](https://machinelearning.apple.com/research/introducing-apple-foundation-models). A [newer report](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates) confirms, however, that the new "Apple Intelligence V2" will also use the adapter-based approach:
+With reports about [Apple Intelligence V1 not having met quality expectations](https://www.techradar.com/computing/artificial-intelligence/this-is-what-really-happened-with-siri-and-apple-intelligence-according-to-apple), I wondered if the ([adapter-based](training-own-model-finetuning) architecture was to blame: depending on the use-case, a different [adapter would be plugged into the base model](https://machinelearning.apple.com/research/introducing-apple-foundation-models). A [newer report](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates) confirms, however, that the new "Apple Intelligence V2" will also use the adapter-based approach:
 > For specialized use cases that require teaching the ~3B model entirely new skills, we also provide a Python toolkit for training rank 32 adapters.
 
 That adapters continue to provide for particular use-cases is described in the "Responsible AI" section:

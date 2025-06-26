@@ -9,7 +9,7 @@ author: "Nils Durner"
 categories: [journal]
 ---
 
-Web Search in the OpenAI Prompts Playground remains [restricted for some models and disabled for others](web-search_o3). With the addition of MCP support however, users may add other Web Search providers, e.g. [Exa](https://exa.ai). Exa's (remote) MCP server does not support the complete functionality of the Exa API, but setup is straightforward:
+Web Search in the OpenAI Prompts Playground remains [restricted for some models and disabled for others](web-search-o3). With the addition of MCP support however, users may add other Web Search providers, e.g. [Exa](https://exa.ai). Exa's (remote) MCP server does not support the complete functionality of the Exa API, but setup is straightforward:
 1. [Sign up](https://dashboard.exa.ai/)
 2. [Retrieve API key](https://dashboard.exa.ai/api-keys)
 3. Add to the OpenAI Prompts Playground
