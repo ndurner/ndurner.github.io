@@ -13,7 +13,7 @@ Particularly to aid with the upcoming events planning season, I have made some s
 * File download
 * Support for Claude 2.1
 
-# Chat history export
+## Chat history export
 Uses for this I can think of:
 1. Save/backup your LLM session, and possibly resume later
 2. Switch from Claude to GPT, or vice versa.
@@ -22,14 +22,14 @@ Uses for this I can think of:
 History ex-/import is hidden away at the very bottom of the UI: \
 ![History export](assets/img/oaichat_export.png)
 
-# Word file upload
+## Word file upload
 Uploads were restricted to plaintext files until now, e.g. source code. Now, you can also upload Word files (these with .docx file extension) and instruct the LLM on them. \
 The approach I have taken to implement this I haven't seen anywhere else: rather than converting the Word file to an intermediate format like PDF or TXT, the semantic structure is retained and directly fed to the model. I have only invested 3 hours into this new idea, and am not entirely happy as only the very low-hanging fruit are reapt so far - so lots of potential there. BUT: I could successfully analyze a real-world Event Partnership contract with this already, so success?! 👏🏻 Please let me know how it fares. As always: be careful, especially when using Claude (more on that below). \
 And also let me know if in addition you require support for PDFs - I have ideas for that as well. Tons. (There are low-hanging fruit there too.)  \
 OpenAI System prompt perhaps something like:
 > You are a diligent assistant. Answer faithfully and factually correct. Respond with "I do not know" if uncertain. Consider questions and requests in the context of the conversation that preceeded it.
 
-# File download
+## File download
 This lets you retrieve files created by the LLM with just one click: \
 ![Screenshot: File download](assets/img/oaichat_download.png)
 
@@ -48,7 +48,7 @@ Acceptable example:
 ... and paste whatever event information you have in free form to the chatbot itself. Again, be careful when using Claude...
 
 
-# Claude 2.1 support added
+## Claude 2.1 support added
 [TLDR: be particularly cautious with Claude 2.1. It does have benefits, but if Claude 2.0 does it for  you, it's probably safer to stick with that]
 
 
