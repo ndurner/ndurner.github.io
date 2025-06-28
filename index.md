@@ -1,4 +1,5 @@
 ---
-redirect_to:  https://ndurner.de
+redirect_to: https://ndurner.de/
 layout: null
+permalink: /
 ---
