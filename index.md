@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Spaces
+redirect_from: /
+redirect_to:  https://ndurner.de
+layout: null
 ---
-
-# Nils Durner's presences around the web
-- [Blog](blog/)
-- [Website](http://ndurner.de)
-- [LinkedIn](https://www.linkedin.com/in/nilsdurner)
-- [X](https://x.com/ndurner)
-- [Mastodon](https://infosec.exchange/@ndurner)

@@ -23,4 +23,26 @@
   </script>
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
+
+  <!-- noindex for blog pagination sites -->
+  {% comment %}
+  ● Pagination helpers for Bing / Google
+    – Adds noindex to page 2 + onwards
+    – Emits rel="next/prev" links
+  {% endcomment %}
+  {% if paginator %}
+    {% assign page_num = paginator.page | plus: 0 %}
+    {% unless page_num == 1 %}
+      <meta name="robots" content="noindex,follow">
+    {% endunless %}
+
+    {% if paginator.previous_page %}
+      <link rel="prev"
+            href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | absolute_url }}">
+    {% endif %}
+    {% if paginator.next_page %}
+      <link rel="next"
+            href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | absolute_url }}">
+    {% endif %}
+  {% endif %}
 </head>
