@@ -4,7 +4,7 @@ title: "Adapters in Apple Intelligence"
 description: "Update on Apple Intelligence V2 and its use of adapter-based architecture configuration"
 date: 2025-06-25
 tags: ["apple", "adapters", "llm", "apple intelligence"]
-last_updated: 2025-06-25
+last_updated: 2025-07-02
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -18,3 +18,6 @@ That adapters continue to provide for particular use-cases is described in the "
 The core base model continues to be around 3B in size, but V2 adds long-context attention mechanisms (RoPE, NoPE) and Vision Encoder(s) and adapter. (For the server-sider, a novel parallel Mixture-of-Experts architecture (PT-MoE) is used.)
 
 So in conclusion: no, Apple did not abandon adapters - quite the opposite, it seems.
+
+[Update 2025-07-02]
+Media report allege that [Apple is in talks with both OpenAI and Anthropic](https://www.bloomberg.com/news/articles/2025-06-30/apple-weighs-replacing-siri-s-ai-llms-with-anthropic-claude-or-openai-chatgpt) for the server part. Previously, it was [reported](https://www.bloomberg.com/news/articles/2025-06-30/apple-weighs-replacing-siri-s-ai-llms-with-anthropic-claude-or-openai-chatgpt) that Apple was considering buying Perplexity.
