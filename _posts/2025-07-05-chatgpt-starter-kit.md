@@ -4,7 +4,7 @@ title: "Starter Kit for Learning ChatGPT Sans Snake-Oil"
 description: "A curated, up-to-date starter kit for learning ChatGPT and generative AI—featuring primary sources, expert perspectives, and practical cheat-sheets without hype or misinformation."
 date: 2025-07-05
 tags: [llm, ChatGPT, OpenAI]
-last_updated: 22025-07-05
+last_updated: 2025-07-05
 author: "Nils Durner"
 categories: [journal]
 ---
