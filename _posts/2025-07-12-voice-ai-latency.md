@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Voice AI Latency"
-description: "A curated, up-to-date starter kit for learning ChatGPT and generative AI—featuring primary sources, expert perspectives, and practical cheat-sheets without hype or misinformation."
+description: "Analysis of latency in voice AI pipelines using Whisper, Nvidia Parakeet, and translation models, with a spotlight on conversational AI leader Cognigy."
 date: 2025-07-12
 tags: [llm, whisper, openai, nvidia, voice ai, conversational ai]
 last_updated: 2025-07-12
