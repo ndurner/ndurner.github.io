@@ -30,12 +30,10 @@
     – Adds noindex to page 2 + onwards
     – Emits rel="next/prev" links
   {% endcomment %}
-  {% if paginator %}
-    {% assign page_num = paginator.page | plus: 0 %}
-    {% unless page_num == 1 %}
-      <meta name="robots" content="noindex,follow">
-    {% endunless %}
 
+  <meta name="robots" content="noindex,follow">
+
+  {% if paginator %}
     {% if paginator.previous_page %}
       <link rel="prev"
             href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | absolute_url }}">
