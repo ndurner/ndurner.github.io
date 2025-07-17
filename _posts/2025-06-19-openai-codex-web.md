@@ -4,7 +4,7 @@ title: "OpenAI Codex Web: Practical Notes"
 description: "Notes on using OpenAI Codex Web: setup, agentic workflows, container environments, web access, limitations"
 date: 2025-06-19
 tags: ["openai", "codex", "github", "agents", "prompt-engineering", "llm", "automation"]
-last_updated: 2025-06-19
+last_updated: 2025-07-17
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -52,3 +52,6 @@ The failure with the big task based on a fresh repo reinforce the [Prompting adv
 >  * grep -o 'PATTERN' FILE  
 >  * jq -r '.json.path' FILE  
 >  * grep -a PATTERN FILE
+
+[Update 2025-07-17]
+Once the paid ChatGPT subscription expires, Codex cannot be accessed at all: any questions or code activities that have not been turned into a Pull Request before expiry are inaccessible then.
