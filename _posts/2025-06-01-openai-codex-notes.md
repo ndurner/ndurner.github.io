@@ -4,7 +4,7 @@ title: "Notes on OpenAI Codex CLI"
 description: "Hands-on experience with OpenAI's Codex CLI: exploring its capabilities, limitations, pricing, and practical usage insights for developers working with AI-assisted coding."
 author: "Nils Durner"
 categories: [journal]
-tags: [OpenAI, codex-mini-latest, codex, jules, llm, o1, o4-mini]
+tags: [OpenAI, codex-mini-latest, codex, jules, llm, o1, o4-mini, ai-coding]
 date: 2025-06-01
 last_updated: 2025-06-01
 ---

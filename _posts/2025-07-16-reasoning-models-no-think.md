@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Cutting Thinking with Reasoning Models"
-description: "Analysis of latency in voice AI pipelines using Whisper, Nvidia Parakeet, and translation models, with a spotlight on conversational AI leader Cognigy."
 date: 2025-07-17
 tags: [llm, openai, o1, kimi]
 last_updated: 2025-07-17

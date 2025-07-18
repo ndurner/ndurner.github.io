@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI Codex Web: Practical Notes"
 description: "Notes on using OpenAI Codex Web: setup, agentic workflows, container environments, web access, limitations"
 date: 2025-06-19
-tags: ["openai", "codex", "github", "agents", "prompt-engineering", "llm", "automation"]
+tags: ["openai", "codex", "github", "agents", "prompt-engineering", "llm", "automation", "ai-coding"]
 last_updated: 2025-07-17
 author: "Nils Durner"
 categories: [journal]
