@@ -80,7 +80,7 @@ npx claude -r <id>
     * Unclear: how does it process web content - does fetching include conversion to text or Markdown
 * at least with Sonnet 3.7, a certain lazyness was noticable: it created a stub implementation without explicitely pointing that out in the chat messages and when asked about it: "implemented as a stub because getting actual images from PowerPoint slides requires additional functionality that wasn't trivial to implement within the scope of this **example**.". So perhaps Claude needs to be prompted for "production-grade quality" to prevent "example" quality?
 * Claude Code appeared to need more frequent interactions and corrections. This could be due to OpenAI codex-1 being are more powerful, more agentic model compared to Sonnet 3.7.
-* As I quickly reached $10 for a smallish project, these $20 package deals - like GitHub Copilot or ChatGPT Plus - seem like good value.
+* As I quickly reached \$10 for a smallish project, these \$20 package deals - like GitHub Copilot or ChatGPT Plus - seem like good value.
 * using AWS Bedrock rather than the Anthropic API does not insulate from being blocked by rate limiting - this still happens:
 ```
 ...
