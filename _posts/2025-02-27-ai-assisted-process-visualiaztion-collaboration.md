@@ -3,7 +3,7 @@ layout: post
 title: "Article out: AI-assisted Process Visualization"
 author: "Nils Durner"
 categories: [journal]
-tags: [ai, llm, openai, chatgpt, anthropic, claude, watsonx, bedrock, vertexai, gemini]
+tags: [ai, llm, openai, chatgpt, anthropic, claude, watsonx, bedrock, vertexai, gemini, ai-literacy]
 date: 2025-02-27
 last_updated: 2025-03-13
 description: "Announces AI-assisted Process Visualization in iX Magazine, covers Q&A on AI frontends, RAG, cost, diagram types, and GPT-4.5 Turbo updates for detailed mockups."

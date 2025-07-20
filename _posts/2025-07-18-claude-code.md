@@ -4,7 +4,7 @@ title: "Claude Code"
 description: "Notes on setting up and operating Anthropic's Claude Code AI coding agent, with a focus on AWS Bedrock as the foundation"
 date: 2025-07-17
 tags: [llm, anthropic, claude, ai-coding, bedrock]
-last_updated: 2025-07-17
+last_updated: 2025-07-20
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -89,3 +89,6 @@ API Error (503 Model is getting throttled. Try your request again.) • Retrying
 API Error (503 Model is getting throttled. Try your request again.) • Retrying in 40 seconds... (attempt 10/10)
 API Error: Request timed out.
 ```
+
+[Update 2025-07-20]
+Claude Code by default asks for confirmation before issuing shell commands. There is, however, an override that will auto-accept anything. Several commenters field anecdotal evidence that this is in fact dangerous as Claude either makes mistakes or, allegedly, [pursues its own goals](https://x.com/adidoit/status/1946275563829608899) ([archive link](http://archive.today/2025.07.20-083918/https://x.com/adidoit/status/1946275563829608899)).

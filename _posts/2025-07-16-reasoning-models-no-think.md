@@ -2,8 +2,8 @@
 layout: post
 title: "Cutting Thinking with Reasoning Models"
 date: 2025-07-17
-tags: [llm, openai, o1, kimi]
-last_updated: 2025-07-17
+tags: [llm, openai, o1, kimi, gpt5]
+last_updated: 2025-07-20
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -20,3 +20,6 @@ and "Florian S" adds:
 Makes the model believe the thinking stage is already done
 
 In my limited, manual testing, appending "/no_think" to o3 with "low reasoning effort" further decreases the reasoning tokens spent. Now, the question is whether accuracy, e.g. on SimpleQA, suffers or not.
+
+[Update 2025-07-20]
+Yuchen Lin, Co-founder & CTO at Hyperbolic Labs, leaked that GPT-5 will be several models: "It has a router that switches between reasoning, non-reasoning, and tool-using models.". I have expressed the [wish for the router to retain a trigger word](https://x.com/ndurner/status/1946843793040314370) like "/no_think" so that users can switch manually.
