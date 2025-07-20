@@ -13,6 +13,7 @@ Even with "Memory" and style preferences turned off in the ChatGPT personalizati
 * Corporate E-Mail address
 * "Handle": corporate user name
 * Organization name
+
 ![GPT 4.1 langauge model returns user's data in ChatGPT](assets/img/chatgpt-team-whoami.png)
 
 (a November 2024 report by Prof. Florian Gallwitz showed that [the LLM was also passed the IP address](https://x.com/FlorianGallwitz/status/1853358400576356684))
