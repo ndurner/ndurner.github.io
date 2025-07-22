@@ -24,16 +24,15 @@
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
 
-  <!-- noindex for blog pagination sites -->
-  {% comment %}
-  ● Pagination helpers for Bing / Google
-    – Adds noindex to page 2 + onwards
-    – Emits rel="next/prev" links
-  {% endcomment %}
-
-  <meta name="robots" content="noindex,follow">
-
   {% if paginator %}
+    <!-- noindex for blog pagination sites -->
+    {% comment %}
+    ● Pagination helpers for Bing / Google
+      – Adds noindex to page 2 + onwards
+      – Emits rel="next/prev" links
+    {% endcomment %}
+    <meta name="robots" content="noindex,follow">
+
     {% if paginator.previous_page %}
       <link rel="prev"
             href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | absolute_url }}">
