@@ -3,11 +3,13 @@ layout: post
 title: "Amazon Nova foundation model release"
 date: 2024-12-03
 tags: ["llm", "amazon", "nova"]
-last_updated: 2024-12-03
+last_updated: 2025-07-21
 description: "AWS guide for Amazon Nova: Bedrock model access, IAM policy creation, user credential setup, and Nova Pro testing in HuggingFace Bedrock Chat."
 author: "Nils Durner"
 categories: [journal]
 ---
+
+[Update 2025-07-21: AWS has added [Amazon Bedrock API keys](https://aws.amazon.com/de/blogs/machine-learning/accelerate-ai-development-with-amazon-bedrock-api-keys/). I haven't tried this myself yet, but this could be a simplification to setting up IAM as described below.]
 
 Since there's community interest in how to set up AWS to use the new Amazon Nova models, here's a step-by-step guide to get everyone started:
 

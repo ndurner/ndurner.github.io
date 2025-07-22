@@ -36,7 +36,9 @@ The [first OpenAI hackathon in the EU](https://www.linkedin.com/posts/nilsdurner
 The failure with the big task based on a fresh repo reinforce the [Prompting advice](https://platform.openai.com/docs/codex/overview#prompting-codex) to split larger tasks into smaller, focused steps. Questions on how-large-is-too-large and how to structure creation of entirely new projects remains a craft to be developed.
 
 ## Error messages
-... for reference (when hitting the input limit with the OpenAI documentation):
+... for reference:
+
+### When hitting the input limit with the OpenAI documentation
 
 >> root@b32752d36b69:/workspace# cd llm-chat-qt  
 >> root@b32752d36b69:/workspace/llm-chat-qt# curl -L -s https://platform.openai.com/docs/api-reference/responses | head -n 20  
@@ -53,5 +55,14 @@ The failure with the big task based on a fresh repo reinforce the [Prompting adv
 >  * jq -r '.json.path' FILE  
 >  * grep -a PATTERN FILE
 
+### When operating on a fresh repository
+Error message:
+    * 🇺🇸 "Failed to create task"
+    * 🇩🇪 "Aufgabenerstellung fehlgeschlagen"
+Remedy: create at least one file in the Github repository, e.g. an empty Readme.md
+
 [Update 2025-07-17]
 Once the paid ChatGPT subscription expires, Codex cannot be accessed at all: any questions or code activities that have not been turned into a Pull Request before expiry are inaccessible then.
+
+[Update 2025-07-20]
+(added note that Github repositories to work on must not be completely empty)
