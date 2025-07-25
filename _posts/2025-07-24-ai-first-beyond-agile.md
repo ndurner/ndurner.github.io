@@ -45,13 +45,13 @@ Result: nearly all field values ready to paste as I progressed. A few were missi
 
 For organizations, "AI-first" goes beyond Agile-style recommendations around teams and culture. It means using AI explicitly as the default first step when designing processes, products, and decision-making.
 
-Rather than turning this post into a management handbook, here are two solid meta-sources if you want the broad picture without hype:
+Rather than turning this post into a management handbook, here are three solid meta-sources if you want the broad picture without hype:
 
 - [Stanford’s AI Index Report](https://aiindex.stanford.edu/report/) ([my notes](stanford-ai-index.md))
 - [State of AI Report](https://www.stateof.ai) ([my 2024 notes](state-of-ai-report)
 - [BOND trend report on AI](https://www.bondcap.com/reports/tai) ([my notes](bond-2025-ai-trends-report)
 
-Both show that "AI-first" in organizations is now measurable, not hypothetical.
+They show that "AI-first" in organizations is emerging, not hypothetical.
 
 ## 3. Customer/Consumer AI-first: Enable Others
 
