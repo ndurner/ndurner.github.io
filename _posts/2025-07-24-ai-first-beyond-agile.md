@@ -2,7 +2,7 @@
 layout: post
 title: "AI-First ≠ Agile-Plus: What Using AI-First Actually Means"
 date: 2025-07-24
-tags: [AI-literacy]
+tags: [AI-literacy, ai-first]
 description: "'AI-first' is everywhere lately. But beyond Agile buzzwords and Bezos' pizza teams, what does AI-first actually mean for engineers in practice?"
 last_updated: 2025-07-24
 author: "Nils Durner"
@@ -47,8 +47,9 @@ For organizations, "AI-first" goes beyond Agile-style recommendations around tea
 
 Rather than turning this post into a management handbook, here are two solid meta-sources if you want the broad picture without hype:
 
-- [Stanford’s AI Index Report](https://aiindex.stanford.edu/report/)
-- [State of AI Report](https://www.stateof.ai)
+- [Stanford’s AI Index Report](https://aiindex.stanford.edu/report/) ([my notes](stanford-ai-index.md))
+- [State of AI Report](https://www.stateof.ai) ([my 2024 notes](state-of-ai-report)
+- [BOND trend report on AI](https://www.bondcap.com/reports/tai) ([my notes](bond-2025-ai-trends-report)
 
 Both show that "AI-first" in organizations is now measurable, not hypothetical.
 

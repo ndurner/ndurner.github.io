@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Standford AI Index '25 out"
+title: "Stanford AI Index '25 out"
 date: 2025-04-13
-tags: ["llm"]
+tags: ["llm", "ai-first"]
 last_updated: 2025-04-13
 description: "Highlights 2025 AI Index: AI embedding in daily life and self-driving performance/trust gaps, EU optimism trends, data depletion timelines, benchmark/bias critiques, and GPT-4 clinical gains."
 author: "Nils Durner"
 categories: [journal]
 ---
 
-The Standford HAI [2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report) is out. Notes:
+The Stanford HAI [2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report) is out. Notes:
 * "AI is increasingly embedded in everyday life. From healthcare to transportation, AI is rapidly moving from the lab
 to daily life. [...] On the roads, self-driving cars are no longer experimental". Examples given include Waymo and Baidu Apollo Go"
     * However, [streets signs advising to disengage driving assistants](https://x.com/ChinaEV_Eng_Lif/status/1908361342408597606) are appearing in China.

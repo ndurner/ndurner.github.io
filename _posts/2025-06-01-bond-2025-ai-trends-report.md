@@ -4,7 +4,7 @@ title: "BOND's 2025 AI Industry Trends Report Analysis"
 description: "Key insights from BOND's comprehensive AI trend report covering developer adoption, market shares, corporate initiatives, and major product releases in the AI space."
 author: "Nils Durner"
 categories: [journal]
-tags: [AI, Market Feedback, Analyst Insights, LLM, Foundation Models, corporate-ai, developer-tools]
+tags: [AI, Market Feedback, Analyst Insights, LLM, Foundation Models, corporate-ai, developer-tools, ai-first]
 date: 2025-06-01
 last_updated: 2025-06-01
 ---
