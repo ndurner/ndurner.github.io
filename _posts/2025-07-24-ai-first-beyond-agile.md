@@ -55,7 +55,7 @@ They show that "AI-first" in organizations is emerging, not hypothetical.
 
 ## 3. Customer/Consumer AI-first: Enable Others
 
-Adjacent to “me” and “the company” sit **your users**. If AI-first for an individual means *I try AI first*, the customer-facing version is: **we make it easy for *them* to try AI first with our product**.
+Adjacent to "me" and "the company" sit **your users**. If AI-first for an individual means *I try AI first*, the customer-facing version is: **we make it easy for *them* to try AI first with our product**.
 
 A concrete example: Deutsche Telekom’s upcoming "AI phone" (Magenta AI) bakes an assistant into the device so ordinary users can act through AI—booking tables, answering questions with sources, acting across apps. That’s AI-first UX shipped outward, not just used internally.
 
