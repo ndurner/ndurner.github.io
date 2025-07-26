@@ -2,7 +2,7 @@
 layout: post
 title: "ChatGPT Agent Mode"
 date: 2025-07-26
-tags: [AI-literacy, ai-first, agents]
+tags: [AI-literacy, ai-first, agents, chatgpt]
 last_updated: 2025-07-26
 author: "Nils Durner"
 categories: [journal]
@@ -47,7 +47,7 @@ Two issues arose: upon regaining control to review and subsequently closing the 
 SWISS confirmed successful submission. Overall, ChatGPT completed the task within 15 minutes.
 
 ### Web Research
-Eleanor Berger [reported a failed research task](https://x.com/intellectronica/status/1948680501277196328) involving creating an overview of a specific restaurant type ([Prompt](https://x.com/intellectronica/status/1948683675371020340)). A simpler research task previously attempted with Operator—"Where can I buy QES?" — yielded relevant results efficiently, unlike Operator's earlier tangential outcomes. OpenAI's proprietary search integration seems to have improved performance. Interestingly, ChatGPT internally phrased searches explicitly, such as "Search results for query `Where to buy qualified electronic signature Germany`". The inclusion of the "Germany" context could result from [ChatGPT injecting user background information](chatgpt-team-info-disclosure). Searches included:
+Eleanor Berger [reported a failed research task](https://x.com/intellectronica/status/1948680501277196328) involving creating an overview of a specific restaurant type ([Prompt](https://x.com/intellectronica/status/1948683675371020340)). A simpler research task previously attempted with Operator - "Where can I buy QES?" - yielded relevant results efficiently, unlike Operator's earlier tangential outcomes. OpenAI's proprietary search integration seems to have improved performance. Interestingly, ChatGPT internally phrased searches explicitly, such as `Where to buy qualified electronic signature Germany`. The inclusion of the "Germany" context could result from [ChatGPT injecting user background information](chatgpt-team-info-disclosure). Searches included:
 
 * "QES" product buy
 * "trust service provider" qualified electronic signature buy
@@ -81,4 +81,3 @@ After completion, the slide deck was ready for human review and download:
 * "Reading Mode" for websites might utilize Linux tools like curl and sed - status messages indicated as much. SEO professionals might consider this in optimization efforts.
 * "Page not found" errors at various sites could indicate stale indexes, confabulation, or issues with client-agent detection — a potential area for SEO investigation.
 * User reports indicate inconsistent results; outcomes may vary significantly.
-
