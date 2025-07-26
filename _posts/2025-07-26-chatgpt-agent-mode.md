@@ -18,7 +18,7 @@ Browser-use within Agent Mode functions by capturing screenshots and allowing o3
 I replicated the [AI-first](ai-first-beyond-agile) example use-case of filing an expense claim for delayed baggage. Instead of manually seeking and pasting required information from multiple documents, I:
 
 * Uploaded PDF documents and an Apple Music receipt (for additional personal data) to ChatGPT.
-* Activated the "Agent" mode from the ChatGPT tools: <img src="assets/img/chatgpt-agent-mode/tool-button.jpg" class="img-bordered" alt="ChatGPT UI with Tools button" />.
+* Activated the "Agent" mode from the ChatGPT tools: <img src="assets/img/chatgpt-agent-mode/tool-button.jpg" class="img-bordered" alt="ChatGPT UI with Tools button" />
   * Kept the model as 4o instead of switching to o3, as it does not affect this function.
 * Prompted: "Prepare the SWISS form for cost reimbursement due to delayed baggage, based on the information in the files attached. (Use the Apple Music receipt only to get additional personal data about myself. This wasn't an actual expense to be claimed.)"
 
