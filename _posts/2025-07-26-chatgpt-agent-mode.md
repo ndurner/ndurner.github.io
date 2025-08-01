@@ -3,7 +3,7 @@ layout: post
 title: "ChatGPT Agent Mode"
 date: 2025-07-26
 tags: [AI-literacy, ai-first, agents, chatgpt]
-last_updated: 2025-07-26
+last_updated: 2025-08-01
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -76,8 +76,21 @@ Final step: Agent Mode automatically reviewing each slide individually:
 After completion, the slide deck was ready for human review and download:
 <img src="assets/img/chatgpt-agent-mode/presentation-download.jpg" class="img-bordered" alt="Screenshot: Presentation ready for download" />
 
+### PowerPoint translation
+Translating a slide deck (in PPTX format) from English to German mostly worked, with inline graphics and bullet points left intact:
+![Screenshot: left: slide translated to German using ChatGPT Code Interpreter, right: translation using Agent Mode](assets/img/chatgpt-agent-mode/slides1.jpg)
+Linguistically, Agent Mode produces are smoother result - particularly where German and English were mixed in the original.
+
+Drawback however: inline links were discarded by Agent Mode:
+![Screenshot: left: custom translation agent using the OpenAI Agents SDK kept links intact; right: Agent Mode discarded the links](assets/img/chatgpt-agent-mode/slides2.jpg)
+Upon inspection, the problem of Agent Mode discarding inline links from presentations seems fundamental: behind the scenes, the slides are worked on using ad-hoc generated Python scripts, and the library used [discards any text formatting of text fragments (so-called "runs")](https://github.com/scanny/python-pptx/issues/285) it is working on.
+
 ## Takeaways
 * OpenAI provides guidelines on [data safety and privacy risk mitigation](https://help.openai.com/en/articles/11752874-chatgpt-agent#h_90f1d546fe).
 * "Reading Mode" for websites might utilize Linux tools like curl and sed - status messages indicated as much. SEO professionals might consider this in optimization efforts.
 * "Page not found" errors at various sites could indicate stale indexes, confabulation, or issues with client-agent detection — a potential area for SEO investigation.
 * User reports indicate inconsistent results; outcomes may vary significantly.
+* Failure modes extend beyond Hallucinations as ChatGPT Agent modes "inherits" limitations of Open Source software packages - as experienced with the discarded links.
+
+[Update 2025-08-01]
+Added translation example
