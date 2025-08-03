@@ -4,7 +4,7 @@ title: "Hands-on GPT-4V(ision) and other OpenAI Dev Day goodies"
 date: 2023-11-12
 last_updated: 2023-11-12
 description: "Hands-on GPT-4V image understanding and new Dev Day features: seed param, GPT-4 Turbo, long context tests, and comparative hallucination checks against Bard."
-tags: [GPT-4, OpenAI, Dev Day, Chatbot]
+tags: [GPT-4, OpenAI, Dev Day, Chatbot, oai_chat]
 filename: 2023-11-12-hands-on-gpt-4-vision-and-openai-dev-day-goodies.md
 ---
 
