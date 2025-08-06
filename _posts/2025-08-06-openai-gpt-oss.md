@@ -15,7 +15,7 @@ OpenAI has released the open-weights model that was announced end of March. It i
 * for quick testing, there's [gpt-oss.com](http://gpt-oss.com). This does not allow one to specify a System/Developer prompt, though
 * Third party "Inference Providers"
     * beware: accuracy can be inconsistent! Romain Huet, Head of Developer Experience 
-at OpenAI: "Heads-up for developers trying gpt-oss: performance and correctness can vary a bit across providers and runtimes right now due to implementation differences. We’re working with inference providers to make sure gpt-oss performs at its best everywhere, and we’d love your feedback!"
+at OpenAI: "Heads-up for developers trying gpt-oss: performance and correctness [can vary a bit across providers and runtimes](https://x.com/romainhuet/status/1952916530792153093) right now due to implementation differences. We’re working with inference providers to make sure gpt-oss performs at its best everywhere, and we’d love your feedback!". [He adds](https://x.com/DKundel/status/1952917845760950475): "We've verified the vLLM implementation so there should be no issues with that. If you run into issues let us know."
     * [OpenRouter](https://openrouter.ai) has support
     * [Awesome GPT-OSS](https://github.com/openai/gpt-oss/blob/main/awesome-gpt-oss.md) lists Cloudflare and Groq
     * Support on Azure AI Foundry and AWS Bedrock announcements make it appear it would be available as of now, but neither actually does.
