@@ -21,6 +21,9 @@ at OpenAI: "Heads-up for developers trying gpt-oss: performance and correctness 
     * ~~Support on Azure AI Foundry and AWS Bedrock announcements make it appear it would be available as of now, but neither actually does.~~ 
     * Amazon Bedrock has added serverless support in the Oregon us-west-2 region
         * inference also possible through the [new OpenAI-compatible ChatCompletion API endpoint](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-chat-completions.html)
+        * the IAM user must be entitled to the `bedrock:CallWithBearerToken` policy, otherwise calling the endpoint will fail with `User: arn:aws:iam::000000000000:user/n.durner is not authorized to perform: bedrock:CallWithBearerToken on resource: * because no identity-based policy allows the bedrock:CallWithBearerToken action`
+        * as of Aug 7, the endpoint times out, however
+            * Error message: "The server had an error while processing your request. Sorry about that!".
 * Local: the [Github repo](https://github.com/openai/gpt-oss/) lists several options - including vLLM, HuggingFace Transformers and Ollama.
     * Transformers doesn't seem viable on Apple Silicon as of now, though (see below)
 
