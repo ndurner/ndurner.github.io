@@ -2,8 +2,8 @@
 layout: post
 title: "OpenAI-based Chatbot interface updated"
 date: 2025-08-03
-tags: [llm, openai, oai_chat, exa, mcp]
-last_updated: 2025-08-03
+tags: [llm, openai, oai_chat, exa, mcp, gpt5]
+last_updated: 2025-08-07
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -28,3 +28,6 @@ My [Chatbot interface for OpenAI models](https://github.com/ndurner/oai_chat/) (
     * ... either through the environment or .env
 
 Philipp Schmidt, AI Developer Experience at Google DeepMind, recently [announced his "Code Sandbox MCP"](https://www.linkedin.com/feed/update/urn:li:activity:7353430608515108867?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7353430608515108867%2C7353439287834484736%29&replyUrn=urn%3Ali%3Acomment%3A%28activity%3A7353430608515108867%2C7353461170856468482%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287353439287834484736%2Curn%3Ali%3Aactivity%3A7353430608515108867%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287353461170856468482%2Curn%3Ali%3Aactivity%3A7353430608515108867%29), a simple code interpreter for AI agents. This is based on the [LLM Sandbox project](https://vndee.github.io/llm-sandbox/mcp-integration/). Either could be an avenue for future improvement.
+
+[Update 2025-08-07]
+I have added basic support for [GPT-5](openai-gpt-5), including GPT-5 Regular, GPT-5 Mini, and GPT-5 Chat/Main.
