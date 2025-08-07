@@ -53,3 +53,6 @@ As the [OpenAI Cookbook on gpt-oss with Ollama](https://cookbook.openai.com/arti
 
 ## Insights
 The open-sourced stack released along with the models gives some additional insights. I have noticed before that the o1 model likes to be addressed as "ChatGPT" in prompts, not "o1". This is confirmed by the "You are ChatGPT" identity prompt published as part of the Harmony Prompt template harness ([Cookbook](https://cookbook.openai.com/articles/openai-harmony), [Github repo](https://github.com/openai/harmony)).
+
+[Update 2025-08-07]
+[A benchmark by user @NomoreID on X shows](https://x.com/Hangsiin/status/1953103172173754632) that inference provider Groq fares particularly badly in terms of quality and robustness. TogetherAI leads according to this benchmark. Lara Rachidi, Solutions Engineer at OpenAI, shared that [Databricks supports gpt-oss](https://www.linkedin.com/posts/lara-rachidi_introducing-openais-new-open-models-on-databricks-activity-7359141197061230594-BC8B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAGX2jIBd6RDsNRYv13Bvu3x4nnCNu96SEw) now also.
