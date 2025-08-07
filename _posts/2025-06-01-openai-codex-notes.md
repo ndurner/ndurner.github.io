@@ -6,7 +6,7 @@ author: "Nils Durner"
 categories: [journal]
 tags: [OpenAI, codex-mini-latest, codex, jules, llm, o1, o4-mini, ai-coding]
 date: 2025-06-01
-last_updated: 2025-06-01
+last_updated: 2025-08-07
 ---
 
 Upfront summary: Codex CLI is labelled an "experimental project" and it certainly is: handing off whole, convoluted developments tasks for automagic completion has still not arrived.
@@ -34,3 +34,6 @@ Upfront summary: Codex CLI is labelled an "experimental project" and it certainl
 * generally lazy vibe for updating > 100 blog posts, with poor instruction following: models like to read files only partially (read first n lines, summarize first paragraph, ...) and generally had to be instructed that it's an LLM itself with all capabilities. o4-mini seemed best, but went off-rails frequently by claiming "too manually intensive", asking for feedback, etc. Once broke off and unilaterally created several scripts that would call out to an external LLM!
 * Codex CLI, like Google Jules, was overwhelmed with undoing an historical API switch and implementing a new feature based on the new-old API while keeping everything else intact.
 * a simple coding task on an existing code base with sufficient detail given as context appeared successful, but I did not verify in depth
+
+[Update 2025-08-07]
+[GPT-5](openai-gpt-5) is the new default model in Codex CLI. Usage fees are [convered by a paid ChatGPT subscription](https://x.com/OpenAIDevs/status/1953559797883891735).
