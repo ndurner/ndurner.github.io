@@ -15,7 +15,7 @@ Upfront summary: Codex CLI is labelled an "experimental project" and it certainl
     * free use allowance can be [redeemed by users of certain paid ChatGPT subscriptions or through data sharing](https://x.com/fouadmatin/status/1923906279929778594)
         * the ChatGPT subscription needs to be active for more than 7 days, though
 * requests/responses get logged to the [OpenAI Platform Logs](https://platform.openai.com/logs) that are accessable through the Dashboard
-* Codex CLI defaults to the new "codex-mini-latest" model
+* Codex CLI defaults to the new ~~"codex-mini-latest"~~ GPT-5 model
     * codex-mini-latest is:
         * also available via the API, but not offered through the Playground UI
         * slightly [costlier than o4-mini](https://platform.openai.com/docs/models/compare?model=codex-mini-latest) on a per-token basis, could be different in real use though
@@ -35,5 +35,5 @@ Upfront summary: Codex CLI is labelled an "experimental project" and it certainl
 * Codex CLI, like Google Jules, was overwhelmed with undoing an historical API switch and implementing a new feature based on the new-old API while keeping everything else intact.
 * a simple coding task on an existing code base with sufficient detail given as context appeared successful, but I did not verify in depth
 
-[Update 2025-08-07]
-[GPT-5](openai-gpt-5) is the new default model in Codex CLI. Usage fees are [convered by a paid ChatGPT subscription](https://x.com/OpenAIDevs/status/1953559797883891735).
+[Update 2025-08-07]  
+[GPT-5](openai-gpt-5) is the new default model in Codex CLI. Usage fees are [covered by a paid ChatGPT subscription](https://x.com/OpenAIDevs/status/1953559797883891735).
