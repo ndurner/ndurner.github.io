@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI GPT-OSS open weights model released"
 date: 2025-08-06
 tags: [llm, openai, gpt-oss, ollama]
-last_updated: 2025-08-06
+last_updated: 2025-08-09
 author: "Nils Durner"
 categories: [journal]
 ---
@@ -61,3 +61,6 @@ The open-sourced stack released along with the models gives some additional insi
 
 [Update 2025-08-07]
 [A benchmark by user @NomoreID on X shows](https://x.com/Hangsiin/status/1953103172173754632) that inference provider Groq fares particularly badly in terms of quality and robustness. TogetherAI leads according to this benchmark. Lara Rachidi, Solutions Engineer at OpenAI, shared that [Databricks supports gpt-oss](https://www.linkedin.com/posts/lara-rachidi_introducing-openais-new-open-models-on-databricks-activity-7359141197061230594-BC8B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAGX2jIBd6RDsNRYv13Bvu3x4nnCNu96SEw) now also. Amazon Bedrock now also offers access, in the Oregon us-west-2 region (see above in the "Providers" section).
+
+[Update 2025-08-09]
+The [chat-completion-api branch of my OAI Chat interface](https://github.com/ndurner/oai_chat/tree/chat-completion-api) now supports GPT-OSS through Amazon Bedrock. Prerequisite: an [Amazon Bedrock key](https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html). The branch is based on an older revision of OAI Chat that still used the legacy ChatCompletion API of OpenAI. OpenAI models that are served by them directly (GPT-OSS isn't) should be consumed via the `main` branch of OAI Chat.
