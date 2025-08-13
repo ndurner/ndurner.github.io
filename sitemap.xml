@@ -1,0 +1,63 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- comment -%} Pages {%- endcomment -%}
+  {%- for page in site.pages -%}
+    {%- unless page.sitemap == false -%}
+    <url>
+      <loc>{{ page.url | absolute_url | xml_escape }}</loc>
+      <lastmod>
+        {%- if page.last_updated -%}
+          {{ page.last_updated | date_to_xmlschema }}
+        {%- elsif page.last_modified_at -%}
+          {{ page.last_modified_at | date_to_xmlschema }}
+        {%- elsif page.date -%}
+          {{ page.date | date_to_xmlschema }}
+        {%- endif -%}
+      </lastmod>
+    </url>
+    {%- endunless -%}
+  {%- endfor -%}
+
+  {%- comment -%} Posts {%- endcomment -%}
+  {%- for post in site.posts -%}
+    {%- unless post.sitemap == false -%}
+    <url>
+      <loc>{{ post.url | absolute_url | xml_escape }}</loc>
+      <lastmod>
+        {%- if post.last_updated -%}
+          {{ post.last_updated | date_to_xmlschema }}
+        {%- elsif post.last_modified_at -%}
+          {{ post.last_modified_at | date_to_xmlschema }}
+        {%- else -%}
+          {{ post.date | date_to_xmlschema }}
+        {%- endif -%}
+      </lastmod>
+    </url>
+    {%- endunless -%}
+  {%- endfor -%}
+
+  {%- comment -%} Other collections (e.g., docs) {%- endcomment -%}
+  {%- for coll in site.collections -%}
+    {%- unless coll.label == "posts" -%}
+      {%- for doc in coll.docs -%}
+        {%- unless doc.sitemap == false -%}
+        <url>
+          <loc>{{ doc.url | absolute_url | xml_escape }}</loc>
+          <lastmod>
+            {%- if doc.last_updated -%}
+              {{ doc.last_updated | date_to_xmlschema }}
+            {%- elsif doc.last_modified_at -%}
+              {{ doc.last_modified_at | date_to_xmlschema }}
+            {%- elsif doc.date -%}
+              {{ doc.date | date_to_xmlschema }}
+            {%- endif -%}
+          </lastmod>
+        </url>
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endunless -%}
+  {%- endfor -%}
+</urlset>
