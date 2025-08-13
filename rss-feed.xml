@@ -7,10 +7,8 @@
         <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
         <link>{{ site.github.url }}</link>
         <atom:link href="{{ site.github.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-        
-        {% assign sorted_posts = site.posts | sort: 'last_updated', 'first' | reverse %}
-        
-        {% for post in sorted_posts limit:10 %}
+                
+        {% for post in site.posts limit:10 %}
                 {% assign post_date = post.date | date: '%Y-%m-%d' %}
                 {% assign last_updated = post.last_updated | date: '%Y-%m-%d' %}
             <item>
