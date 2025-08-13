@@ -4,7 +4,7 @@ title: "Claude Code"
 description: "Notes on setting up and operating Anthropic's Claude Code AI coding agent, with a focus on AWS Bedrock as the foundation"
 date: 2025-07-17
 tags: [llm, anthropic, claude, ai-coding, bedrock]
-last_updated: 2025-08-05
+last_updated: 2025-08-06T08:51:48+02:00
 author: "Nils Durner"
 categories: [journal]
 ---
