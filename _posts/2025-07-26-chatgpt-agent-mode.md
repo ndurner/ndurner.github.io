@@ -3,7 +3,7 @@ layout: post
 title: "ChatGPT Agent Mode"
 date: 2025-07-26
 tags: [AI-literacy, ai-first, agents, chatgpt]
-last_updated: 2025-08-01
+last_updated: 2025-08-01T12:05:40+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

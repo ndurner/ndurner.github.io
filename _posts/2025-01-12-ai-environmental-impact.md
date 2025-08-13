@@ -4,7 +4,7 @@ title: "The Environmental Impact of AI: From Individual Use to Data Centers"
 date: 2025-01-12
 tags: ["ai", "chatgpt", "openai", "environment", "ESG"]
 description: "Exploring the nuanced reality of AI's energy consumption, from personal use to large-scale data centers"
-last_updated: 2025-01-12
+last_updated: 2025-01-12T10:45:46+01:00
 author: "Nils Durner"
 categories: [journal]
 ---

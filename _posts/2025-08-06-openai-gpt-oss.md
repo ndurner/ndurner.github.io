@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI GPT-OSS open weights model released"
 date: 2025-08-06
 tags: [llm, openai, gpt-oss, ollama]
-last_updated: 2025-08-12
+last_updated: 2025-08-12T10:26:25+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

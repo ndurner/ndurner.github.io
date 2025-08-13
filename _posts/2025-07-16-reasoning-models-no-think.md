@@ -3,7 +3,7 @@ layout: post
 title: "Cutting Thinking with Reasoning Models"
 date: 2025-07-17
 tags: [llm, openai, o1, kimi, gpt5]
-last_updated: 2025-07-20
+last_updated: 2025-07-20T11:51:46+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

@@ -4,7 +4,7 @@ title: "Voice AI Latency"
 description: "Analysis of latency in voice AI pipelines using Whisper, Nvidia Parakeet, and translation models, with a spotlight on conversational AI leader Cognigy."
 date: 2025-07-12
 tags: [llm, whisper, openai, nvidia, voice ai, conversational ai]
-last_updated: 2025-07-14
+last_updated: 2025-07-14T21:41:17+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

@@ -4,7 +4,7 @@ title: "OpenAI-based dictation on macOS"
 description: "Notes on the open-source SpeechCraft app for macOS, powered by OpenAI gpt-4o-transcribe and OpenAI Whisper"
 date: 2025-07-03
 tags: ["llm", "openai", "stt", "transcribe", "gpt-4o-transcribe", "gpt-4o", "whisper", "codex"]
-last_updated: 2025-07-06
+last_updated: 2025-07-06T20:53:54+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

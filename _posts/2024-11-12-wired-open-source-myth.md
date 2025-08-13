@@ -4,7 +4,7 @@ title: "Open Source AI: A Reality Check"
 date: 2024-11-12
 tags: ["AI", "Open Source", "Llama", "MOLMo"]
 description: "How recent developments challenge outdated narratives about open source AI"
-last_updated: 2024-11-12
+last_updated: 2024-11-12T22:52:34+01:00
 author: "Nils Durner"
 categories: [journal]
 ---

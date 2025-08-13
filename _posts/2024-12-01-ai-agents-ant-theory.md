@@ -4,7 +4,7 @@ title: "AI Agency: Philosophical Foundations"
 date: 2024-12-01
 tags: ["ai", "agency", "ant", "llm", "ibm"]
 description: "Exploring the concept of agency in AI through the lens of Actor-Network Theory and modern AI systems"
-last_updated: 2024-12-01
+last_updated: 2024-12-01T22:46:58+01:00
 author: "Nils Durner"
 categories: [journal]
 ---

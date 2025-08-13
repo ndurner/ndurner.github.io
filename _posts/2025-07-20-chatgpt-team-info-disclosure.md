@@ -3,7 +3,7 @@ layout: post
 title: "ChatGPT Team adds users' name & organization to prompts"
 date: 2025-07-20
 tags: [llm, ChatGPT, OpenAI, ai-literacy]
-last_updated: 2025-07-20
+last_updated: 2025-07-20T12:09:17+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

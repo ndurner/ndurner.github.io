@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI-based Chatbot interface updated"
 date: 2025-08-03
 tags: [llm, openai, oai_chat, exa, mcp, gpt5]
-last_updated: 2025-08-07
+last_updated: 2025-08-07T23:45:40+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

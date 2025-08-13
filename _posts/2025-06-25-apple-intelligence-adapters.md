@@ -4,7 +4,7 @@ title: "Adapters in Apple Intelligence"
 description: "Update on Apple Intelligence V2 and its use of adapter-based architecture configuration"
 date: 2025-06-25
 tags: ["apple", "adapters", "llm", "apple intelligence"]
-last_updated: 2025-07-02
+last_updated: 2025-07-02T21:37:08+02:00
 author: "Nils Durner"
 categories: [journal]
 ---

@@ -4,7 +4,7 @@ title: "Bosch GenAI Playground"
 date: 2024-11-17
 tags: ["aleph alpha", "bosch", "llm", "gemini", "google", "pharia"]
 description: "Generative AI at Bosch"
-last_updated: 2024-11-17
+last_updated: 2024-11-17T19:52:43+01:00
 author: "Nils Durner"
 categories: [journal]
 ---
