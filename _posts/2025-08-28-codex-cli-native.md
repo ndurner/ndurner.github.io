@@ -25,6 +25,8 @@ OpenAI Codex CLI, the standalone GPT-5 ⇆ computer interface that's being posit
     * Web-retrieval needs [lots of nudging and will only consider partials](https://x.com/ndurner/status/1961105410485547430), though. They are [on it](https://x.com/ah20im/status/1961106969429000335).
 
 ## Getting Codex CLI
+Users who just want to use it within Visual Studio Code, installing the extension is sufficient. For those who want to (also) use the text-oriented interface (TUI), Codex CLI needs to be installed through the dedicated installation package.
+
 The new Codex CLI version was available before as '@codex/codex-native'. That's not longer true (and leads to an outdated version), the official ways to install Codex CLI are:
 * `npm i -g @openai/codex`
 * on macOS: `brew install codex`
