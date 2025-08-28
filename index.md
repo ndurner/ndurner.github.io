@@ -1,5 +1,5 @@
 ---
-redirect_to: https://ndurner.de/
+redirect_to: /blog/
 layout: null
 permalink: /
 ---
