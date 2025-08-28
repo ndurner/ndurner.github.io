@@ -9,7 +9,7 @@ date: 2025-06-01
 last_updated: 2025-08-07
 ---
 
-[Update 2025-08-28]: the notes below are about the classic/legacy version. This does not represent the new, rewritten Codex CLI.
+[Update 2025-08-28]: the notes below are about the classic/legacy version. This does not necessarily represent the [new, rewritten Codex CLI](codex-cli-native).
 
 ---
 
