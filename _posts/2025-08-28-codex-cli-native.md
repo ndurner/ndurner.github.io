@@ -29,3 +29,9 @@ The new Codex CLI version was available before as '@codex/codex-native'. That's 
 * on macOS: `brew install codex`
 
 After installing, you may enjoy free use as part of a paid ChatGPT subscription. To connect Codex CLI with the ChatGPT account, run: `codex login` at the command line or use the "/login" command within Codex CLI. Usage limits are intransparent, but seem generous even with ChatGPT Plus or ChatGPT Team. Alternatively, Codex CLI should also continue to work on a pay-per-use basis through an API access key.
+
+To confirm that you're running the new Codex CLI, use `--version`:
+```
+% codex --version
+codex-cli 0.25.0
+```
