@@ -24,6 +24,8 @@ OpenAI Codex CLI, the standalone GPT-5 ⇆ computer interface that's being posit
 * Web-search (through the DuckDuckGo search engine), with follow-up crawling: ![Screenshot of Codex CLI doing an initial web-search and crawling the web](assets/img/codex-cli-native-update/codex-cli-web-search.jpg)
 
 ## Getting Codex CLI
+Users who just want to use it within Visual Studio Code, installing the extension is sufficient. For those who want to (also) use the text-oriented interface (TUI), Codex CLI needs to be installed through the dedicated installation package.
+
 The new Codex CLI version was available before as '@codex/codex-native'. That's not longer true (and leads to an outdated version), the official ways to install Codex CLI are:
 * `npm i -g @openai/codex`
 * on macOS: `brew install codex`
