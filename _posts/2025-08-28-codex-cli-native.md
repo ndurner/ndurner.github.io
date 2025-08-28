@@ -22,6 +22,7 @@ OpenAI Codex CLI, the standalone GPT-5 ⇆ computer interface that's being posit
     * improved look & feel, including better compatibility on Windows ![Screenshot OpenAI Codex CLI on macOS](assets/img/codex-cli-native-update/codex-cli-terminal.jpg)
     * improved operational quality (maybe due to GPT-5)
 * Web-search (through the DuckDuckGo search engine), with follow-up crawling: ![Screenshot of Codex CLI doing an initial web-search and crawling the web](assets/img/codex-cli-native-update/codex-cli-web-search.jpg)
+    * Web-retrieval needs [lots of nudging and will only consider partials](https://x.com/ndurner/status/1961105410485547430), though. They are [on it](https://x.com/ah20im/status/1961106969429000335).
 
 ## Getting Codex CLI
 The new Codex CLI version was available before as '@codex/codex-native'. That's not longer true (and leads to an outdated version), the official ways to install Codex CLI are:
@@ -35,3 +36,6 @@ To confirm that you're running the new Codex CLI, use `--version`:
 % codex --version
 codex-cli 0.25.0
 ```
+
+## Using Codex CLI for non-coding tasks
+As Codex CLI has access to traditional Unix-tools (and on Windows also PowerShell) including the Python programming language, it can be used for higher-level tasks. For a recent research project with lots of data points, I could have loaded the results into a database - and use its built-in data-processing functions for evaluation. That's what I'd always done. Now, I asked Codex CLI to pull the data from the individual JSON result files across different directories, build aggregates & additional computation and populate a Markdown file in a certain way. And it did.
