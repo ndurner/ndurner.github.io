@@ -9,6 +9,10 @@ date: 2025-06-01
 last_updated: 2025-08-07
 ---
 
+[Update 2025-08-28]: the notes below are about the classic/legacy version. This does not represent the new, rewritten Codex CLI.
+
+---
+
 Upfront summary: Codex CLI is labelled an "experimental project" and it certainly is: handing off whole, convoluted developments tasks for automagic completion has still not arrived.
 
 * use is charged towards API credits
