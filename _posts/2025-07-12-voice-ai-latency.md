@@ -15,4 +15,4 @@ At a difference conference however, Conversational AI Leader¹ "[Cognigy](https:
 
 ¹ [per analysts like Forrester etc.](https://www.cognigy.com/analyst-recognition-awards)
 
-[Update 2025-08-28]: US company NiCE has recently [acquired Cognigy](https://www.forbes.com/sites/maribellopez/2025/07/29/nices-955m-cognigy-deal-targets-30b-ai-customer-experience-opportunity/). Today, OpenAI announced General Availability of its Realtime API, with an improved model, MCP-support, Image inputs, SIP support, Agents SDK update and EU residency.
+[Update 2025-08-28]: US company NiCE has recently [acquired Cognigy](https://www.forbes.com/sites/maribellopez/2025/07/29/nices-955m-cognigy-deal-targets-30b-ai-customer-experience-opportunity/). Today, OpenAI announced General Availability of its [Realtime API](https://platform.openai.com/docs/guides/realtime), with an improved model, MCP-support, Image inputs, SIP support, Agents SDK update and EU residency.
