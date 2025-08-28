@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI Codex CLI agent: Major Update"
 date: 2025-08-28
 tags: [llm, openai, gpt5, codex cli]
-last_updated: 2025-08-28T10:36:08+02:00
+last_updated: 2025-08-28T20:00:08+02:00
 author: "Nils Durner"
 categories: [journal]
 ---
