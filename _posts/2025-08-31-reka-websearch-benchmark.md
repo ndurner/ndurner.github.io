@@ -10,7 +10,7 @@ categories: [journal]
 
 Reka AI has released a hand-curated dataset, benchmark and leaderboard to grade web search and answer generation of LLM systems. Their [blog post](https://reka.ai/news/introducing-research-eval-a-benchmark-for-search-augmented-llms) describes "Research Eval" as Diverse (374 questions with grading guidelines, across a wide range of topics), Discriminative (current frontier models achieve between 26.7% and 59.1% accuracy), and High-quality (rigorously vetted, fixed, and filtered through a rigorous multi-step annotation process).
 
-However, their selection of model performce reported appears largely outdated: Gemini 2.0 Flash, GPT-4o search preview, Mistral Medium 2505. LLMs I recognize as current generation are Claude Sonnet 4 and Grok 4.
+However, their selection of model performce reported appears partially outdated: Gemini 2.0 Flash, GPT-4o search preview. LLMs I recognize as current generation are Claude Sonnet 4 and Grok 4.
 
 For the leaderboard to include some models and systems I am currently interested in, I have forked their repository at [ndurner/web-research-eval](https://github.com/ndurner/web-research-eval) and added support for the OpenAI Responses API and Exa Answers. The leaderboard now looks like this:
 
@@ -35,5 +35,5 @@ For the leaderboard to include some models and systems I am currently interested
 
 Because the Exa AI search index previously appeared to be more complete, I'd treat their result as a baseline for own integrations through the Exa Search API/MCP server. Or perhaps use their Research API.
 
-Extended Chart:
+Extended Leaderboard chart with my additions:
 ![Block diagramm showing OpenAI models and systems ahead of Reka Research](assets/img/reka-research-eval-extended.png)
