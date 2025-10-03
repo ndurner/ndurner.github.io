@@ -13,4 +13,5 @@ We probe OpenAI's open-weights 20-billion-parameter model gpt-oss-20b to study h
 
 ## Download
 * [PDF Direct Link](https://ndurner.de/dl/in_ai_sweet_harmony.pdf)
+    * [arXiv Link](https://arxiv.org/abs/2510.01259)
 * [Data](https://github.com/ndurner/gpt-oss-rt-run/releases/download/v1.0.0/experiments-raw.tar.xz)

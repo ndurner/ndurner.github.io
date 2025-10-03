@@ -27,3 +27,5 @@ Receiving honors & swag is sweet, but I also treasure the learning rewards:
 A meta-finding: less restricted versions of GPT-5 are available to vetted specialists in biodefense and life science, but I couldn’t find something similar for cyber security professionals. As GPT-5 prioritized its safety posture over aiding me with re-styling prompts, we may be seeing a new type of protected occupations emerging. Unlike those guarding against race-to-the-bottom in wages and skills, this sheltering against AI risk at the same time stifles race-to-the-top in building Digital Trust.
 
 So much to refine, and still a moment to applaud. Congratulations to the Top 20, and thanks to the organizers & jury! See you at the workshop.
+
+[Update 2025-10-03]: an extended version of the Writeup is now available as a [technical report via direct link or arXiv](in-ai-sweet-harmony).
