@@ -3,7 +3,7 @@ layout: post
 title: "Safety evaluation competition on OpenAI gpt-oss concluded"
 date: 2025-10-11
 tags: [llm, openai, gpt-oss, safety, alignment]
-last_updated: 2025-09-28T19:50:00+02:00
+last_updated: 2025-10-11T10:50:00+02:00
 author: "Nils Durner"
 categories: [journal]
 ---
