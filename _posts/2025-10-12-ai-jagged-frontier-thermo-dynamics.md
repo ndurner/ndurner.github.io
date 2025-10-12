@@ -11,10 +11,10 @@ categories: [journal]
 Ethan Mollick describes [the Jagged Frontier of AI](https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged) as strong performance on some tasks, brittle or poor performance on others that look similarly hard to humans. It is tempting to assume this frontier advances smoothly over time - as is usual with technological progress.
 
 Helen Toner - interim executive director at Georgetown University’s Center for Security and Emerging Technology (CSET) and former OpenAI board member - adds a useful correction. In a recent talk, she contrasts such "smooth asymptotes" with "transition turbulence": progress arrives in thresholds and phase changes, not tidy curves. As possibilities of AI change - through technical progress and through policy, and through the disturbances and reactions that follow - the chaotic transitions in fluid heating are a better mental model than a single curve.
-![Slide by Helen Toner: Smooth asymptotes vs. transition turbulence. Photo courtesy Neil Chilson](assets/img/toner-fluid-dynamics.jpeg)
+![Slide by Helen Toner: Smooth asymptotes vs. transition turbulence. Photo courtesy Neil Chilson](assets/img/toner-fluid-dynamics.jpg)
 
  That matters for capability expectations and for policy.
- ![Slide by Helen Toner: So what. Photo courtesy Neil Chilson](assets/img/toner-fluid-dynamics-so-what.jpg)
+ ![Slide by Helen Toner: So what. Photo courtesy Neil Chilson](assets/img/toner-fluid-dynamics-so-what.jpeg)
 
 ### Jaggedness, two ways
 
