@@ -22,7 +22,7 @@ The kind of jaggedness that Mollick described is the first kind: **competence ja
 
 Another kind is **access jaggedness**. The same model family can present different capability surfaces depending on who asks, in what context, and through which route of access. Safety policies, imperfect training signals, provider rules and trusted-access programs create policy thresholds that yield an uneven - sometimes shifting - profile.
 
-Germany’s regulated trades, for instance, define protected occupations and clear paths to qualification. Access jaggedness in AI does not. Instead, **functionally protected activities** emerge through private gates: identity checks, API terms, risk classifications, review processes, and trusted-access arrangements in dual-use areas.
+A real-world case of uneven access are Germany’s regulated trades, for instance: they define protected occupations and clear paths to qualification. But access jaggedness in AI does not. Instead, **functionally protected activities** emerge through private gates: identity checks, API terms, risk classifications, review processes, and trusted-access arrangements in dual-use areas.
 
 In AI specifically:
 - During my red-teaming efforts on gpt-oss, GPT-5 often shifted register toward safety, and refused to assist with benign copy-editing. That behavior lines up with the published move from hard refusals to **safe-completions**, and with usage policies that disallow malicious cyber activity.
