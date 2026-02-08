@@ -22,6 +22,16 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+try:
+    from bs4 import BeautifulSoup
+except Exception:
+    BeautifulSoup = None
+
+try:
+    from markdownify import markdownify as html_to_markdown
+except Exception:
+    html_to_markdown = None
+
 DEFAULT_FEED_URL = "https://ndurner.substack.com/feed"
 DEFAULT_MAX_POSTS = 10
 
@@ -48,6 +58,57 @@ def strip_html(raw: str) -> str:
     return html.unescape(no_space)
 
 
+def normalize_text(text: str) -> str:
+    text = html.unescape(text)
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def markdown_to_plain(text: str) -> str:
+    plain = re.sub(r"!\[[^\]]*\]\([^)]+\)", "", text)
+    plain = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", plain)
+    plain = re.sub(r"[`*_>#]+", " ", plain)
+    plain = re.sub(r"\s+", " ", plain)
+    return plain.strip()
+
+
+def extract_preview_from_html(raw: str, max_paragraphs: int = 2) -> str:
+    if BeautifulSoup is not None and html_to_markdown is not None:
+        soup = BeautifulSoup(raw, "html.parser")
+        for tag in soup.select("script,style,figure,iframe,button,svg,picture,source,video,audio,noscript,img"):
+            tag.decompose()
+
+        blocks = soup.select("p,blockquote,li,h2,h3")
+        selected: list[str] = []
+        for block in blocks:
+            if not block.get_text(" ", strip=True):
+                continue
+            selected.append(str(block))
+            if len(selected) >= max_paragraphs * 2:
+                break
+
+        preview_html = "".join(selected) if selected else str(soup)
+        markdown = html_to_markdown(preview_html, heading_style="ATX", bullets="-")
+        markdown = normalize_text(markdown)
+        if markdown:
+            return markdown
+
+    paragraphs = re.findall(r"<p\b[^>]*>(.*?)</p>", raw, flags=re.IGNORECASE | re.DOTALL)
+    cleaned: list[str] = []
+    for para in paragraphs:
+        text = normalize_text(strip_html(para))
+        if not text:
+            continue
+        cleaned.append(text)
+        if len(cleaned) >= max_paragraphs:
+            break
+    if cleaned:
+        return "\n\n".join(cleaned)
+    return normalize_text(strip_html(raw))
+
+
 def parse_date(raw: str) -> dt.datetime:
     parsed = email.utils.parsedate_to_datetime(raw)
     if parsed is None:
@@ -60,11 +121,11 @@ def parse_date(raw: str) -> dt.datetime:
 def text_from_item(item: ET.Element) -> str:
     content_encoded = item.find("{http://purl.org/rss/1.0/modules/content/}encoded")
     if content_encoded is not None and content_encoded.text:
-        return strip_html(content_encoded.text)
+        return extract_preview_from_html(content_encoded.text)
 
     description = item.find("description")
     if description is not None and description.text:
-        return strip_html(description.text)
+        return normalize_text(strip_html(description.text))
 
     return ""
 
@@ -162,6 +223,8 @@ def next_available_filename(posts_dir: Path, date_prefix: str, slug: str) -> Pat
 def build_post(title: str, published: dt.datetime, url: str, excerpt: str) -> str:
     published_iso = published.isoformat(timespec="seconds")
     published_date = published.date().isoformat()
+    excerpt_plain = markdown_to_plain(excerpt) if excerpt else ""
+    excerpt_meta = excerpt_plain[:400] if excerpt_plain else "Originally published on Substack."
     lines = [
         "---",
         f"title: {yaml_quote(title)}",
@@ -171,25 +234,17 @@ def build_post(title: str, published: dt.datetime, url: str, excerpt: str) -> st
         "redirect_to:",
         f"  - {url}",
         "tags: [Substack]",
+        f"excerpt: {yaml_quote(excerpt_meta)}",
         f"substack_url: {yaml_quote(url)}",
         f"canonical_url: {yaml_quote(url)}",
         "sitemap: false",
         "---",
-        "",
-        "Published on Substack.",
-        "",
     ]
 
     if excerpt:
-        lines.extend(
-            [
-                excerpt[:500] + ("..." if len(excerpt) > 500 else ""),
-                "",
-            ]
-        )
-
-    lines.append(f"[Read on Substack]({url}).")
-    lines.append("")
+        lines.extend(["", excerpt[:1200] + ("..." if len(excerpt) > 1200 else ""), ""])
+    else:
+        lines.extend(["", "Originally published on Substack.", ""])
     return "\n".join(lines)
 
 
