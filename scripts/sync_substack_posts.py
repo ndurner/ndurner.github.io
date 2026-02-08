@@ -15,6 +15,7 @@ import email.utils
 import html
 import os
 import re
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -23,6 +24,11 @@ from pathlib import Path
 
 DEFAULT_FEED_URL = "https://ndurner.substack.com/feed"
 DEFAULT_MAX_POSTS = 10
+
+
+def parse_feed_urls(raw: str) -> list[str]:
+    urls = [item.strip() for item in raw.split(",")]
+    return [item for item in urls if item]
 
 
 def slugify(text: str) -> str:
@@ -104,16 +110,42 @@ def fetch_feed(feed_url: str, feed_file: str | None = None) -> ET.Element:
     if feed_file:
         payload = Path(feed_file).read_bytes()
     else:
-        request = urllib.request.Request(
-            feed_url,
-            headers={
-                # Substack/Cloudflare may reject urllib's default Python user-agent.
-                "User-Agent": "Mozilla/5.0 (compatible; ndurner-gh-pages-sync/1.0)",
-                "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
-            },
-        )
-        with urllib.request.urlopen(request, timeout=30) as response:
-            payload = response.read()
+        headers = {
+            # Substack/Cloudflare may reject urllib's default Python user-agent.
+            "User-Agent": "Mozilla/5.0 (compatible; ndurner-gh-pages-sync/1.0)",
+            "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "no-cache",
+        }
+        request = urllib.request.Request(feed_url, headers=headers)
+
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                payload = response.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (403, 429):
+                raise
+            # Retry with curl for Cloudflare-sensitive endpoints.
+            curl_cmd = [
+                "curl",
+                "--fail",
+                "--silent",
+                "--show-error",
+                "--location",
+                "--max-time",
+                "45",
+                "--retry",
+                "2",
+                "--retry-all-errors",
+                "-H",
+                f"User-Agent: {headers['User-Agent']}",
+                "-H",
+                f"Accept: {headers['Accept']}",
+                "-H",
+                f"Accept-Language: {headers['Accept-Language']}",
+                feed_url,
+            ]
+            payload = subprocess.check_output(curl_cmd)
     return ET.fromstring(payload)
 
 
@@ -168,6 +200,11 @@ def main() -> int:
         help="Substack RSS feed URL",
     )
     parser.add_argument(
+        "--feed-urls",
+        default=os.getenv("SUBSTACK_FEED_URLS", ""),
+        help="Comma-separated fallback RSS feed URLs (tried after --feed-url)",
+    )
+    parser.add_argument(
         "--posts-dir",
         default="_posts",
         help="Path to Jekyll posts directory",
@@ -189,22 +226,44 @@ def main() -> int:
     if not args.feed_url or not args.feed_url.strip():
         args.feed_url = DEFAULT_FEED_URL
 
+    candidate_urls = [args.feed_url]
+    for url in parse_feed_urls(args.feed_urls):
+        if url not in candidate_urls:
+            candidate_urls.append(url)
+
     posts_dir = Path(args.posts_dir)
     if not posts_dir.exists():
         print(f"Posts directory does not exist: {posts_dir}", file=sys.stderr)
         return 1
 
-    try:
-        root = fetch_feed(args.feed_url, args.feed_file)
-    except (urllib.error.URLError, TimeoutError) as exc:
-        print(f"Failed to fetch feed: {exc}", file=sys.stderr)
-        return 1
-    except OSError as exc:
-        print(f"Failed to read RSS file: {exc}", file=sys.stderr)
-        return 1
-    except ET.ParseError as exc:
-        print(f"Failed to parse RSS XML: {exc}", file=sys.stderr)
-        return 1
+    root = None
+    if args.feed_file:
+        try:
+            root = fetch_feed(args.feed_url, args.feed_file)
+        except OSError as exc:
+            print(f"Failed to read RSS file: {exc}", file=sys.stderr)
+            return 1
+        except ET.ParseError as exc:
+            print(f"Failed to parse RSS XML: {exc}", file=sys.stderr)
+            return 1
+    else:
+        last_error: str | None = None
+        for idx, feed_url in enumerate(candidate_urls, start=1):
+            try:
+                print(f"Fetch attempt {idx}/{len(candidate_urls)}: {feed_url}")
+                root = fetch_feed(feed_url)
+                break
+            except (urllib.error.URLError, TimeoutError, OSError, subprocess.CalledProcessError) as exc:
+                last_error = f"{type(exc).__name__}: {exc}"
+                print(f"Fetch failed for {feed_url}: {last_error}", file=sys.stderr)
+            except ET.ParseError as exc:
+                last_error = f"XML parse error: {exc}"
+                print(f"Fetch failed for {feed_url}: {last_error}", file=sys.stderr)
+
+        if root is None:
+            print(f"Failed to fetch feed from all candidates. Last error: {last_error}", file=sys.stderr)
+            return 1
+
     channel = root.find("channel")
     if channel is None:
         print("Invalid RSS feed: missing channel", file=sys.stderr)
