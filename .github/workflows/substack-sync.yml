@@ -1,0 +1,47 @@
+name: Sync Substack Posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: substack-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync posts from Substack RSS
+        env:
+          SUBSTACK_FEED_URL: ${{ vars.SUBSTACK_FEED_URL }}
+          SUBSTACK_MAX_POSTS: "20"
+        run: |
+          python scripts/sync_substack_posts.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- _posts; then
+            echo "No new posts."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts
+          git commit -m "Sync Substack posts"
+          git push

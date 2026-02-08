@@ -11,6 +11,15 @@
         {% for post in site.posts limit:10 %}
                 {% assign post_date = post.date | date: '%Y-%m-%d' %}
                 {% assign last_updated = post.last_updated | date: '%Y-%m-%d' %}
+                {% assign feed_link = site.url | append: post.url %}
+                {% if post.substack_url %}
+                    {% assign feed_link = post.substack_url %}
+                {% elsif post.redirect_to %}
+                    {% assign redirect_target = post.redirect_to | first %}
+                    {% if redirect_target contains 'http' %}
+                        {% assign feed_link = redirect_target %}
+                    {% endif %}
+                {% endif %}
             <item>
                 <title>
                     {% if last_updated != post_date %}[UPDATED] {% endif %}{{ post.title | xml_escape }}
@@ -26,8 +35,8 @@
                 <pubDate>
                         {{ post.last_updated | date_to_rfc822 }}
                 </pubDate>
-                <link>{{ site.url }}{{ post.url }}</link>
-                <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <link>{{ feed_link }}</link>
+                <guid isPermaLink="true">{{ feed_link }}</guid>
             </item>
         {% endfor %}
     </channel>

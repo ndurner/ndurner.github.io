@@ -5,21 +5,33 @@ layout: default
 {% for post in paginator.posts %}
   {% assign post_date = post.date | date: '%Y-%m-%d' %}
   {% assign last_updated = post.last_updated | date: '%Y-%m-%d' %}
+  {% assign post_href = site.github.url | append: post.url %}
+  {% assign read_more_text = 'Read more' %}
+  {% if post.substack_url %}
+    {% assign post_href = post.substack_url %}
+    {% assign read_more_text = 'Read on Substack' %}
+  {% elsif post.redirect_to %}
+    {% assign redirect_target = post.redirect_to | first %}
+    {% if redirect_target contains 'http' %}
+      {% assign post_href = redirect_target %}
+      {% assign read_more_text = 'Read on Substack' %}
+    {% endif %}
+  {% endif %}
 
   <div class="posts-container">
     <h1>
-      <a href="{{ site.github.url }}{{ post.url }}">
+      <a href="{{ post_href }}">
         {% if last_updated != post_date %}[UPDATED] {% endif %}{{ post.title }}
       </a>
     </h1>
     <!-- {{ last_updated }} | {{ post_date }} -->
     {% if post.image %}
       <div class="thumbnail-container">
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+        <a href="{{ post_href }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
       </div>
     {% endif %}
     <p>
-      {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+      {{ post.content | strip_html | truncate: 350 }} <a href="{{ post_href }}">{{ read_more_text }}</a>
       <span class="post-date">
         <i class="fa fa-calendar" aria-hidden="true"></i> 
         {% if last_updated != post_date %}
