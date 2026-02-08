@@ -137,6 +137,13 @@ def text_from_item(item: ET.Element) -> str:
 
 
 def read_existing_substack_posts(posts_dir: Path) -> dict[str, Path]:
+    def pick_preferred(existing_path: Path, candidate_path: Path) -> Path:
+        existing_is_auto = "-substack-" in existing_path.name
+        candidate_is_auto = "-substack-" in candidate_path.name
+        if existing_is_auto and not candidate_is_auto:
+            return candidate_path
+        return existing_path
+
     existing: dict[str, Path] = {}
     fm_substack_pattern = re.compile(r"^substack_url:\s*(.+?)\s*$")
     any_url_pattern = re.compile(r"https?://[^\s\"']+")
@@ -164,11 +171,17 @@ def read_existing_substack_posts(posts_dir: Path) -> dict[str, Path]:
                         ):
                             value = value[1:-1]
                         if "substack.com/" in value:
-                            existing[value] = post_path
+                            if value in existing:
+                                existing[value] = pick_preferred(existing[value], post_path)
+                            else:
+                                existing[value] = post_path
 
                     for candidate in any_url_pattern.findall(stripped):
                         if "substack.com/" in candidate:
-                            existing[candidate] = post_path
+                            if candidate in existing:
+                                existing[candidate] = pick_preferred(existing[candidate], post_path)
+                            else:
+                                existing[candidate] = post_path
         except OSError:
             continue
     return existing
@@ -218,10 +231,10 @@ def fetch_feed(feed_url: str, feed_file: str | None = None) -> ET.Element:
 
 
 def next_available_filename(posts_dir: Path, date_prefix: str, slug: str) -> Path:
-    candidate = posts_dir / f"{date_prefix}-substack-{slug}.md"
+    candidate = posts_dir / f"{date_prefix}-{slug}.md"
     index = 2
     while candidate.exists():
-        candidate = posts_dir / f"{date_prefix}-substack-{slug}-{index}.md"
+        candidate = posts_dir / f"{date_prefix}-{slug}-{index}.md"
         index += 1
     return candidate
 
@@ -366,8 +379,14 @@ def main() -> int:
             continue
         date_prefix = published.date().isoformat()
         slug = slugify(title)
+        preferred_file = posts_dir / f"{date_prefix}-{slug}.md"
         existing_file = existing_posts.get(url)
         if existing_file and not args.refresh_existing:
+            continue
+        if existing_file is None and preferred_file.exists():
+            # A hand-maintained post with this date+slug already exists.
+            # Keep it instead of creating an auto-generated duplicate.
+            print(f"Skip (existing manual post): {preferred_file}")
             continue
         target_file = existing_file if existing_file else next_available_filename(posts_dir, date_prefix, slug)
         excerpt = text_from_item(item)
