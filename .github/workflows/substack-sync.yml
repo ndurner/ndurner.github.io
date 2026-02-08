@@ -38,7 +38,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- _posts; then
+          if [ -z "$(git status --porcelain -- _posts)" ]; then
             echo "No new posts."
             exit 0
           fi
