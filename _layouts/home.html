@@ -6,16 +6,20 @@ layout: default
   {% assign post_date = post.date | date: '%Y-%m-%d' %}
   {% assign last_updated = post.last_updated | date: '%Y-%m-%d' %}
   {% assign post_href = site.github.url | append: post.url %}
-  {% assign read_more_text = 'Read more' %}
+  {% assign is_external_redirect = false %}
   {% if post.substack_url %}
-    {% assign post_href = post.substack_url %}
-    {% assign read_more_text = 'Read on Substack' %}
+    {% assign is_external_redirect = true %}
   {% elsif post.redirect_to %}
     {% assign redirect_target = post.redirect_to | first %}
     {% if redirect_target contains 'http' %}
-      {% assign post_href = redirect_target %}
-      {% assign read_more_text = 'Read on Substack' %}
+      {% assign is_external_redirect = true %}
     {% endif %}
+  {% endif %}
+  {% assign summary_text = post.content | strip_html | replace: 'Published on Substack.', '' | replace: 'Read on Substack.', '' | strip | truncate: 350 %}
+  {% if post.excerpt %}
+    {% assign summary_text = post.excerpt | strip_html | truncate: 350 %}
+  {% elsif is_external_redirect and summary_text == '' %}
+    {% assign summary_text = 'Originally published on Substack.' %}
   {% endif %}
 
   <div class="posts-container">
@@ -31,7 +35,7 @@ layout: default
       </div>
     {% endif %}
     <p>
-      {{ post.content | strip_html | truncate: 350 }} <a href="{{ post_href }}">{{ read_more_text }}</a>
+      {{ summary_text }}{% unless is_external_redirect %} <a href="{{ post_href }}">Read more</a>{% endunless %}
       <span class="post-date">
         <i class="fa fa-calendar" aria-hidden="true"></i> 
         {% if last_updated != post_date %}
@@ -39,7 +43,7 @@ layout: default
         {% else %}
           {{ post.date | date_to_string }}
         {% endif %}
-        - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+        {% unless is_external_redirect %} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}{% endunless %}
       </span>
     </p>
   </div>
