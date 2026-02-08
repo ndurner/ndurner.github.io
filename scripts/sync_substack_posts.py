@@ -36,6 +36,12 @@ DEFAULT_FEED_URL = "https://ndurner.substack.com/feed"
 DEFAULT_MAX_POSTS = 10
 
 
+def parse_bool(raw: str | None) -> bool:
+    if raw is None:
+        return False
+    return raw.strip().lower() in {"1", "true", "yes", "on"}
+
+
 def parse_feed_urls(raw: str) -> list[str]:
     normalized = raw.replace("\n", ",")
     urls = [item.strip() for item in normalized.split(",")]
@@ -130,8 +136,8 @@ def text_from_item(item: ET.Element) -> str:
     return ""
 
 
-def read_existing_substack_urls(posts_dir: Path) -> set[str]:
-    existing: set[str] = set()
+def read_existing_substack_posts(posts_dir: Path) -> dict[str, Path]:
+    existing: dict[str, Path] = {}
     fm_substack_pattern = re.compile(r"^substack_url:\s*(.+?)\s*$")
     any_url_pattern = re.compile(r"https?://[^\s\"']+")
     for post_path in posts_dir.glob("*.md"):
@@ -158,11 +164,11 @@ def read_existing_substack_urls(posts_dir: Path) -> set[str]:
                         ):
                             value = value[1:-1]
                         if "substack.com/" in value:
-                            existing.add(value)
+                            existing[value] = post_path
 
                     for candidate in any_url_pattern.findall(stripped):
                         if "substack.com/" in candidate:
-                            existing.add(candidate)
+                            existing[candidate] = post_path
         except OSError:
             continue
     return existing
@@ -276,6 +282,12 @@ def main() -> int:
         default=None,
         help="Optional local RSS file path (for testing)",
     )
+    parser.add_argument(
+        "--refresh-existing",
+        action="store_true",
+        default=parse_bool(os.getenv("SUBSTACK_REFRESH_EXISTING")),
+        help="Regenerate existing Substack-backed posts instead of skipping them",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Do not write files")
     args = parser.parse_args()
 
@@ -330,8 +342,9 @@ def main() -> int:
         print("No feed items found")
         return 0
 
-    existing_urls = read_existing_substack_urls(posts_dir)
+    existing_posts = read_existing_substack_posts(posts_dir)
     created = 0
+    updated = 0
 
     for item in items[: args.max_posts]:
         title_el = item.find("title")
@@ -344,7 +357,7 @@ def main() -> int:
 
         title = title_el.text.strip()
         url = link_el.text.strip()
-        if not title or not url or url in existing_urls:
+        if not title or not url:
             continue
 
         try:
@@ -353,18 +366,25 @@ def main() -> int:
             continue
         date_prefix = published.date().isoformat()
         slug = slugify(title)
-        target_file = next_available_filename(posts_dir, date_prefix, slug)
+        existing_file = existing_posts.get(url)
+        if existing_file and not args.refresh_existing:
+            continue
+        target_file = existing_file if existing_file else next_available_filename(posts_dir, date_prefix, slug)
         excerpt = text_from_item(item)
 
         content = build_post(title, published, url, excerpt)
-        print(f"Create: {target_file}")
+        action = "Update" if existing_file else "Create"
+        print(f"{action}: {target_file}")
         if not args.dry_run:
             target_file.write_text(content, encoding="utf-8")
 
-        existing_urls.add(url)
-        created += 1
+        existing_posts[url] = target_file
+        if existing_file:
+            updated += 1
+        else:
+            created += 1
 
-    print(f"Created {created} new post(s).")
+    print(f"Created {created} new post(s); updated {updated} existing post(s).")
     return 0
 
 

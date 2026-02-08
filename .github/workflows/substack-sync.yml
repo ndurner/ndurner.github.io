@@ -36,10 +36,16 @@ jobs:
           SUBSTACK_FEED_URL: ${{ vars.SUBSTACK_FEED_URL }}
           SUBSTACK_FEED_URLS: ${{ vars.SUBSTACK_FEED_URLS }}
           SUBSTACK_MAX_POSTS: "20"
+          SUBSTACK_REFRESH_EXISTING: ${{ vars.SUBSTACK_REFRESH_EXISTING }}
         run: |
+          extra_flags=""
+          if [ "${SUBSTACK_REFRESH_EXISTING}" = "1" ] || [ "${SUBSTACK_REFRESH_EXISTING}" = "true" ]; then
+            extra_flags="--refresh-existing"
+          fi
           python scripts/sync_substack_posts.py \
             --feed-url "${SUBSTACK_FEED_URL:-https://ndurner.substack.com/feed}" \
-            --feed-urls "${SUBSTACK_FEED_URLS:-https://ndurner.de/substack-mirror.xml}"
+            --feed-urls "${SUBSTACK_FEED_URLS:-https://ndurner.de/substack-mirror.xml}" \
+            ${extra_flags}
 
       - name: Commit changes
         run: |
