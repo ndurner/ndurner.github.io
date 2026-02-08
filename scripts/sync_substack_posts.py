@@ -27,7 +27,8 @@ DEFAULT_MAX_POSTS = 10
 
 
 def parse_feed_urls(raw: str) -> list[str]:
-    urls = [item.strip() for item in raw.split(",")]
+    normalized = raw.replace("\n", ",")
+    urls = [item.strip() for item in normalized.split(",")]
     return [item for item in urls if item]
 
 

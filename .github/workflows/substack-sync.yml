@@ -29,9 +29,12 @@ jobs:
       - name: Sync posts from Substack RSS
         env:
           SUBSTACK_FEED_URL: ${{ vars.SUBSTACK_FEED_URL }}
+          SUBSTACK_FEED_URLS: ${{ vars.SUBSTACK_FEED_URLS }}
           SUBSTACK_MAX_POSTS: "20"
         run: |
-          python scripts/sync_substack_posts.py
+          python scripts/sync_substack_posts.py \
+            --feed-url "${SUBSTACK_FEED_URL:-https://ndurner.substack.com/feed}" \
+            --feed-urls "${SUBSTACK_FEED_URLS:-https://ndurner.de/substack-mirror.xml}"
 
       - name: Commit changes
         run: |
